@@ -1,8 +1,8 @@
 # TechSupport's Map Pack
 
 # How to play this submod:
-1 - Download the MapPack release and extract to mods folder. An example of what it should look like is this - C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\MapPack
-2 - Change your launch option in steam, adding this entry before for one for Thrawn's Revenge - ModPath=Mods\MapPack
+ - Download the MapPack release and extract to mods folder. An example of what it should look like is this - C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\MapPack
+ - Change your launch option in steam, adding this entry before for one for Thrawn's Revenge - ModPath=Mods\MapPack
 
 # What does this Map Pack do?
  - Adds a new map to the game, currently has 188 planets.
