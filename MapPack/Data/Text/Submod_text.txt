@@ -1,0 +1,4 @@
+﻿TEXT_GCMENU_PROTEUS_MAP_ONE,Proteus Submod Map (188)
+TEXT_GCMENU_PROTEUS_MAP_ONE_TOOLTIP,Planets: 188 | Approximate CPU Load: Very High
+TEXT_LOADING_PROTEUS_MAP_ONE,Loading Proteus Map One
+TEXT_NOTE,Put text changes for submods here

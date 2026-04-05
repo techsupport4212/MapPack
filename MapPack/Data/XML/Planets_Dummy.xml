@@ -1,0 +1,2205 @@
+<?xml version="1.0"?>
+<Planets>
+
+	<Planet Name="Test_Land">
+
+        <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TEST_LAND</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>150, -150, 10</Galactic_Position>
+
+        <Galactic_Model_Name>w_planet_grassy_3.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>9</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+		<Land_Tactical_Map>_Mod_Land_Bknos_XTR_Asteroid.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+		<Abilities SubObjectList="Yes">
+			<Reduce_Production_Time_Ability Name="Tutorial_Time_Reduction">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Excluded_Unit_Types/>
+				<Time_Reduction_Percentage>0.99</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide>Yes</Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Reduce_Production_Price_Ability Name="Tutorial_Price_Reduction">
+                <Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+                <Applicable_Unit_Types/>
+                <Price_Reduction_Percentage>0.99</Price_Reduction_Percentage>
+                <Stacking_Category>9</Stacking_Category>
+                <Galaxy_Wide>Yes</Galaxy_Wide>
+            </Reduce_Production_Price_Ability>
+		</Abilities>
+    </Planet>
+
+	<Planet Name="Test_SFX">
+
+        <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TEST_SFX</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>0, 160, 10</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+
+        <Land_Tactical_Map>_MOD_BATTLEMAP_GROUND_TEST.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Test_Space">
+
+        <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TEST_SPACE</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>-150, -150, 10</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_KAMINO_OCEAN_FACILITY.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather>TEXT_PLANET_HEAVY</Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+
+    <Planet Name="InstantAction">
+
+        <Text_ID>TEXT_OBJECT_STAR_SYSTEM_INSTANTACTION</Text_ID>
+        <Encyclopedia_Text></Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_asteroids.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>0.05</Scale_Factor>
+        <Name_Adjust>-12, -10, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>0.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>7.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>60</Additional_Population_Capacity>
+
+        <Max_Space_Base>5.0</Max_Space_Base>
+        <Special_Structures_Land>5.0</Special_Structures_Land>
+        <Special_Structures_Space>99.0</Special_Structures_Space>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>  
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+
+        <Land_Tactical_Map>_MOD_LAND_VIC_SULLUST_INDUSTRIAL_VOLCANIC.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon></Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>No</Pre_Lit>
+        <Show_Name>No</Show_Name>
+        <The_Force>Neutral</The_Force>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Survivaland">
+
+        <Text_ID>TEXT_OBJECT_STAR_SYSTEM_SURVIVALAND</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_LIGHT</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+        <Galactic_Model_Name>W_planet_asteroids.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>0.05</Scale_Factor>
+        <Name_Adjust>-12, -10, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>85.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>7.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>60</Additional_Population_Capacity>
+
+        <Max_Space_Base>5.0</Max_Space_Base>
+        <Special_Structures_Land>2.0</Special_Structures_Land>
+        <Special_Structures_Space>99.0</Special_Structures_Space>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>  
+        
+        <Terrain>Temperate</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_LAND_PLANET_ERIADU_02.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SURVIVAL.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage>TEXT_PLANET_SHIPYARD_LEVEL</Describe_Advantage>
+        <Describe_History>TEXT_PLANET_INFO_MON_CALAMARI_HISTORY</Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_one.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+
+	<Planet Name="WesternReaches">
+
+        <Text_ID>TEXT_LOADING_WESTERN_REACHES</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Borderlands">
+
+        <Text_ID>TEXT_LOADING_BORDERLANDS_REGION</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+	
+	<Planet Name="Stars_Align">
+
+        <Text_ID>TEXT_LOADING_STARS_ALIGN</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="KnownSmall">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_SMALL</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="KnownMedium">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_MEDIUM</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="KnownLarge">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_LARGE</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+
+	<Planet Name="FullSmall">
+
+        <Text_ID>TEXT_LOADING_FULL_GALAXY_SMALL</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="FullMedium">
+
+        <Text_ID>TEXT_LOADING_FULL_GALAXY_MEDIUM</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="FullLarge">
+
+        <Text_ID>TEXT_LOADING_FULL_GALAXY_LARGE</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Known_Galaxy_Small">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_SMALL</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Known_Galaxy_Medium">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_MEDIUM</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Known_Galaxy_Large">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_LARGE</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Clone_Wars_Small">
+
+        <Text_ID>TEXT_LOADING_CLONE_WARS_SMALL</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Clone_Wars_Medium">
+
+        <Text_ID>TEXT_LOADING_CLONE_WARS_MEDIUM</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Clone_Wars_Large">
+
+        <Text_ID>TEXT_LOADING_CLONE_WARS_LARGE</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+    <!--TechSupport: Dummy planet to select the new map-->
+	<Planet Name="Proteus_Map_One">
+
+        <Text_ID>TEXT_LOADING_PROTEUS_MAP_ONE</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+
+
+
+	<Planet Name="Empires_At_War">
+
+        <Text_ID>TEXT_LOADING_EMPIRES_AT_WAR</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="MandalorianWars">
+
+        <Text_ID>TEXT_LOADING_MANDALORIAN_WARS</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="FromTheGroundUp">
+
+        <Text_ID>TEXT_LOADING_FROMTHEGROUNDUP</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+<!-- TR Progressive Era 2 Galactic Empire regime picker dummies -->
+	<Planet Name="KnownSmallEmpireRegimePicker">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_SMALL</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="KnownMediumEmpireRegimePicker">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_MEDIUM</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="KnownLargeEmpireRegimePicker">
+
+        <Text_ID>TEXT_LOADING_KNOWN_GALAXY_LARGE</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="FullSmallEmpireRegimePicker">
+
+        <Text_ID>TEXT_LOADING_FULL_GALAXY_SMALL</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="FullMediumEmpireRegimePicker">
+
+        <Text_ID>TEXT_LOADING_FULL_GALAXY_MEDIUM</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="FullLargeEmpireRegimePicker">
+
+        <Text_ID>TEXT_LOADING_FULL_GALAXY_LARGE</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Empires_At_WarRegimePicker">
+
+        <Text_ID>TEXT_LOADING_EMPIRES_AT_WAR</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+	<Planet Name="Proteus_Map_OneRegimePicker">
+
+        <Text_ID>TEXT_LOADING_EMPIRES_AT_WAR</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY</Encyclopedia_Text>
+
+		<Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>300.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>2.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>80</Additional_Population_Capacity>
+
+        <Max_Space_Base>3</Max_Space_Base>
+        <Special_Structures_Land>8</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>32</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_MYGEETO.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+
+</Planets>
