@@ -2,6 +2,27 @@ require("eawx-util/StoryUtil")
 require("PGStoryMode")
 require("PGSpawnUnits")
 
+--Local function used to sanitize spawn lists for IF/Warlord factions in proteus mode, as they may contain heroes that are not meant to spawn in those modes
+local function SanitizeSpawnList(self, faction, spawnlist)
+    if faction ~= "WARLORDS" and faction ~= "INDEPENDENT_FORCES" then
+        return spawnlist
+    end
+    if not GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
+        return spawnlist
+    end
+    local hero_set = {}
+    for _, hero in ipairs(self.LegitimacyHeroes or {}) do
+        hero_set[hero] = true
+    end
+    local sanitized = {}
+    for _, unit in ipairs(spawnlist) do
+        if not hero_set[unit] then
+            table.insert(sanitized, unit)
+        end
+    end
+    return sanitized
+end
+
 return {
     on_enter = function(self, state_context)
         GlobalValue.Set("CURRENT_ERA", 1)
@@ -13,10 +34,9 @@ return {
         self.entry_time = GetCurrentTime()
         self.AI_Active = true
 
-        --TechSupport: Planet locks based on infinity mode
-        local proteus_infinity = GlobalValue.Get("PROTEUS_INFINITY")
-
-        if not proteus_infinity then
+        --TechSupport: Planet locks based on proteus mode (as nzoth is an IF world, not yevetha)
+        local proteus_map_settings = GlobalValue.Get("PROTEUS_MAP_SETTINGS")
+        if not proteus_map_settings then
         StoryUtil.SetPlanetRestricted("DOORNIK", 1)
         StoryUtil.SetPlanetRestricted("ZFELL", 1)
         StoryUtil.SetPlanetRestricted("NZOTH", 1)
@@ -57,12 +77,16 @@ return {
         self.AI_Active = false
 		if not infinity then
 			self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EraOneStartSet")
+            self.LegitimacyHeroes = require("LegitimacyHeroLibrary") --Uses a library of legitimacy heroes to determine who to keep / remove
 			for faction, herolist in pairs(self.Starting_Spawns) do
 				for planet, spawnlist in pairs(herolist) do
-					StoryUtil.SpawnAtSafePlanet(planet, Find_Player(faction), self.Active_Planets, spawnlist)
+                    local safe_spawnlist = SanitizeSpawnList(self, faction, spawnlist) --Sanitize spawn list
+                    if safe_spawnlist and table.getn(safe_spawnlist) > 0 then --make sure there are units to spawn after sanitization
+                        StoryUtil.SpawnAtSafePlanet(planet, Find_Player(faction), self.Active_Planets, safe_spawnlist)
+                    end
 				end
 			end
-			
+
 			local endor = FindPlanet("Endor")
 			if TestValid(endor) then
 				local post_endor_fleet = require("eawx-mod-icw/spawn-sets/EndorFleet")
@@ -83,6 +107,10 @@ return {
             crossplot:publish("CONQUER_CENTARES_ZSINJ", "empty")
             crossplot:publish("CONQUER_KASHYYYK_MALDROOD", "empty")
             crossplot:publish("CONQUER_MANDALORE_NR", "empty")
+            --Subscribe to proteus-specific events if in proteus mode
+            if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
+                crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
+            end
 
 			if not GlobalValue.Get("PROGRESSIVE_INFINITY") then
 				crossplot:publish("INITIALIZE_AI", "empty")

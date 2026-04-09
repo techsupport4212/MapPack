@@ -246,13 +246,22 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
     crossplot:subscribe("DARK_EMPIRE_CHEAT_CHOICE_MADE", self.dark_empire_unlock, self)
     crossplot:subscribe("DARK_EMPIRE_CHOICE_MADE", self.dark_empire_choice_made, self)
     crossplot:subscribe("FACTION_DISPLAY_NAME_CHANGE", self.faction_display_name_change, self)
-
+    crossplot:subscribe("PROTEUS_GENERIC_CONQUER", self.proteus_conquer_reward, self) --TechSupport: Subscribe to the new Proteus Conquer event
+    
     if self.human_is_imperial == true then
         crossplot:subscribe("UPDATE_GOVERNMENT", self.UpdateDisplay, self)
     end
 
     self.Events = {}
     self.Events.FactionIntegrated = Observable()
+end
+
+-- New function to handle government related rewards for conquering Coruscant as Proteus. Currently just shows a message, but can be expanded to do more.
+function GovernmentEmpire:proteus_conquer_reward()
+    local message = "Goooood. You've taken Coruscant!"
+    StoryUtil.ShowScreenText(message, 20)
+    local faction_name = "IMPERIAL_PROTEUS"
+    -- self:group_joins(faction_name)
 end
 
 

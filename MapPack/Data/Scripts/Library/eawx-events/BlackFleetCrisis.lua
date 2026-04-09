@@ -12,9 +12,9 @@ function BlackFleetCrisis:emerge()
 	--Logger:trace("entering BlackFleetCrisis:emerge")
 	local Active_Planets = StoryUtil.GetSafePlanetTable()
 
-	--TechSupport: Planet locks based on infinity mode
-	local proteus_infinity = GlobalValue.Get("PROTEUS_INFINITY")
-    if not proteus_infinity then
+	--TechSupport: Planets are not locked if we are in the Proteus GC, so dont need to unlock them.
+	local proteus_map_settings = GlobalValue.Get("PROTEUS_MAP_SETTINGS")
+    if not proteus_map_settings then
 		StoryUtil.SetPlanetRestricted("DOORNIK", 0)
 		StoryUtil.SetPlanetRestricted("ZFELL", 0)
 		StoryUtil.SetPlanetRestricted("NZOTH", 0)

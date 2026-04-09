@@ -1,3 +1,4 @@
+--TechSupport: Player-agnostic script for Proteus Map One, which applies the correct settings and starts the state machine based on the player's current tech level. 
 require("PGStoryMode")
 
 require("eawx-util/StoryUtil")
@@ -20,38 +21,32 @@ function Begin_GC(message)
         CONSTANTS = ModContentLoader.get("GameConstants")
         GameObjectLibrary = ModContentLoader.get("GameObjectLibrary")
         local plot = StoryUtil.GetPlayerAgnosticPlot()
-        StoryUtil.ShowScreenText("TEXT_GUI_INITIALIZING", 10)
+        GlobalValue.Set("PROTEUS_MAP_SETTINGS", true)
+        local message = "Proteus Map One state machine active" --temporary message, should be improved before release
 
-        --TechSupport: Set up for new map and progressive mode
-        local message = "Proteus Submod Active"
-
+        -- logic to set correct mode, potential to expand in future for more preselecable options
         if Find_Player("local").Get_Tech_Level() > 4 then
             GlobalValue.Set("CUSTOM_LEARNER_MODE", true)
             GlobalValue.Set("PROGRESS_REGIME", false)
         elseif Find_Player("local").Get_Tech_Level() > 3 then
             GlobalValue.Set("PROGRESS_REGIME", true)
         elseif Find_Player("local").Get_Tech_Level() > 2 then
-            message = "Initializing Proteus Infinity Mode (Era 1)"
+            message = "Initialising Proteus Map One state machine (Era 1)"
             GlobalValue.Set("PROTEUS_INFINITY", true)
             GlobalValue.Set("PROGRESS_REGIME", false)
-
         else
             GlobalValue.Set("PROGRESSIVE_INFINITY", 1)
             GlobalValue.Set("PROGRESS_REGIME", false)
         end
+
         StoryUtil.ShowScreenText(message, 20)
-        -- local era = Find_Player("local").Get_Tech_Level()
-        -- if Find_Player("local") == Find_Player("Rebel") then
-            -- era = era + 1
-        -- end
 
         local era = 1
 
         local credits = Find_Player("local").Get_Credits()
-        Find_Player("local").Give_Money(10000-credits)
+        Find_Player("local").Give_Money(10000 - credits)
 
-        --Adding instead of replacing so if it's the old method it won't interfere, yet
-        local era_dummies ={
+        local era_dummies = {
             "Era_One_Dummy",
             "Era_Two_Dummy",
             "Era_Three_Dummy",
@@ -78,7 +73,6 @@ function Begin_GC(message)
 
         GlobalValue.Set("CURRENT_ERA", era)
         GlobalValue.Set("REGIME_INDEX", era)
-        -- GlobalValue.Set("PROGRESS_REGIME", true)
 
         local ccogm_dummy = Find_First_Object("CCoGM_Dummy")
         if ccogm_dummy then
@@ -105,20 +99,11 @@ function Begin_GC(message)
             year_start = 12
         end
 
-        --local holocron_event = plot.Get_Event("Show_Debug_Display")
-
-        --local holocron_sink = require("deepcore/log/sinks/holocron-window")
-        --                        :with_event(holocron_event)
-
-        --Logger = require("deepcore/log/logger")
-        --        :with_sink(holocron_sink)
-        --        :with_log_level(3)
-
         local plugin_list = ModContentLoader.get("InstalledPlugins")
         local context = {
             plot = plot,
             maxroutes = 6,
-            id = "PROGRESSIVE",
+            id = "PROTEUS_MAP_ONE",
             year_start = year_start,
             month_start = month_start,
             unlocktech = true,
