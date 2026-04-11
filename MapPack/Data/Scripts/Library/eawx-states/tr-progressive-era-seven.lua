@@ -125,9 +125,9 @@ return {
             crossplot:publish("CONQUER_MANDALORE_NR", "empty")
             crossplot:publish("CONQUER_NZOTH", "empty")
             -- Subscribe to the Proteus Conquer Coruscant event, can expand with other events here
-            if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
-                crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
-            end
+            --if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
+                --crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
+            --end
             
             self.AI_Active = true
 			if not GlobalValue.Get("PROGRESSIVE_INFINITY") then

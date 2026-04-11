@@ -1,4 +1,227 @@
-﻿TEXT_GCMENU_PROTEUS_MAP_ONE,Proteus Submod Map (188)
-TEXT_GCMENU_PROTEUS_MAP_ONE_TOOLTIP,Planets: 188 | Approximate CPU Load: Very High
+﻿TEXT_GCMENU_PROTEUS_MAP_ONE,Proteus Submod Map (190)
+TEXT_GCMENU_PROTEUS_MAP_ONE_TOOLTIP,Planets: 190 | Approximate CPU Load: Very High
 TEXT_LOADING_PROTEUS_MAP_ONE,Loading Proteus Map One
+TEXT_OBJECT_STAR_SYSTEM_GARGON,Gargon
+TEXT_PLANET_INFO_GARGON_FAUNA,Unknown
+TEXT_PLANET_INFO_GARGON_HISTORY,TODO
+TEXT_PLANET_INFO_GARGON_POPULATION,TODO
 TEXT_NOTE,Put text changes for submods here
+TEXT_PROTEUS_MAP_ONE_VICTORY,- All planets conquered or all major shipyards taken
+TEXT_PROTEUS_MAP_ONE_LAMBDA_TITLE,Lambda Sector
+TEXT_PROTEUS_MAP_ONE_LAMBDA_AUTHOR,Made by: Lanky
+TEXT_PROTEUS_MAP_ONE_LAMBDA_DESCRIPTION_LINE_1,The strategically important Lambda Sector became the personal fiefdom of Moff Par Lankin, a capable and cunning military leader who commands great respect from subordinates and enemies alike. After the splintering of the Empire, Lankin managed to hold onto control of important worlds in the sector despite widespread unrest and incursions by the New Republic, creating a stable rump state from which to assemble his forces and size up the fortifications of his enemies. Driven by his own ambition and that of his subordinates, Lankin prepares to strike out and show the New Republic and the other warlords that they made a fatal mistake in thinking him contained.
+TEXT_PROTEUS_MAP_ONE_LAMBDA_DESCRIPTION_LINE_2,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
+TEXT_PROTEUS_MAP_ONE_LAMBDA_DESCRIPTION_LINE_3,Moff Par Lankin and Governor Serdif Tount are not content with ruling an isolated slice of the galaxy. And with the Emperor dead; nothing is beyond their reach.
+TEXT_PROTEUS_MAP_ONE_BODY_LAMBDA_DIFFICULTY,Difficulty: Easy to Medium
+TEXT_PROTEUS_MAP_ONE_BODY_LAMBDA_POWER,Hero Power and Utility: 4
+TEXT_PROTEUS_MAP_ONE_BODY_LAMBDA_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_LAMBDA_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_LAMBDA_POSITION,Starting Position: 4
+TEXT_PROTEUS_MAP_ONE_BODY_LAMBDA_ECONOMY,Starting Economy: 3
+TEXT_PROTEUS_MAP_ONE_BODY_LAMBDA_COMMENT,"A good starting position with a balanced roster. Play if you like to stick to vanilla EAWX design sensibilities."
+TEXT_PROTEUS_MAP_ONE_ZERO_COMMAND_TITLE,Zero Command
+TEXT_PROTEUS_MAP_ONE_ZERO_COMMAND_AUTHOR,Made by: TaxEvader
+TEXT_PROTEUS_MAP_ONE_ZERO_COMMAND_DESCRIPTION_LINE_1,Following the disaster at Endor, Blitzer Harrsk took parts of the shattered Imperial Fleet into the deep core, establishing Zero Command, one of the first major post-Endor warlord factions and a beacon for dissatisfied Imperials. While he remained outwardly loyal to the Imperial Ruling Council on Coruscant, he refused any orders until a proper chain of command could be established, effectively operating on his own. Taking over parts of Imperial Deep Core reserve fleets and installations, at its height his influence even stretched out into the expansion regions, though Harrsk would soon find his control over the Deep Core contested.
+TEXT_PROTEUS_MAP_ONE_ZERO_COMMAND_DESCRIPTION_LINE_2,Harrsk's forces are mostly drawn from naval forces and installations, with the fleets under his command forming the backbone of his aggressive strategies. Zero Command's naval forces skew towards larger capital ships and smaller battlecruisers, forming a strong line-up of heavy hitters at the expense of utility, with even the smaller support vessels geared for direct combat. Defensive operations thus fall to the starfighters, who are mainly Imperial standard. Zero Command hits hard and fast, but maintaining their fleets of large ships is no easy feat for a rogue faction. On the ground, Harrsk's naval infantry leads the charge, with a roster of heavy garrison vehicles acting as an armored fist. Much like the naval component, Zero Command's ground forces lack all subtlety and versatility, instead seeking to destroy the enemy with sheer firepower.
+TEXT_PROTEUS_MAP_ONE_ZERO_COMMAND_DESCRIPTION_LINE_3,Zero Command embodies the spirit of the Imperial doctrine: relentless aggression and devastating firepower. With his fleets at his back, Blitzer Harrsk will not surrender to any meek pretender.
+TEXT_PROTEUS_MAP_ONE_BODY_ZERO_COMMAND_DIFFICULTY,Difficulty: Medium
+TEXT_PROTEUS_MAP_ONE_BODY_ZERO_COMMAND_POWER,Hero Power and Utility: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ZERO_COMMAND_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ZERO_COMMAND_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ZERO_COMMAND_POSITION,Starting Position: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ZERO_COMMAND_ECONOMY,Starting Economy: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ZERO_COMMAND_COMMENT,"A direct roster that favors firepower over utility and a starting position that can be pretty decent on larger maps. Play if you like big ships."
+TEXT_PROTEUS_MAP_ONE_ELROOD_TITLE,Elrood Sector
+TEXT_PROTEUS_MAP_ONE_ELROOD_AUTHOR,Made by: StarBorn Michael 
+TEXT_PROTEUS_MAP_ONE_ELROOD_DESCRIPTION_LINE_1,Though far from the center of galactic importance, the Elrood system and surrounding sector has come to be an industrious but heavily oppressed region with strong mining and trade interests. Moff Villis Andal spends most of his time living the sweet life abroad, leaving Governor Hul to keep the sector in line with brutal military force. Following the Battle of Endor, Elrood became host to a number of Death Squadron survivors licking their wounds and soon found itself in the path of the New Republic's advance. The good times are over, and Moff Andal must prove his skills or perish in the onslaught.
+TEXT_PROTEUS_MAP_ONE_ELROOD_DESCRIPTION_LINE_2,The Elrood Sector fleet is mostly comprised of older patrol vessels, some of which have undergone extensive refits at local yards, as well as a few modern and modified capital ship types. As a versatile force with a small number of heavy hitters but a broad range of versatile capital ships and support units, as well as a roster of heavy fighters, the fleet can confidently stand up to most opponents in a fight. On the ground, their forces rely on brute force, with an arsenal of heavy combat vehicles and well-equipped soldiers leading the assault, supported by a sizable contingent of ISB assets and even rumored darksiders.
+TEXT_PROTEUS_MAP_ONE_ELROOD_DESCRIPTION_LINE_3,With Elrood cut off from the Empire and facing a sweeping New Republic force, Moff Andal and his lieutenants make a play not just for survival, but dominance over the region, and perhaps the galaxy beyond.
+TEXT_PROTEUS_MAP_ONE_BODY_ELROOD_DIFFICULTY,Difficulty: Easy to Medium
+TEXT_PROTEUS_MAP_ONE_BODY_ELROOD_POWER,Hero Power and Utility: 4
+TEXT_PROTEUS_MAP_ONE_BODY_ELROOD_SPACE,Space Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_ELROOD_GROUND,Ground Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_ELROOD_POSITION,Starting Position: 2
+TEXT_PROTEUS_MAP_ONE_BODY_ELROOD_ECONOMY,Starting Economy: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ELROOD_COMMENT,"A very powerful roster with a perilous start. Play if you like unique refits of units."
+TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_TITLE,Antemeridian Sector
+TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_AUTHOR,Made by: Eleian
+TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_DESCRIPTION_LINE_1,The largely unimportant Antemeridian Sector was governed by Moff Tol Getelles, and during the Imperial period Antemeridas itself became a wealthy world with extensive Loronar Corporation facilities. The sector avoided New Republic attention immediately after Endor, allowing Getelles to dig in and consolidate his power base carefully while the galaxy descended into further war.
+TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_DESCRIPTION_LINE_2,The Imperial forces in the Antemeridian Sector rely on a small core of heavy star destroyers, supported by a selection of modern small and medium-sized support craft providing fire support. While somewhat lacking in carriers and larger battlecruisers, the fleet under the command of Admiral Larm has more than enough long-range firepower to make up for it in a direct fight. On land, the Imperial garrison is supported by a range of mostly light support units from local or corporate forces, with a strong focus on aerial maneuvers and fast strikes, but lacking in direct combat power. Heavy battlefield recovery vehicles help provide some staying power, but the armies of the Antemeridian Sector still prefer to avoid concentrated enemy fire.
+TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_DESCRIPTION_LINE_3,Moff Getelles is no fool and knows that soon, the other powers of the galaxy will come for him. And when they do, he will be the last one standing, with the galaxy at his feet.
+TEXT_PROTEUS_MAP_ONE_BODY_ANTEMERIDIAS_DIFFICULTY,Difficulty: Medium
+TEXT_PROTEUS_MAP_ONE_BODY_ANTEMERIDIAS_POWER,Hero Power and Utility: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ANTEMERIDIAS_SPACE,Space Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_ANTEMERIDIAS_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ANTEMERIDIAS_POSITION,Starting Position: 2
+TEXT_PROTEUS_MAP_ONE_BODY_ANTEMERIDIAS_ECONOMY,Starting Economy: 3
+TEXT_PROTEUS_MAP_ONE_BODY_ANTEMERIDIAS_COMMENT,"A start that can be gnarly but also quickly snowballs if you're aggressive and a roster that rewards patience and good positioning. Play if you like the number 2."
+TEXT_PROTEUS_MAP_ONE_WILD_SPACE_TITLE,Delurin’s Empire
+TEXT_PROTEUS_MAP_ONE_WILD_SPACE_AUTHOR,Made by: Dipsy, Devourer of Gods
+TEXT_PROTEUS_MAP_ONE_WILD_SPACE_DESCRIPTION_LINE_1,The ambitious Moff Delurin, never satisfied with just being a cog in the Imperial machine, had long ago started to consolidate his power base and invest in forces loyal to him only. Following the death of the Emperor, just as the first vessel of a new class designed by him, the Galaxy Dragon, was finished, Delurin took his new flagship and assembled his forces for a campaign of terror and conquest across wild space and New Republic-aligned worlds. Delurin claimed the title of "Warlord of Wild Space," and set his sights on no lesser a goal than the Imperial throne itself.
+TEXT_PROTEUS_MAP_ONE_WILD_SPACE_DESCRIPTION_LINE_2,Delurin's forces are assembled from a wide variety of sources, often incorporating older or modified vessels and vehicles. While his power base was never as large as that of other Moffs, he alone has the Dragon-Class Heavy Cruiser, an intimidating warship and core to his claim to power. His entire fleet is geared towards supporting it with carrier escorts and fire support, relying on carefully coordinated strikes and resilience rather than brute force. On the ground, his private forces, led by the fearsome Bormterran Dragon Troopers, are augmented by a variety of modified light vehicles with an emphasis on terror attacks and fast strikes, making up for their lack in toughness with sheer destructive potential.
+TEXT_PROTEUS_MAP_ONE_WILD_SPACE_DESCRIPTION_LINE_3,The rest of the galaxy will behold the Dragon Cruisers of the Warlord of Wild Space and tremble in fear. Delurin will not rest until the throne is his.
+TEXT_PROTEUS_MAP_ONE_BODY_WILD_SPACE_DIFFICULTY,Difficulty: Very Hard
+TEXT_PROTEUS_MAP_ONE_BODY_WILD_SPACE_POWER,Hero Power and Utility: 1
+TEXT_PROTEUS_MAP_ONE_BODY_WILD_SPACE_SPACE,Space Roster Power: 2
+TEXT_PROTEUS_MAP_ONE_BODY_WILD_SPACE_GROUND,Ground Roster Power: 2
+TEXT_PROTEUS_MAP_ONE_BODY_WILD_SPACE_POSITION,Starting Position: 2
+TEXT_PROTEUS_MAP_ONE_BODY_WILD_SPACE_ECONOMY,Starting Economy: 1
+TEXT_PROTEUS_MAP_ONE_BODY_WILD_SPACE_COMMENT,"A tough starting position that requires quick expansion paired with a janky roster. Play if you like weird units and a challenge."
+TEXT_PROTEUS_MAP_ONE_PRENTIOCH_TITLE,Prentioch’s Dominion
+TEXT_PROTEUS_MAP_ONE_PRENTIOCH_AUTHOR,Made by: Dipsy, Devourer of Gods
+TEXT_PROTEUS_MAP_ONE_PRENTIOCH_DESCRIPTION_LINE_1,A burgeoning mid-rim breakaway state under the rule of the ambitious Moff Utoxx Prentioch, the Dominion seeks to expand into neighboring sectors under the pretext of old surveys and treaties. Prentioch has quickly consolidated his control and created a loyal force with a core territory under his control, albeit surrounded on all sides by rivals. However, Prentioch's ambitions are not easily checked, and his forces stand ready to extend his control.
+TEXT_PROTEUS_MAP_ONE_PRENTIOCH_DESCRIPTION_LINE_2,The forces of Prentioch's Dominion are varied as a result of having been a low-priority sector. Moff Prentioch shored up his loyalist forces with surplus from the Clone Wars, creating an eclectic army and fleet. In space, the Dominion navy focuses on a large selection of battlecruisers and Star Destroyers with a small but versatile array of support ships and older patrol cruisers. Old Droid starfighters help bulk out his starfighter corps, but Prentioch's forces are much more suited to direct engagement than carrier operations anyway. Planetside, his forces make use of a variety of light CIS droid vehicles to support a small core of heavier units, specializing in slow and sustainable advances and loss mitigation rather than fast strikes or overwhelming firepower.
+TEXT_PROTEUS_MAP_ONE_PRENTIOCH_DESCRIPTION_LINE_3,Though surrounded by enemies, Prentioch is undaunted, for he knows that with careful maneuvering, the Imperial Throne can and will be his.
+TEXT_PROTEUS_MAP_ONE_BODY_PRENTIOCH_DIFFICULTY,Difficulty: Medium to Hard
+TEXT_PROTEUS_MAP_ONE_BODY_PRENTIOCH_POWER,Hero Power and Utility: 2
+TEXT_PROTEUS_MAP_ONE_BODY_PRENTIOCH_SPACE,Space Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_PRENTIOCH_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_PRENTIOCH_POSITION,Starting Position: 2
+TEXT_PROTEUS_MAP_ONE_BODY_PRENTIOCH_ECONOMY,Starting Economy: 3
+TEXT_PROTEUS_MAP_ONE_BODY_PRENTIOCH_COMMENT,"A janky but versatile roster with a decent starting position depending on the map. Play if you like CIS units and don't mind starting surrounded."
+TEXT_PROTEUS_MAP_ONE_SECTOR_5_TITLE,Sector 5
+TEXT_PROTEUS_MAP_ONE_SECTOR_5_AUTHOR,Made by: Eleian
+TEXT_PROTEUS_MAP_ONE_SECTOR_5_DESCRIPTION_LINE_1,Following the Battle of Endor, Admiral Malfkla Yzu of the 15th Deep Core Reserve Fleet proclaimed himself a Warlord and gathered like-minded Imperials like Cinzero Gann and Foga Brill under his banner. Based out of the HQ of the 5th Sector Army on Odik II, Admiral Yzu leads a powerful Imperial splinter faction and one of the main contenders for control of the Deep Core arsenals.
+TEXT_PROTEUS_MAP_ONE_SECTOR_5_DESCRIPTION_LINE_2,The majority of Yzu's naval forces are drawn from various deep core reserves and security detachments. In this case, many of the vessels are older generation cruisers and star destroyers, often converted into carriers to bridge the gap between them and more modern designs. Thanks to a selection of capable escort and support vessels, an abundance of electronic warfare systems, and a strong roster of starfighters, the fleets of Sector 5 can counter most enemies despite lacking the sheer firepower most warlords rely on. On land, the garrison forces of the 5th Sector Army rely on a versatile array of vehicles, with heavy walkers as assault spearheads, a wide range of support vehicles, and specialized infantry drawn from the infamous Red Police of Prakith. The result is an adaptive force that can perform well in most situations but has no clear areas of excellence.
+TEXT_PROTEUS_MAP_ONE_SECTOR_5_DESCRIPTION_LINE_3,Not willing to let an opportunity for ultimate power pass them by, Admiral Yzu and his supporters are determined to take the throne, and crush all who stand in their way.
+TEXT_PROTEUS_MAP_ONE_BODY_SECTOR_5_DIFFICULTY,Difficulty: Medium
+TEXT_PROTEUS_MAP_ONE_BODY_SECTOR_5_POWER,Hero Power and Utility: 5
+TEXT_PROTEUS_MAP_ONE_BODY_SECTOR_5_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_SECTOR_5_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_SECTOR_5_POSITION,Starting Position: 2
+TEXT_PROTEUS_MAP_ONE_BODY_SECTOR_5_ECONOMY,Starting Economy: 3
+TEXT_PROTEUS_MAP_ONE_BODY_SECTOR_5_COMMENT,"A precarious start and weird roster counteracted by a good hero set. Play if you like missile jamming and carriers."
+TEXT_PROTEUS_MAP_ONE_PRAKITH_TITLE,Protectorate of Prakith
+TEXT_PROTEUS_MAP_ONE_PRAKITH_AUTHOR,Made by: sithknight72, fighter roster by ColonelGW
+TEXT_PROTEUS_MAP_ONE_PRAKITH_DESCRIPTION_LINE_1,Following the death of their benefactor Yzu at Tsoss Beacon, Foga Brill and Cinzero Gann retreated to their core holdings on Prakith, creating an isolationist state that weathered the chaos of the campaigns led by Daala and New Republic counterstrikes. Despite being part of the replacement warlords, they struck out for their own interests, seeing the departure of most Imperial forces from the Deep Core as the perfect opportunity to consolidate their power and holdings.
+TEXT_PROTEUS_MAP_ONE_PRAKITH_DESCRIPTION_LINE_2,With a lot of assets from the Sector 5 fleets lost to defection, Prakith's naval forces are diminished when it comes to heavy warships, and instead make up the shortfall by using a mix of old and new patrol and support vessels, focusing on versatility over brute firepower. On the ground, their forces are geared towards internal security and suppression of dissent, with Elite Citadel Guardsmen formations supported by the infamous Red Police of Prakith and surviving members of the Imperial Inquisitorius. Their ground combat doctrine leans towards slower, heavier vehicles and a defensive posture.
+TEXT_PROTEUS_MAP_ONE_PRAKITH_DESCRIPTION_LINE_3,Though weakened in the aftermath of Daala's unification of the warlords, Prakith endures, and the fortunes in the deep core can turn in the blink of an eye.
+TEXT_PROTEUS_MAP_ONE_BODY_PRAKITH_DIFFICULTY,Difficulty: Hard
+TEXT_PROTEUS_MAP_ONE_BODY_PRAKITH_POWER,Hero Power and Utility: 2
+TEXT_PROTEUS_MAP_ONE_BODY_PRAKITH_SPACE,Space Roster Power: 2
+TEXT_PROTEUS_MAP_ONE_BODY_PRAKITH_GROUND,Ground Roster Power: 2
+TEXT_PROTEUS_MAP_ONE_BODY_PRAKITH_POSITION,Starting Position: 2
+TEXT_PROTEUS_MAP_ONE_BODY_PRAKITH_ECONOMY,Starting Economy: 3
+TEXT_PROTEUS_MAP_ONE_BODY_PRAKITH_COMMENT,"A very janky roster that relies on formations and synergy. Play if you like a challenge."
+TEXT_PROTEUS_MAP_ONE_JARDEEN_TITLE,Imperial Jardeen
+TEXT_PROTEUS_MAP_ONE_JARDEEN_AUTHOR,Made by: Dipsy, Devourer of Gods
+TEXT_PROTEUS_MAP_ONE_JARDEEN_DESCRIPTION_LINE_1,The planet of Jardeen IV in the southern Expansion Region was the location of an Imperial Army training center specializing in walkers under the command of General Arndal Lott. Following the battle of Endor, Lott found himself surrounded by the New Republic and other Imperial Warlords, and teamed up with Captain Iolan Gendarr to form a unified fighting force. Together, they command a mobile splinter faction seeking to keep the New Republic and other Warlords in check. Notably, the Imperial facilities on Jardeen experimented with slave-rigged and unmanned vehicle systems, and Lott and Gendarr put these advances to good use in their fight against the New Republic, even creating a type of Droid starfighter that resembles the model later used by the Reborn Emperor.
+TEXT_PROTEUS_MAP_ONE_JARDEEN_DESCRIPTION_LINE_2,Captain Gendarr commands a versatile fleet with access to a large number of mid-sized ships around a core of older Star Destroyer models. With plenty of support options and a powerful roster of Starfighters, their fleets can confidently go toe-to-toe with most enemies, though they lack heavy battlecruisers and must rely on well-prepared formations of Star destroyers, cruisers and support vessels when taking on larger enemy vessels. On land, General Lott leads his armies of heavy walkers from the front, relying on a large selection of slow, heavy walkers for devastating armored assaults, supported by a few airborne units. Their ground forces excel at direct frontal combat in situations where they can prepare their battle lines, but struggle against ambushes and quick enemy attacks.
+TEXT_PROTEUS_MAP_ONE_JARDEEN_DESCRIPTION_LINE_3,Though they are cut off and short on resources, Lott and Gendarr are not about to surrender to either the rebels or the traitors, and will fight everyone in their path to securing the Empire.
+TEXT_PROTEUS_MAP_ONE_BODY_JARDEEN_DIFFICULTY,Difficulty: Hard
+TEXT_PROTEUS_MAP_ONE_BODY_JARDEEN_POWER,Hero Power and Utility: 2
+TEXT_PROTEUS_MAP_ONE_BODY_JARDEEN_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_JARDEEN_GROUND,Ground Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_JARDEEN_POSITION,Starting Position: 1
+TEXT_PROTEUS_MAP_ONE_BODY_JARDEEN_ECONOMY,Starting Economy: 1
+TEXT_PROTEUS_MAP_ONE_BODY_JARDEEN_COMMENT,"A roster that excels at land warfare with a challenging start. Play if you like big walkers."
+TEXT_PROTEUS_MAP_ONE_CIUTRIC_HEGEMONY_TITLE,Ciutric Hegemony
+TEXT_PROTEUS_MAP_ONE_CIUTRIC_HEGEMONY_AUTHOR,Made by: Eleian
+TEXT_PROTEUS_MAP_ONE_CIUTRIC_HEGEMONY_DESCRIPTION_LINE_1,The Ciutric Hegemony has been a somewhat coherent cluster of systems in the galactic north for a long time, its riches and influence growing over the centuries. Formerly a supporter of the Confederacy, the Hegemony became the personal fiefdom of Imperial Grand Vizier Sate Pestage during the reign of Palpatine, but was taken over by force by Delak Krennel who turned warlord after killing Pestage. The self-styled Prince Admiral Krennel is cruel and ambitious, but also no fool and has taken to keeping a low profile while consolidating his power base. The industrial and trade economy of Ciutric and the raw materials of its neighboring worlds make for a strong foundation upon which to build an Empire, and Krennel will forge a warlord state in his image.
+TEXT_PROTEUS_MAP_ONE_CIUTRIC_HEGEMONY_DESCRIPTION_LINE_2,Krennel's forces mirror his aggressive tactics and ruthless disposition. A core of versatile Star Destroyers forms his fist in space, well-complemented by support carriers and light fire-support frigates. While very focused on direct firepower, a fleshed-out formation does not lack in defensive capability either, being more than able to form powerful defensive blockades when needed and deny even the fleets of major warlords and other powers. Krennel lacks large fleet carriers however, preferring gunnery over fighter strikes. On land, his armies, drawn from well-funded Hegemony garrisons and disaffected Imperials, are well rounded, with a variety of heavy assault vehicles backed up by rapid support units, able to undertake quick strikes as well as crushing blows, but lacking damage recovery equipment to weather sustained counterattacks.
+TEXT_PROTEUS_MAP_ONE_CIUTRIC_HEGEMONY_DESCRIPTION_LINE_3,With Ciutric secured, Delak Krennel can cast his gaze upon the rest of the galaxy, ready to seize his own path to rulership with his iron fist.
+TEXT_PROTEUS_MAP_ONE_BODY_CIUTRIC_HEGEMONY_DIFFICULTY,Difficulty: Easy
+TEXT_PROTEUS_MAP_ONE_BODY_CIUTRIC_HEGEMONY_POWER,Hero Power and Utility: 4
+TEXT_PROTEUS_MAP_ONE_BODY_CIUTRIC_HEGEMONY_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_CIUTRIC_HEGEMONY_GROUND,Ground Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_CIUTRIC_HEGEMONY_POSITION,Starting Position: 3
+TEXT_PROTEUS_MAP_ONE_BODY_CIUTRIC_HEGEMONY_ECONOMY,Starting Economy: 4
+TEXT_PROTEUS_MAP_ONE_BODY_CIUTRIC_HEGEMONY_COMMENT,"A versatile faction with a pretty good start on most maps. Play if you like intricate formations of smaller ships."
+TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZSINJ_REMNANTS_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZSINJ_REMNANTS_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZSINJ_REMNANTS_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZSINJ_REMNANTS_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZSINJ_REMNANTS_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZSINJ_REMNANTS_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZSINJ_REMNANTS_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_KAMINO_TITLE,Imperial Kamino
+TEXT_PROTEUS_MAP_ONE_KAMINO_AUTHOR,Made by: xXTaxEvaderXx
+TEXT_PROTEUS_MAP_ONE_KAMINO_DESCRIPTION_LINE_1,Following the failed Clone Uprising, Kamino ceased to be an important cloning world and became largely forgotten, save as a place for secret projects by various Imperials, including Darth Vader. Following the Battle of Endor, Kamino sits undisturbed, dark forces readying themselves to unleash its technology once more upon the galaxy. Under the tenebrous leadership of a figure only known as the Dark Apprentice, the Imperial garrison prepares to strike out at all who stand in their way to the Imperial Throne.
+TEXT_PROTEUS_MAP_ONE_KAMINO_DESCRIPTION_LINE_2,The Imperial Forces of Kamino employ an eclectic mix of older and modern Imperial designs, favoring lighter, versatile vessels in space. Many vessels eschew heavy weapons or munitions, instead focusing on close-range gunnery and fire support. On the ground, the cloning and training facilities of Kamino provide a large variety of specialist infantry, with a roster of specialized vehicles to support them. Lacking in heavy assault and direct combat units, the armies of Kamino instead rely on infantry attacks.
+TEXT_PROTEUS_MAP_ONE_KAMINO_DESCRIPTION_LINE_3,In the shadows of the Rishi Maze, a dark mind plans his ascension to the throne, and the galaxy will tremble at his unleashed force.
+TEXT_PROTEUS_MAP_ONE_BODY_KAMINO_DIFFICULTY,Difficulty: Hard
+TEXT_PROTEUS_MAP_ONE_BODY_KAMINO_POWER,Hero Power and Utility: 3
+TEXT_PROTEUS_MAP_ONE_BODY_KAMINO_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_KAMINO_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_KAMINO_POSITION,Starting Position: 2
+TEXT_PROTEUS_MAP_ONE_BODY_KAMINO_ECONOMY,Starting Economy: 2
+TEXT_PROTEUS_MAP_ONE_BODY_KAMINO_COMMENT,"An eclectic roster and tough starting position. Play if you like elite infantry."
+TEXT_PROTEUS_MAP_ONE_NABOO_TITLE,Imperial Naboo
+TEXT_PROTEUS_MAP_ONE_NABOO_AUTHOR,Made by: xXTaxEvaderXx
+TEXT_PROTEUS_MAP_ONE_NABOO_DESCRIPTION_LINE_1,The homeworld of the Emperor, Naboo and the surrounding Chommell Sector have remained firmly in the grip of the Empire despite the peoples' idealistic nostalgia for the Republic. Under Moff Panaka, the Sector has been fortified to withstand the advances of the New Republic and the many traitorous breakaway states nearby. A hard man, Panaka is under no illusion that Imperial Center will come to his rescue. Once again, it will be up to him and his soldiers to save Naboo from chaos and invasion.
+TEXT_PROTEUS_MAP_ONE_NABOO_DESCRIPTION_LINE_2,The fleets of the Chommell Sector are comprised of mixed task forces of older and more modern Imperial vessels, with a surprising lineup of battlecruisers and dreadnaughts for such a remote part of space. Supported by Star Destroyers and many heavy cruiser and frigate designs, these formations might not be top-of-the-line, but are nonetheless extremely powerful. Though they lack light support ships, Panaka's naval forces have a variety of carriers at their disposal to compensate for the lack of defensive escorts. On land, their forces are versatile, combining fast attack speeders with heavy assault walkers, relying on well-equipped infantry and plenty of airpower to adapt to any enemy.
+TEXT_PROTEUS_MAP_ONE_NABOO_DESCRIPTION_LINE_3,Moff Panaka has saved Naboo from disorder before, and he will do so again. Where the Republic has failed his planet and his people, the Empire will prevail.
+TEXT_PROTEUS_MAP_ONE_BODY_NABOO_DIFFICULTY,Difficulty: Medium
+TEXT_PROTEUS_MAP_ONE_BODY_NABOO_POWER,Hero Power and Utility: 4
+TEXT_PROTEUS_MAP_ONE_BODY_NABOO_SPACE,Space Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_NABOO_GROUND,Ground Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_NABOO_POSITION,Starting Position: 2
+TEXT_PROTEUS_MAP_ONE_BODY_NABOO_ECONOMY,Starting Economy: 2
+TEXT_PROTEUS_MAP_ONE_BODY_NABOO_COMMENT,"A very strong roster and a good set of heroes hampered by a slow start. Play if you like to take things slow and steady."
+TEXT_PROTEUS_MAP_ONE_RADAMA_TITLE,Imperial Ord Radama
+TEXT_PROTEUS_MAP_ONE_RADAMA_AUTHOR,Made by: sithknight72
+TEXT_PROTEUS_MAP_ONE_RADAMA_DESCRIPTION_LINE_1,The former separatist holdout of Ord Radama has adapted quickly to Imperial rule, with the local elites welcoming the Empire even as the lower classes chafe under exploitation and repression. And while Governor Ellor Orgraal's authority is somewhat undermined by Imperial Intelligence agents deeply embedded in his forces, with the death of the Emperor, no one challenges his vision of a return to greatness for the sidelined planet. So he musters his armies and brutally exploits his industry and population, all with the goal of bringing the rest of the Sector, and perhaps the galaxy, under his heel.
+TEXT_PROTEUS_MAP_ONE_RADAMA_DESCRIPTION_LINE_2,The Imperial forces stationed on Ord Radama are augmented with surplus from the Clone Wars, including older Republic vessels and the vast stores of CIS ships and droids that once occupied the world. While these are no longer top-of-the-line, they perform most duties well enough while being easier to deploy in numbers. A large selection of escort and support vessels helps a core of versatile heavy cruisers and star destroyers hold their own in space combat. On the ground, Orgraal's forces combine Imperial staples with Clone Wars leftovers to create a versatile army that relies on quick operations with special forces infantry but lacks some of the toughness and firepower of other warlord arsenals.
+TEXT_PROTEUS_MAP_ONE_RADAMA_DESCRIPTION_LINE_3,Ellor Orgraal is on the cusp of bringing the galaxy under his control, and neither treachery from within nor resistance from without will stop him from reaching for the Imperial Throne.
+TEXT_PROTEUS_MAP_ONE_BODY_RADAMA_DIFFICULTY,Difficulty: Hard
+TEXT_PROTEUS_MAP_ONE_BODY_RADAMA_POWER,Hero Power and Utility: 3
+TEXT_PROTEUS_MAP_ONE_BODY_RADAMA_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_RADAMA_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_RADAMA_POSITION,Starting Position: 1
+TEXT_PROTEUS_MAP_ONE_BODY_RADAMA_ECONOMY,Starting Economy: 2
+TEXT_PROTEUS_MAP_ONE_BODY_RADAMA_COMMENT,"A hard start and a roster that rewards careful fleet building. Play if you like a challenge."
+TEXT_PROTEUS_MAP_ONE_TAPANI_TITLE,Tapani Sector
+TEXT_PROTEUS_MAP_ONE_TAPANI_AUTHOR,Made by: sithknight72
+TEXT_PROTEUS_MAP_ONE_TAPANI_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_TAPANI_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_TAPANI_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAPANI_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAPANI_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAPANI_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAPANI_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAPANI_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAPANI_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAPANI_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_GAROS_TITLE,Imperial Garos
+TEXT_PROTEUS_MAP_ONE_GAROS_AUTHOR,Made by: Wolf6T6
+TEXT_PROTEUS_MAP_ONE_GAROS_DESCRIPTION_LINE_1,The planet of Garos IV was tenuously occupied by the Empire in order to mine Hibridium ore, but despite settling a local civil war, the Imperial forces were harried by a well-supported and well-connected resistance. When the Empire splintered, Garos avoided immediate New Republic attention, leaving Generals Zakar and Carner and Governor Tork Winger a short window to consolidate their forces and prepare for the tempest that would inevitably engulf them.
+TEXT_PROTEUS_MAP_ONE_GAROS_DESCRIPTION_LINE_2,The Imperial forces on Garos IV are cobbled together from various sources, such as the Imperial garrison, modified local hardware, and Clone Wars leftovers. Since Garos never was a high priority world, the Imperial assets on the planet are mostly dated. In space, their forces are made up of light cruisers and frigates to support the few Star Destroyers and larger vessels available. Their forces are very versatile but hold up poorly under enemy fire if not shielded by larger frontline ships that are in short supply. On the ground, the forces of Garos include garrison soldiers plus a range of light and medium vehicles with good firepower and speed but weak armor, counterbalanced by a number of heavy walkers that can take a hit but are slow. Thus, they rely on careful positioning and quick reactions to counteract their force components' respective weaknesses.
+TEXT_PROTEUS_MAP_ONE_GAROS_DESCRIPTION_LINE_3,Though Garos IV has so far avoided catastrophe, the worst is yet to come, and Carner, Zakar and Winger will have to play their cards well to survive. At stake is their survival. The pot is nothing less than galactic dominance.
+TEXT_PROTEUS_MAP_ONE_BODY_GAROS_DIFFICULTY,Difficulty: Hard
+TEXT_PROTEUS_MAP_ONE_BODY_GAROS_POWER,Hero Power and Utility: 2
+TEXT_PROTEUS_MAP_ONE_BODY_GAROS_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_GAROS_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_GAROS_POSITION,Starting Position: 1
+TEXT_PROTEUS_MAP_ONE_BODY_GAROS_ECONOMY,Starting Economy: 2
+TEXT_PROTEUS_MAP_ONE_BODY_GAROS_COMMENT,"A difficult start and a roster that requires a careful, defensive playstyle. Play if you like to win as the underdogs."
+TEXT_PROTEUS_MAP_ONE_MAELSTROM_TITLE,Maelstrom Command
+TEXT_PROTEUS_MAP_ONE_MAELSTROM_AUTHOR,Made by: sithknight72
+TEXT_PROTEUS_MAP_ONE_MAELSTROM_DESCRIPTION_LINE_1,The sectors bordering the Maelstrom Nebula have long suffered from pirate activity, and eventually the Empire created the Maelstrom Command as a special task force to police the region and put an end to criminal activity. However, Moffs Torpin and Vanko have had little success and also embezzled many of the resources sent their way. For a while, they were in danger of losing standing as the activity of pirates and rebels surged, but when the Emperor died at Endor, the two Moffs realized that with a large fleet and the strategically important shipyard planet of Ord Trasi under their control, their position was a lot better than many of their rivals' and decided to make a play for greater power in the fracturing Empire.
+TEXT_PROTEUS_MAP_ONE_MAELSTROM_DESCRIPTION_LINE_2,The fleets of Maelstrom Command are mostly made up of older vessels, having been neglected for years, with many ships sporting reduced armaments compared to frontline models. Still, their forces have access to a wide range of capable cruiser models and lighter support ships to supplement the aging Star Destroyers. With a varied starfighter arsenal and a large number of versatile escort ships, the navy of the Maelstrom can punch above its weight if properly deployed, but they in turn stand up poorly to enemy fire. 
+TEXT_PROTEUS_MAP_ONE_MAELSTROM_DESCRIPTION_LINE_3,Planetside, the armies of Maelstrom Command are mainly drawn from Imperial navy security forces and army garrisons across the galactic north, with a strong focus on air operations and fast strikes, emphasizing mechanized assaults and aerial harassment over infantry and heavy vehicles. To counteract the lack of staying power on the battlefield, Maelstrom Command relies heavily on medical supply and battlefield engineering vehicles, adding a level of sustainability not usually seen in naval ground forces.
+TEXT_PROTEUS_MAP_ONE_MAELSTROM_DESCRIPTION_LINE_4,Though Vanko and Torpin have not had auspicious results, they would be fools indeed to let this opportunity pass them by.
+TEXT_PROTEUS_MAP_ONE_BODY_MAELSTROM_DIFFICULTY,Difficulty: Medium
+TEXT_PROTEUS_MAP_ONE_BODY_MAELSTROM_POWER,Hero Power and Utility: 4
+TEXT_PROTEUS_MAP_ONE_BODY_MAELSTROM_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_MAELSTROM_GROUND,Ground Roster Power: 4
+TEXT_PROTEUS_MAP_ONE_BODY_MAELSTROM_POSITION,Starting Position: 3
+TEXT_PROTEUS_MAP_ONE_BODY_MAELSTROM_ECONOMY,Starting Economy: 2
+TEXT_PROTEUS_MAP_ONE_BODY_MAELSTROM_COMMENT,"A janky but by no means weak roster with a solid starting position and good heroes that allow it to punch above its weight. Play if you like patrol variants of ships."
+TEXT_PROTEUS_MAP_ONE_SHADOWSPAWN_TITLE,Shadow Realm
+TEXT_PROTEUS_MAP_ONE_SHADOWSPAWN_AUTHOR,Made by: Greene7z
+TEXT_PROTEUS_MAP_ONE_SHADOWSPAWN_DESCRIPTION_LINE_1,As the Empire splintered, Lord Cronal, a student of the Sorcerers of Rhand and one of the most devious darksiders in the service of the Empire, grew disgusted with the weakness of the Imperial Ruling Council and left to the unimportant world of Mindor, where he prepared a campaign of terror against the New Republic, all the while plotting for a new Empire to arise from the ashes of the old one. In his twisted mind, he envisions an empire of darkness, ruled by puppets to his will. And with his small cadre of supporters, he will stop at nothing to make his vision a reality.
+TEXT_PROTEUS_MAP_ONE_SHADOWSPAWN_DESCRIPTION_LINE_2,Cronal's forces are small, but he has prepared for this for years, hoarding cloaking technology and building up a force loyal to him alone. Many of his ships have stealth coating, allowing them to operate discreetly and even avoid hostile fire in combat until the enemy can adapt their targeting. In addition, Cronal's naval forces are quite versatile, with a wide array of Imperial support ships and heavy cruisers assisting specialized Star Destroyer models. 
+TEXT_PROTEUS_MAP_ONE_SHADOWSPAWN_DESCRIPTION_LINE_3,A selection of high-tech Imperial starfighter designs helps tip the scales when the firepower of the larger vessels falls short. On the ground, Cronal utilizes his feared Shadow Stormtroopers, operators geared towards infiltration and sabotage, alongside a number of stealth tanks and vehicles optimized for intimidation. Between combat airspeeders, heavy assault walkers, and fast attack craft, the forces of Cronal have tremendous firepower and ability to deal with most enemies, but hold up poorly under organized return fire and are thus reliant on speed and surprise to achieve quick victories and avoid drawn-out fights.
+TEXT_PROTEUS_MAP_ONE_SHADOWSPAWN_DESCRIPTION_LINE_4,What Cronal lacks in resources, he makes up for in deviousness, and his dark designs threaten to twist the galaxy into a Realm of Shadows.
+TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_DIFFICULTY,Difficulty: Medium
+TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_POWER,Hero Power and Utility: 4
+TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_SPACE,Space Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_GROUND,Ground Roster Power: 3
+TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_POSITION,Starting Position: 1
+TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_ECONOMY,Starting Economy: 1
+TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_COMMENT,"A very unique roster with a hard start. Play if you like stealth units."

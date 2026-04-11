@@ -108,9 +108,9 @@ return {
             crossplot:publish("CONQUER_KASHYYYK_MALDROOD", "empty")
             crossplot:publish("CONQUER_MANDALORE_NR", "empty")
             --Subscribe to proteus-specific events if in proteus mode
-            if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
-                crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
-            end
+            --if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
+                --crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
+            --end
 
 			if not GlobalValue.Get("PROGRESSIVE_INFINITY") then
 				crossplot:publish("INITIALIZE_AI", "empty")

@@ -1833,6 +1833,15 @@
 		<Perpetual>true</Perpetual>
 	</Event>
 	
+	<Event Name="Zoom_Into_FENEL">
+		<Event_Type>STORY_SELECT_PLANET</Event_Type>
+		<Event_Param1>Fenel</Event_Param1>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
+		<Reward_Param1>ZOOMED_INTO_FENEL</Reward_Param1>
+		<Reward_Param2 />
+		<Perpetual>true</Perpetual>
+	</Event>
+
 	<Event Name="Zoom_Into_FERIAE_JUNCTION">
 		<Event_Type>STORY_SELECT_PLANET</Event_Type>
 		<Event_Param1>Feriae_Junction</Event_Param1>
@@ -1932,6 +1941,15 @@
 		<Perpetual>true</Perpetual>
 	</Event>
 	
+	<Event Name="Zoom_Into_GARGON">
+		<Event_Type>STORY_SELECT_PLANET</Event_Type>
+		<Event_Param1>Gargon</Event_Param1>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
+		<Reward_Param1>ZOOMED_INTO_GARGON</Reward_Param1>
+		<Reward_Param2 />
+		<Perpetual>true</Perpetual>
+	</Event>
+
 	<Event Name="Zoom_Into_GABREDOR">
 		<Event_Type>STORY_SELECT_PLANET</Event_Type>
 		<Event_Param1>Gabredor</Event_Param1>

@@ -461,6 +461,7 @@
     + Variable_Target.Type.IsType {Parameter_Type = "Gallinore"}
     + Variable_Target.Type.IsType {Parameter_Type = "Ganath"}
     + Variable_Target.Type.IsType {Parameter_Type = "Garos"}
+    + Variable_Target.Type.IsType {Parameter_Type = "Gargon"}
     + Variable_Target.Type.IsType {Parameter_Type = "Gestron"}
     + Variable_Target.Type.IsType {Parameter_Type = "Ghorman"}
     + Variable_Target.Type.IsType {Parameter_Type = "Gizer"}
@@ -685,6 +686,7 @@
     + Variable_Target.Type.IsType {Parameter_Type = "Byss"}
     + Variable_Target.Type.IsType {Parameter_Type = "Copero"}
     + Variable_Target.Type.IsType {Parameter_Type = "Deko_Neimoidia"}
+    + Variable_Target.Type.IsType {Parameter_Type = "Fenel"}
     + Variable_Target.Type.IsType {Parameter_Type = "Foerost"}
     + Variable_Target.Type.IsType {Parameter_Type = "Fondor"}
     + Variable_Target.Type.IsType {Parameter_Type = "Geonosis"}
