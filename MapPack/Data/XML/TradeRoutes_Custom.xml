@@ -1,6 +1,70 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TradeRoutes>
   <!--TechSupport: Added custom trade routes including those for ported planets-->
+  <TradeRoute Name="Copero_Zyzek">
+    <Point_A>Copero</Point_A>
+    <Point_B>Zyzek</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Charros_Saleucami">
+    <Point_A>Charros</Point_A>
+    <Point_B>Saleucami</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Ringo_Vinda_Saleucami">
+    <Point_A>Ringo_Vinda</Point_A>
+    <Point_B>Saleucami</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Bacrana_Emberlene">
+    <Point_A>Bacrana</Point_A>
+    <Point_B>Emberlene</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Druckenwell_Peregrine">
+    <Point_A>Druckenwell</Point_A>
+    <Point_B>Peregrine</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Emberlene_Peregrine">
+    <Point_A>Emberlene</Point_A>
+    <Point_B>Peregrine</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Delacrix_Saleucami">
+    <Point_A>Delacrix</Point_A>
+    <Point_B>Saleucami</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Saleucami_Xuaquarres">
+    <Point_A>Saleucami</Point_A>
+    <Point_B>Xuaquarres</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
   <TradeRoute Name="Ando_Prime_Christophsis">
     <Point_A>Ando_Prime</Point_A>
     <Point_B>Christophsis</Point_B>
