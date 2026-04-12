@@ -97,6 +97,14 @@
     <Credit_Gain_Factor>0</Credit_Gain_Factor>
     <Visible_Line_Name>DEFAULT</Visible_Line_Name>
   </TradeRoute>
+  <TradeRoute Name="Garos_Fenel">
+    <Point_A>Garos</Point_A>
+    <Point_B>Fenel</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
   <TradeRoute Name="Garos_Lucazec">
     <Point_A>Garos</Point_A>
     <Point_B>Lucazec</Point_B>
@@ -1065,6 +1073,14 @@
     <Credit_Gain_Factor>0</Credit_Gain_Factor>
     <Visible_Line_Name>DEFAULT</Visible_Line_Name>
   </TradeRoute>
+  <TradeRoute Name="Fenel_Mandalore">
+    <Point_A>Fenel</Point_A>
+    <Point_B>Mandalore</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
   <TradeRoute Name="Foerost_Prakith">
     <Point_A>Foerost</Point_A>
     <Point_B>Prakith</Point_B>
@@ -1108,6 +1124,30 @@
   <TradeRoute Name="Gamorr_Kamino">
     <Point_A>Gamorr</Point_A>
     <Point_B>Kamino</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Gargon_Mandalore">
+    <Point_A>Gargon</Point_A>
+    <Point_B>Mandalore</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Gargon_Taris">
+    <Point_A>Gargon</Point_A>
+    <Point_B>Taris</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Gargon_Bandomeer">
+    <Point_A>Gargon</Point_A>
+    <Point_B>Bandomeer</Point_B>
     <HS_Speed_Factor>1.0</HS_Speed_Factor>
     <Political_Control_Gain>0</Political_Control_Gain>
     <Credit_Gain_Factor>0</Credit_Gain_Factor>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Campaigns>
+<Campaigns>ga
 	<Campaign Name="Proteus_Map_One_Era_1_Empire">
 		<Campaign_Set>Proteus_Map_One_Era_1</Campaign_Set>
 		<Sort_Order>6</Sort_Order>
@@ -604,7 +604,7 @@
 		<Story_Name>Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
 			Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
 			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
-			Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+			Independent_Forces, Conquests\\ProteusMapOne\\Story_Plots_TR_Progressive_ProteusMapOne_Container.xml,
 			EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
 			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
 			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
@@ -1480,7 +1480,7 @@
 		<Story_Name>Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
 Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
 Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
-Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+Independent_Forces, Conquests\\ProteusMapOne\\Story_Plots_TR_Progressive_ProteusMapOne_Container.xml,
 EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
 Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
 Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
@@ -2356,7 +2356,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Story_Name>Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
 Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
 Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
-Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+Independent_Forces, Conquests\\ProteusMapOne\\Story_Plots_TR_Progressive_ProteusMapOne_Container.xml,
 EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
 Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
 Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
@@ -2705,11 +2705,13 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Eriadu,
 			Ession,
 			Etti,
+			Fenel,
 			Filve,
 			Foerost,
 			Foless,
 			Fondor,
 			Galaxy_Core_Art_Model,
+			Gargon,
 			Garos,
 			Geonosis,
 			Gyndine,
@@ -3039,6 +3041,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Etti_Kalla,
 			Filve_Hypori,
 			Filve_Manda,
+			Fenel_Mandalore,
 			Foerost_Prakith,
 			Foerost_Vulpter,
 			Foless_Iphigin,
@@ -3046,8 +3049,11 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Foless_Wroona,
 			Fondor_Iphigin,
 			Fondor_Mrlsst,
+			Gargon_Mandalore,
+			Gargon_Taris,
+			Gargon_Bandomeer,
 			Garos_Lucazec,
-			Garos_Mandalore,
+			Garos_Fenel,
 			Garos_Ringo_Vinda,
 			Garos_Yavin,
 			Geonosis_Hypori,
@@ -3232,7 +3238,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Story_Name>Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
 Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
 Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
-Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+Independent_Forces, Conquests\\ProteusMapOne\\Story_Plots_TR_Progressive_ProteusMapOne_Container.xml,
 EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
 Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
 Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
@@ -3373,10 +3379,12 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Corporate_Sector, Ession, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Etti, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Etti, CSA_Capital</Starting_Forces>
+		<Starting_Forces>Warlords, Fenel, Generate_Force</Starting_Forces>
 		<Starting_Forces>Rebel, Filve, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Foerost, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Foless, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Fondor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Gargon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Garos, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Geonosis, Generate_Force</Starting_Forces>
 		<Starting_Forces>Empire, Gyndine, Generate_Force</Starting_Forces>
@@ -4108,7 +4116,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Story_Name>Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
 Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
 Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
-Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+Independent_Forces, Conquests\\ProteusMapOne\\Story_Plots_TR_Progressive_ProteusMapOne_Container.xml,
 EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
 Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
 Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
@@ -4984,7 +4992,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Story_Name>Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
 Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
 Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
-Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+Independent_Forces, Conquests\\ProteusMapOne\\Story_Plots_TR_Progressive_ProteusMapOne_Container.xml,
 EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
 Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
 Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,

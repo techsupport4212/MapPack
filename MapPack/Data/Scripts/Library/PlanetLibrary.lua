@@ -995,6 +995,11 @@ PlanetLibrary = {
         Terrain = "Forest",
     },
     
+    FENEL = {
+        Galactic_Position = {670, 465, 10},
+        Terrain = "Desert",
+    },
+
     FERIAE_JUNCTION = {
         Galactic_Position = {642, 709, 10},
         Terrain = "Forest",
@@ -1089,7 +1094,12 @@ PlanetLibrary = {
         Galactic_Position = {254, -413, 10},
         Terrain = "Urban",
     },
-    
+
+    GARGON = {
+        Galactic_Position = {532, 490, 10},
+        Terrain = "Urban",
+    },
+
     GAROS = {
         Galactic_Position = {746, 413, 10},
         Terrain = "Temperate",

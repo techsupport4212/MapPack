@@ -3,11 +3,33 @@ require("PGStoryMode")
 require("PGSpawnUnits")
 require("eawx-util/ChangeOwnerUtilities")
 
+--Local function used to sanitize spawn lists for IF/Warlord factions in proteus mode, as they may contain heroes that are not meant to spawn in those modes
+local function SanitizeSpawnList(self, faction, spawnlist)
+    if faction ~= "WARLORDS" and faction ~= "INDEPENDENT_FORCES" then
+        return spawnlist
+    end
+    if not GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
+        return spawnlist
+    end
+    local hero_set = {}
+    for _, hero in ipairs(self.LegitimacyHeroes or {}) do
+        hero_set[hero] = true
+    end
+    local sanitized = {}
+    for _, unit in ipairs(spawnlist) do
+        if not hero_set[unit] then
+            table.insert(sanitized, unit)
+        end
+    end
+    return sanitized
+end
+
 return {
     on_enter = function(self, state_context)
         GlobalValue.Set("CURRENT_ERA", 5)
 		local infinity = GlobalValue.Get("PROGRESSIVE_INFINITY")
-
+        
+        self.LegitimacyHeroes = require("LegitimacyHeroLibrary") --Uses a library of legitimacy heroes to determine who to keep / remove
         self.LeaderApproach = false
         self.ResearchFired = false
 
@@ -15,10 +37,9 @@ return {
         self.entry_time = GetCurrentTime()
         self.AI_Active = true
         
-        --TechSupport: Planet locks based on infinity mode
-        local proteus_infinity = GlobalValue.Get("PROTEUS_INFINITY")
-
-        if not proteus_infinity then
+        --TechSupport: Planet locks based on proteus mode (as nzoth is an IF world, not yevetha)
+        local proteus_map_settings = GlobalValue.Get("PROTEUS_MAP_SETTINGS")
+        if not proteus_map_settings then
         StoryUtil.SetPlanetRestricted("DOORNIK", 1)
         StoryUtil.SetPlanetRestricted("ZFELL", 1)
         StoryUtil.SetPlanetRestricted("NZOTH", 1)
@@ -66,18 +87,24 @@ return {
 			if not infinity then
             self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EraFiveStartSet")
 				for faction, herolist in pairs(self.Starting_Spawns) do
-					for planet, spawnlist in pairs(herolist) do
-						StoryUtil.SpawnAtSafePlanet(planet, Find_Player(faction), self.Active_Planets, spawnlist)
-					end
+                    for planet, spawnlist in pairs(herolist) do
+                        local safe_spawnlist = SanitizeSpawnList(self, faction, spawnlist) --Sanitize spawn list
+                        if safe_spawnlist and table.getn(safe_spawnlist) > 0 then --make sure there are units to spawn after sanitization
+                            StoryUtil.SpawnAtSafePlanet(planet, Find_Player(faction), self.Active_Planets, safe_spawnlist)
+                        end
+                    end
 				end
 			end
         else
 			if Find_First_Object("Custom_GC_Starter_Dummy") == nil then
 				self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EraFiveProgressSet")
 				for faction, herolist in pairs(self.Starting_Spawns) do
-					for planet, spawnlist in pairs(herolist) do
-						StoryUtil.SpawnAtSafePlanet(planet, Find_Player(faction), self.Active_Planets, spawnlist)
-					end
+                    for planet, spawnlist in pairs(herolist) do
+                        local safe_spawnlist = SanitizeSpawnList(self, faction, spawnlist) --Sanitize spawn list
+                        if safe_spawnlist and table.getn(safe_spawnlist) > 0 then --make sure there are units to spawn after sanitization
+                            StoryUtil.SpawnAtSafePlanet(planet, Find_Player(faction), self.Active_Planets, safe_spawnlist)
+                        end
+                    end
 				end
 			end
 
@@ -94,7 +121,10 @@ return {
         end
         if current >= 8 and self.AI_Active == false then
             crossplot:publish("CONQUER_MANDALORE_NR", "empty")
-
+            -- Subscribe to the Proteus Conquer Coruscant event, can expand with other events here
+            --if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
+                --crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
+            --end
 			if not GlobalValue.Get("PROGRESSIVE_INFINITY") then
 				crossplot:publish("INITIALIZE_AI", "empty")
 			end
