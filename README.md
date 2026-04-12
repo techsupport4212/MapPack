@@ -4,6 +4,11 @@
  - Download the MapPack release and extract to mods folder. An example of what it should look like is this - C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\MapPack
  - Change your launch option in steam, adding this entry before for one for Thrawn's Revenge - ModPath=Mods\MapPack
 
+# Also included: ProPro Compat Patch
+ - To be able to get the most out of this MapPack, you will also need to get yourself Project Proteus [LINKTOSTEAM]
+ - Place the Compat Patch into your mods folder, same as with the MapPack
+ - Add an entry for the Compat Patch before any other mod/submod (so Compat Patch first, ProPro/MapPack in any order, then finally Thrawn's Revenge)
+
 # What does this Map Pack do?
  - Adds a new map to the game, currently has 188 planets.
  - The map is playable by all Imperial factions and is intended to be a testing ground for all Proteus factions.
@@ -14,10 +19,11 @@
  - Choosing Progressive will mean the campaign will function like any other progressive map.
 
 # Update Plans:
-- expand number of maps available
-- option to disable dark empire completely
-- add aditional setup options to customise the GC even more
+ - expand number of maps available
+ - option to disable dark empire completely
+ - add aditional setup options to customise the GC even more
 
 # Credits:
  - thanks to EaWX team for Thrawn's Revenge
  - Supernova for the initial proteus map idea
+ - Project Proteus for inspiration.
