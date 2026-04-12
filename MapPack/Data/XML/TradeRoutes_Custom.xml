@@ -9,6 +9,30 @@
     <Credit_Gain_Factor>0</Credit_Gain_Factor>
     <Visible_Line_Name>DEFAULT</Visible_Line_Name>
   </TradeRoute>
+  <TradeRoute Name="Copero_Pesfavri">
+    <Point_A>Copero</Point_A>
+    <Point_B>Pesfavri</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Ghorman_Wroona">
+    <Point_A>Ghorman</Point_A>
+    <Point_B>Wroona</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Ghorman_Mrlsst">
+    <Point_A>Ghorman</Point_A>
+    <Point_B>Mrlsst</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
   <TradeRoute Name="Charros_Saleucami">
     <Point_A>Charros</Point_A>
     <Point_B>Saleucami</Point_B>
