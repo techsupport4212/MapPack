@@ -1,0 +1,460 @@
+﻿<?xml version="1.0"?>
+<Shipyards>
+	<SpecialStructure Name="Template_Shipyard_Level_One">
+		<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
+		<Space_Model_Name>Light_Shipyard.alo</Space_Model_Name>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Select_Box_Scale>600</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+		<Is_Dummy>Yes</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>10</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Structure_Category_Dummy </Required_Special_Structures>
+
+		<Required_Planets>
+<!-- Shipyard_Level_One Start -->
+		Aargonar,Abeloth_World,Abyss,Aeten,Agamar,Agomar,Aguarl,Aikhibba,Akuria,Alagon,Alaris,Alashan,Alderaan_Graveyard,Allyuen,Almania,Alpheridies,Alsakan,Alzoc,Ando,Ando_Prime,Annaj,Anoat,Ansion,Anx_Minor,Ardis,Argazda,Arkania,Aruza,Atchorb,Athiss,Attahox,Aturi,Atzerri,AX456,Azure,Bajic,Balamak,Bandomeer,Bardram_Scoft,Barlok,Basilisk,Batuu,Bazaar,Begeren,Belderone,Belkadan,Belsavis,Belsmuth,Bimmisaari,Bknos,Black_Bantha_Nebula,Bogden,Bogo_Rai,Bompreil,Bpfassh,Bresnia,Brigia,Caamas,Calonica,Cantonica,Carosi,Carrivar,Cartao,Casfield,Castell,Cathar,Catlia,Cattamascar,Cauldron_Nebula,Cerea,Chalcedon,Champala,Chazwa,Chorax,Chrondre,Clakdor,Codian_Moon,Colla,Columus,Comkin,Concord_Dawn,Cophrigin,Corsin,Corthenia,Corvis_Minor,Cron_Drift,Crustai,Daalang,Dagary_Minor,Dagobah,Dalicron,Daluuj,Dantooine,Danuta,Darkon,Datar,Dathomir,Dellalt,Dennogra,Dentaal,Derra,Despayre,Dioya,Dkee,Dohlban,Dolomar,Doniphon,Doornik,Dromund,Durace,Dxun,Eadu,Ejolus,Emberlene,Emmer,Endor,Endor_Gate,EolSha,Eredenn,Eres,Esfandia,Euceron,Exocron,Exodo,Explume_Minor,Falleen,Faras_Belt,Farrfin,Felucia,Feriae_Junction,Feswe_Prime,Filve,Florn,Florrum,Formos,Fresia,Frunchettan,Gabredor,Galantos,Gamorr,Gannaria,Garqi,Gavryn,Gelgelar,Gendrah_Narvin,Generis,Genon,Gerrard,Gestrex,Glee_Anselm,Glom_Tho,Glova,Gobindi,Gravlex_Med,Grho,Gymelo,Halanit,Halthor,Haruun_Kal,Helska,Herdessa,Hewett,Hijarna,Hinakuu,Hollastin,Honoghr,Hoth,Hoxim,Huk,Humbarine_Bombarded,Iego,Iktotch,Ilum,Iol,Ixtlar,Jagas_Cluster,Jakku,Jardeen,Jazbina,Jedha,Jestan,Jomark,Jtptan,Kaal,Kabal,Kadavo,Kafrene,Kaikielius,Kalaan,Kalarba,Kalee,Kaliida_Nebula,Kalla,Kammia,Kariek,Katana_Space,Katarr,Kattada,Kauron,Kayri,Kesh,Keskin,Kessel,Ketal,Ketaris,Khar_Delba,Khomm,Kinyen,Kip,Kira,Klatooine,Koda_Station,Kooriva,Korda,Kostra,Krant,Kriselist,Kuar,Kwenn,Lakra,Lannik,Lizil,Llanic,Loedorvia,Lok,Lola_Sayu,Lucazec,Lur,Lyran,M293,M239,M4_78,Malachor,Malastare,Maldra,Mandallia,Maryo,Mendig,Milagro,Mimban,Miztoc,Mon_Gazza,Monastery,Moorja,Morishim,Movris,Mrisst,Mullan,Munlali_Mafir,Murgo,Murkhana,Myrkr,Mytus,Naos,Nath_Goordi,Nathema,Nazzri,Nelvaan,Nentan,New_Alderaan,New_Bornalex,New_Cov,New_Heurkea,New_Plympto,Nexus_Ortai,Nihil,Nimban,Nixor,Nkllon,Noonar,Noquivzor,Nubia,Nulan,Null_Zone,Obredaan,Ojom,Omonoth,Onderon,Ord_Biniir,Ord_Pardron,Ord_Vaug,Ordo,Oristrom,Orleon,Orocco,Orron,Osseriton,Ossus,Paarin_Minor,Pakrik_Minor,Pallaxides,Pantolomin,Pantora,Parnassos,Pashvi,Peragus,Perann_Nebula,Peregrine,Phindar,Pleknok,Poderis,Polis_Massa,Poln_Major,Polus,Porchello,Porus_Vida,Praadost,Praesitlyn,Prildaz,Qat_Chrystac,Qiilura,Qretu,Quelii,Quell,Quellor,Quesh,Ragmar,Rago,Rakata,Rattatak,Raxus_Second,Rduba,Reecee,Rekkiad,Rett,Rhelg,Rhen_Var,Rhommamool,Riette,Riflor,Rishi,Romin,Roqoo,Roxuli,Rugosa,Ruuria,Ruusan,Ryyk_Nebula,Sacorria,Sagma,Sarapin,Sarko,Sarm,Sarrish,Sarvchi,Schesa,Scipio,Selaggis,Sepan,Sernpidal,Seylott,Shaylin,Shedu_Maad,Shogun,Shola,Sifkric,Sikurd,Siskeen,Skye,Sleheyron,Snevu,Solaest,Solem,Sriluur,Stenos,Stivic,Jussafet,Storinal,Stratos,Sunrise,Suurja,Svivren,Sy_Myrth,Syni,Taanab,Talay,Talfaglio,Taloraan,Talus_Tralus,Tarnith,Tartaglia,Taskeed,Tatooine,Telti,Tenupe,Teptixii,Teya,The_Redoubt,The_Wheel,Thila,ThonBoka,Thule,Thustra,Thyrsus,Timora,Tingel_Deepspace_Besh,Tisssharl,Tol_Amn,Tolan,Ton_Falk,Toola,Toprawa,Tosste,Toydaria,Trandosha,Traval_Pacor,Triton,Troukree,Tund,Turak,Turcan,Turkana,Tuskens_Eye,Twilight_Void,Tyan,Tython,Udray,Ukio,Ulda_Frav,Umarenk,Utegetu_Nebula,Vaklin,Valahari,Valc,Varada,Vassek,Vena,Verdanth,Vergesso,Veroleem,Volik,Vorpaya,Vortex,Voss,Vrosynri,VunHanna,Wayland,Wistril,Woostri,Woteba,Wurrif,Xeron,Xo,Xolu,Xuaquarres,YagDhul,Yashuvhu,Yinchorr,Zaddja,Zanbar,Zfell,Ziost,Zonama,Zonama_30BBY,Zongorlu,Zosha,Endelaan,Gwenee,Odryn,Artorias,Absit,Phu,Korbin,Aleen,Long_Shadow,Odessen,Ruhnuk,Naalol,ZXK_100,Kelrodo,Orax,Sibilaar,Vanqor,Trulalis,Leritor,Ruhe,Brintooin,Linuri,Berchest,Fwillsving,Hishyim,Valrar,Betal,CZ_198,Bursoll,Tholon,Stennaros,Halm,Trevura,Yn,Virgillia,Lanteeb,Sharlissia,Syvris,Oseon,Deneba,Bheriz,Aduba,Lowick,Isiring,Seline,Birgis,Ibanjji,Renatasia,Soullex,Stobar,Lohopa,Celegia,New_Apsolon,Zirulast,Antmuel,Rychel,Puloorn,UR2212GR,Imram,Amaltanna,Kol_Atorn,Chalacta,Blimph,Sarka,Ultaar,Karvoss,Hemei,Azbrian,Umgul,Trigalis,Vendaxa,Krann,Vernet,Troos,Gigor,Msst,Vorian,Rustibar,Toongl,Felin,Vonak,Altora,Revyia,Gorsh,Maltha_Obex,Lobaoc,Vengler,Fhost,Ianane,Orroman,Sarnus,Selvaris,KrilDor,Diatia,Pollillus,Thandruss,Ergeshui,Kronex,Ubertica,Reytha,Chenowei,Maicombe,Kowak,Excarga,Rannon,Mendicat,Irkalla,Tchuukthai,Laomon,Malata,Zadd,Artus,A77,Persappa,Kro_Var,Shikitari,Morcanth,Griwstrick,Kodas_World,Tantsor,Vondoru,Obus,UR41284,AB343,Gandeal,Solibus,Corbos,Smarck,Mantooine,Vsett,Paecia,Xobome,Vahaba,Null,Mannova,Barison,Impossible_Sector,Arkinnea,Hken,Betha,Aar,Kabieroun,Demesel,Todirium,Altyr,Ylix,Camden,Mengjini,Terminus,Trenwyth,Korman_Lao,Gunninga,Giaca,Mindabaal
+<!-- Shipyard_Level_One End -->
+		</Required_Planets>
+
+		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+
+		<Shield_Points>500</Shield_Points>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>12.5</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Tactical_Health>1200</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_shipyard.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Scale_Factor>0.75</Scale_Factor>
+		<AI_Combat_Power>1500</AI_Combat_Power>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Space_Or_Garrison_Category>Corvette</Space_Or_Garrison_Category>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<!-- <Radar_Icon_Name>i_radar_shipyard_1.tga</Radar_Icon_Name> -->
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+
+		<HardPoints>
+			HP_Shipyard_Light_Turbo_01, HP_Shipyard_Light_Turbo_02, HP_Shipyard_Light_Turbo_03, HP_Shipyard_Light_Turbo_04, HP_Shipyard_Light_Turbo_05, HP_Shipyard_Light_Turbo_06, Shipyard_Hangar,
+			HP_Shipyard_Light_Laser_01, HP_Shipyard_Light_Laser_02
+		</HardPoints>
+
+		<Encyclopedia_Text />
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_SECONDARY_CONSTRUCTION</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Layer_Z_Adjust> -150 </Layer_Z_Adjust>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<Retreat_Self_Destruct_Explosion>Friggin_Huge_Explosion_Space</Retreat_Self_Destruct_Explosion>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Damage>200</Damage>
+		<Death_Clone>Damage_Normal, Shipyard_Level_One_Death_Clone</Death_Clone>
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Additional_Population_Capacity>5</Additional_Population_Capacity>
+		
+		<Score_Cost_Credits> 1 </Score_Cost_Credits>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Template_Shipyard_Level_Two">
+		<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
+		<Space_Model_Name>NV_HeavyShipyard.alo</Space_Model_Name>
+		<GUI_Row> 1 </GUI_Row>
+		<Select_Box_Scale>900</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+		<Is_Dummy>Yes</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>20</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures> AI_Category_Dummy | Structure_Category_Dummy</Required_Special_Structures>
+		<!--TechSupport: Added entry for Gargon here-->
+		<Required_Planets>
+<!-- Shipyard_Level_Two Start -->
+		Aargau,Abregado_Rae,Abridon,Adumar,Ailon,Alderaan,Althir,Ambria,Anaxes,Andara,Antar,Antemeridias,Arda,Argovia,Atravis,Bakura,Balmorra,Bannistar,Barab,Barkhesh,Bassadro,Bastion,Belgaroth,Berrols_Donn,Bescane,Bespin,Bestine,Bimmiel,Bomis_Koori,Bonadan,Boonta,Borleias,Borosk,Botajef,Bothawui,Boz_Pity,Brentaal,Burnin_Konn,Cal_Seti,Carida,Cato_Neimoidia,Cejansij,Celanon,Celwis,Centares,Chandrila,Charros,Chasin,Christophsis,Circumtore,Columex,Commenor,Comra,Cormit,Corulag,Coruscant,Crakull,Csilla,Cularin,Da_Soocha,Dalron,Darvannis,Delacrix,Denon,Desevro,Devaron,Dolla,Dorin,Dravian_Starport,Dressel,Druckenwell,Dubrillion,Duro,Durren,Ebaq,Eiattu,Elom,Elrood,Empress_Teta,Enarc,Entralla,Eriadu,Ession,Exodeen,Feldrona,Flashpoint,Foless,Fwsen,Galidraan,Gallinore,Ganath,Gargon,Garos,Gestron,Ghorman,Giju,Gizer,Gravan,Gree,Had_Abbadon,Halmad,Handooine,Hosnian_Prime,Iphigin,Iskadrell,Ithor,Jabiim,Jaminere,Jebble,Kamino,Karavis,Kashyyyk,Kem_Stor_Ai,Kerkoidia,Kile,Kilji,Kinoss,Kirdo,Kirima,Korriban,Kothlis,Laakteen,Lantillies,Latharra,Levian,Liinade,Lonnaw,Lorrd,Lothal,Lown,Makatak,Makeb,Makem_Te,Manaan,Manda,Maridun,Massoss,Mataou,Mechis,Metalorn,Metellos,Mhaeli,Mindor,Mirial,Mrlsst,Mugg_Fallow,Mustafar,Muunilinst,Mygeeto,Naboo,Nam_Chorios,Nar_Haaska,Nar_Hekka,Nar_Kaaga,Nar_Shaddaa,Nespis,Nez_Peron,Nocto,Nouane,Oba_Diah,Obroa_Skai,Obulette,Ord_Cantrell,Ord_Cestus,Ord_Mantell,Ord_Radama,Ord_Tiddell,Oreen,Orinda,Orion,Palanhi,Pelagon,Pesfavri,Pesitiin,Phaeda,Polneye,Poseidenna,Prakith,Prefsbelt,Primea,Qoribu,Quermia,Quethold,Randon,Rapacc,Raxus,Relephon,Rhigar,Ringo_Vinda,Rintonne,Rion,Rodia,Ronyards,Rudrig,Ryloth,Ryndellia,Ryvester,RZ7,Saffalore,Saijo,Saleucami,Sanbra,Sanjin,Sanrafsix,Sellasas,Serenno,Serroco,Shadren,Shili,Shner,Skako,Solitair,Surron,Syned,Talasea,Talcene,Talhovi,Tangrene,Tar_Morden,Taral_V,Taris,Telos,Terephon,Teth,The_Prism,Thrago,Thyferra,Tibrin,Togoria,Transitory_Mists_I,Transitory_Mists_II,Transitory_Mists_III,Trian,Tsoss,Tulpaa,Tynna,Tythe,Ulicia,Umbara,Utapau,Vanquo,Veccacopia,Vento,Vicondor,Vjun,Vondarc,Vorzyd,Vulta,Vurdon_Ka,Wroona,Xagobah,Yavin,Ylesia,Yoggoy,Zeltros,Zolan,Zygerria,Zyzek,Belasco,Telerath,Dohu,Immalia,Eshan,Shasfath,Omar,Aefao,Borgo_Prime,Hratth,Rutan,Atrisia,Neimoidia,Sevarcos,Andosha,Ando_Secundus,Marzoon,Lahag_Erli,Dulin,Port_Jerrell,Riileb,Gand,Dornea,Susevfi,Durkteel,Iridium,Uba,NarBoSholla,Cyborrea,Nanthri,Cyrillia,Darkknell,Ord_Wylan,Eclipse,Thalassia,Sartoy,Taloron,Mondress,Thrantin,Kokash,Daupherm,Botor,Extorin,Uviuy_Exen,Drearia,Kliaar,Daedalon,Sposia,Station_Chaf,Niorde,Sraato,Altiria_Anarris,Braccio,Socorro,Lavisar,Milvayne,Jovan,Torque,Iridia,Amorphiia,Frithia,Kejim,Teyr,Alderath,Rydonni,Lorista,Urce,Galaan,Nyara,JanFathal,Artesia,Xartun,Drackmar,Viis,Shor,Peroenia,Far_Cradle
+<!-- Shipyard_Level_Two End -->
+		</Required_Planets>
+
+		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+
+		<Shield_Points>1000</Shield_Points>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Tactical_Health>1950</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_frigate_shipyard.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Scale_Factor>0.75</Scale_Factor>
+		<AI_Combat_Power>2500</AI_Combat_Power>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Space_Or_Garrison_Category>Frigate</Space_Or_Garrison_Category>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<!-- <Radar_Icon_Name>i_radar_shipyard_2.tga</Radar_Icon_Name> -->
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+
+		<HardPoints>
+			HP_Shipyard_Med_Turbo_01, HP_Shipyard_Med_Turbo_02, HP_Shipyard_Med_Turbo_03, HP_Shipyard_Med_Turbo_04, HP_Shipyard_Med_Turbo_05, HP_Shipyard_Med_Turbo_06, HP_Shipyard_Med_Turbo_07, HP_Shipyard_Med_Turbo_08, Shipyard_Hangar,
+			HP_Shipyard_Med_Laser_01, HP_Shipyard_Med_Laser_02, HP_Shipyard_Med_Laser_03, HP_Shipyard_Med_Laser_04
+		</HardPoints>
+
+		<Encyclopedia_Text />
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_SECONDARY_CONSTRUCTION</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Layer_Z_Adjust> -150 </Layer_Z_Adjust>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<Retreat_Self_Destruct_Explosion>Friggin_Huge_Explosion_Space</Retreat_Self_Destruct_Explosion>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Damage>45</Damage>
+		<Death_Clone>Damage_Normal, Shipyard_Level_Two_Death_Clone</Death_Clone>
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Score_Cost_Credits> 1 </Score_Cost_Credits>
+    </SpecialStructure>
+
+	<SpecialStructure Name="Template_Shipyard_Level_Three">
+		<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
+		<Space_Model_Name>NV_CapitalShipyard.alo</Space_Model_Name>
+		<GUI_Row> 1 </GUI_Row>
+		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+		<Is_Dummy>Yes</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>4000</Build_Cost_Credits>
+		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures> AI_Category_Dummy | Structure_Category_Dummy</Required_Special_Structures>
+
+		<Required_Planets>
+<!-- Shipyard_Level_Three Start -->
+		Abhean,Allanteen,Arized,Axxila,Bormter,Bormus,Byblos,Chardaan,Charubah,Ciutric,Contruum,Corellia,Csaus,DQar,Essien,Etti,Fedalle,Gamor,Geroon,Gwori,Gyndine,Hakassi,Hapes,Hast,Humbarine,Hypori,Iokath,Iridonia,Jaemus,Kalist,Kampe,Koru_Neimoidia,Lianna,Lioan,Loronar,Lwhekk,Mandalore,Mephout,Mulatan,Nadiri,Naporar,Nettehi,Nirauan,Odik,Ord_Trasi,Pako_Ramoon,Ralltiir,Regnant,Rendili,Rennek,Rhand,Ringneldia,Roche,Rothana,Salvara,Scarif,Scarl,Shree,Tellanroaeg,Tepasi,Thanos,The_Maw,Ubrikkia,Urch,Vagar_Praxut,Vulpter,Xa_Fel,Peg_Shar,Glade,Mardona,Walinor,Argul,Bacrana,Gall,Ord_Janon,UR6572AK,Spawn_Nebula,Distna
+<!-- Shipyard_Level_Three End -->
+		</Required_Planets>
+
+		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+
+		<Shield_Points>2000</Shield_Points>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Tactical_Health>2700</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Scale_Factor>0.75</Scale_Factor>
+		<AI_Combat_Power>6000</AI_Combat_Power>
+
+		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Space_Or_Garrison_Category>Capital</Space_Or_Garrison_Category>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<!-- <Radar_Icon_Name>i_radar_shipyard_3.tga</Radar_Icon_Name> -->
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+
+		<HardPoints>
+			HP_Shipyard_Cap_Turbo_01, HP_Shipyard_Cap_Turbo_02, HP_Shipyard_Cap_Turbo_03, HP_Shipyard_Cap_Turbo_04, HP_Shipyard_Cap_Turbo_05, HP_Shipyard_Cap_Turbo_06, HP_Shipyard_Cap_Turbo_07, HP_Shipyard_Cap_Turbo_08, HP_Shipyard_Cap_Turbo_09, HP_Shipyard_Cap_Turbo_10, 
+			HP_Shipyard_Cap_Turbo_11, HP_Shipyard_Cap_Turbo_12, Shipyard_Hangar,
+			HP_Shipyard_Cap_Laser_01, HP_Shipyard_Cap_Laser_02, HP_Shipyard_Cap_Laser_03, HP_Shipyard_Cap_Laser_04, HP_Shipyard_Cap_Laser_05, HP_Shipyard_Cap_Laser_06
+		</HardPoints>
+
+		<Encyclopedia_Text />
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_SECONDARY_CONSTRUCTION</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 50 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Layer_Z_Adjust> -200 </Layer_Z_Adjust>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<Retreat_Self_Destruct_Explosion>Friggin_Huge_Explosion_Space</Retreat_Self_Destruct_Explosion>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Damage>55</Damage>
+		<Death_Clone>Damage_Normal, Shipyard_Level_Three_Death_Clone</Death_Clone>
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Additional_Population_Capacity>30</Additional_Population_Capacity>
+
+		<Score_Cost_Credits> 1 </Score_Cost_Credits>
+    </SpecialStructure>
+
+	<SpecialStructure Name="Template_Shipyard_Level_Four">
+		<Text_ID>TEXT_SUPERCAPITAL_SHIPYARDS</Text_ID>
+		<Space_Model_Name>NV_DreadShipyard.alo</Space_Model_Name>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+		<Is_Dummy>Yes</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>8000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>10</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures> AI_Category_Dummy | Structure_Category_Dummy</Required_Special_Structures>
+
+		<Required_Planets>
+		<!--TechSupport: Added entry for Fenel-->
+<!-- Shipyard_Level_Four Start -->
+		Bilbringi,Byss,Copero,Deko_Neimoidia,Fenel,Foerost,Fondor,Geonosis,Kuat,Minntooine,Mon_Calamari,Moonus_Mandel,Nal_Hutta,Nzoth,Oslumpex,Sluis_Van,Sullust,Thomork,Yaga_Minor,Zakuul
+<!-- Shipyard_Level_Four End -->
+		</Required_Planets>
+
+		<Reinforcement_Prevention_Radius> 6000 </Reinforcement_Prevention_Radius>
+
+		<Shield_Points>4000</Shield_Points>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Tactical_Health>3300</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_dread_shipyard.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Scale_Factor>0.75</Scale_Factor>
+		<AI_Combat_Power>8500</AI_Combat_Power>
+		<Exclude_From_Distance_Fade>Yes</Exclude_From_Distance_Fade>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Space_Or_Garrison_Category>Capital</Space_Or_Garrison_Category>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<!-- <Radar_Icon_Name>i_radar_shipyard_4.tga</Radar_Icon_Name> -->
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+		<HardPoints>
+			HP_Dreadyard_Turbo_01, HP_Dreadyard_Turbo_02, HP_Dreadyard_Turbo_03, HP_Dreadyard_Turbo_04, HP_Dreadyard_Turbo_05, HP_Dreadyard_Turbo_06, HP_Dreadyard_Turbo_07, HP_Dreadyard_Turbo_08, HP_Dreadyard_Turbo_09, HP_Dreadyard_Turbo_10, 
+			HP_Dreadyard_Turbo_11, HP_Dreadyard_Turbo_12, HP_Dreadyard_Turbo_13, HP_Dreadyard_Turbo_14, HP_Dreadyard_Turbo_15, HP_Dreadyard_Turbo_16, HP_Dreadyard_Turbo_17, HP_Dreadyard_Turbo_18, Shipyard_Hangar,
+			HP_Dreadyard_Laser_01, HP_Dreadyard_Laser_02, HP_Dreadyard_Laser_03, HP_Dreadyard_Laser_04
+		</HardPoints>
+
+		<Encyclopedia_Text />
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_SECONDARY_CONSTRUCTION</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 50 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Layer_Z_Adjust> -200 </Layer_Z_Adjust>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<Retreat_Self_Destruct_Explosion>Friggin_Huge_Explosion_Space</Retreat_Self_Destruct_Explosion>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Damage>200</Damage>
+		<Death_Clone>Damage_Normal, Shipyard_Level_Four_Death_Clone</Death_Clone>
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Additional_Population_Capacity>75</Additional_Population_Capacity>
+
+		<Score_Cost_Credits> 1 </Score_Cost_Credits>
+    </SpecialStructure>
+
+    <SpecialStructure Name="Orbital_Resource_Container">
+		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Text_ID>TEXT_STRUCTURE_ORBITAL_RESOURCE_CONTAINER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Space_Model_Name>W_orbital_resource_container.alo</Space_Model_Name>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<Space_FOW_Reveal_Range>100.0</Space_FOW_Reveal_Range>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>20</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> ArmourS_Corvette </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		<Death_Projectiles>Proj_Construction_Pod_Detonation</Death_Projectiles>
+		<Layer_Z_Adjust> -130 </Layer_Z_Adjust>
+
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</SpecialStructure>
+</Shipyards>
