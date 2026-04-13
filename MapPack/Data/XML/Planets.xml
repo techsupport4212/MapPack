@@ -15433,7 +15433,7 @@
         <Scale_Factor>1.45</Scale_Factor>
         <Name_Adjust>-12, -12, 0.1</Name_Adjust>
 
-        <Planet_Credit_Value>200</Planet_Credit_Value>
+        <Planet_Credit_Value>150</Planet_Credit_Value>
         <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
         <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
         <Additional_Population_Capacity>18</Additional_Population_Capacity>
@@ -15457,9 +15457,9 @@
         <Describe_History>TEXT_PLANET_INFO_GARGON_HISTORY</Describe_History>
         <Native_Icon_Name></Native_Icon_Name>
 
-        <Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
-        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
-        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+        <Encyclopedia_Weather_Icon>i_pr_supports_mining.tga</Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name>TEXT_RESOURCE_SUPPORTS_MINING</Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info>TEXT_RESOURCE_SUPPORTS_MINING_DESCRIPTION</Encyclopedia_Weather_Info>
 
         <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
         <Planet_Ability_Name>TEXT_PLANET_HEAVY</Planet_Ability_Name>
