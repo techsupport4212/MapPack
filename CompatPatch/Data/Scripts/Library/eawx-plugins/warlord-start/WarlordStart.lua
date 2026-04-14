@@ -186,7 +186,7 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 		local IntroHolo = get_value_per_era(entry.IntroHolo, year, true)
 		StoryUtil.Multimedia(IntroText, 15, nil, IntroHolo, 0)
 		-- TechSupport: Proteus GC intro message handler
-		if self.gcid == "PROTEUS_MAP_ONE" then
+		if self.gcid == "PROTEUSMAP" then
 			Story_Event(choice .. "_WELCOME") -- Strings will need to be created for this.
 		end
 	end

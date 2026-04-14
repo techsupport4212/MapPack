@@ -1996,8 +1996,8 @@
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>Map_Select</Group>
-		<Associated_Text>TEXT_GCMENU_PROTEUS_MAP_ONE</Associated_Text>
-		<Tooltip_Text>TEXT_GCMENU_PROTEUS_MAP_ONE_TOOLTIP</Tooltip_Text>
+		<Associated_Text>TEXT_GCMENU_PROTEUSMAP</Associated_Text>
+		<Tooltip_Text>TEXT_GCMENU_PROTEUSMAP_TOOLTIP</Tooltip_Text>
 	</CommandBarComponent>
 
 	<CommandBarComponent Name="disabled_inf_map_08">

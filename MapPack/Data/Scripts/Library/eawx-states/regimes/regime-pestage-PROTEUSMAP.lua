@@ -4,7 +4,6 @@ require("PGSpawnUnits")
 
 return {
     on_enter = function(self, state_context)
-        local infinity = GlobalValue.Get("PROGRESSIVE_INFINITY")
         local proteus_infinity = GlobalValue.Get("PROTEUS_INFINITY")
         self.isard_approach = false
         self.hissa_approach = false
@@ -48,14 +47,12 @@ return {
         end
 
         self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EmpireProgressSet")
-        if not infinity then
-            for planet, herolist in pairs(self.Starting_Spawns["PESTAGE"]) do
-                for _, hero_table in pairs(herolist) do
-                   if starting_era == false and hero_table.progress == false then
-
-                    else
-                       StoryUtil.SpawnAtSafePlanet(planet, self.p_empire, self.active_planets, {hero_table.object})
-                    end
+        for planet, herolist in pairs(self.Starting_Spawns["PESTAGE"]) do
+            for _, hero_table in pairs(herolist) do
+                if starting_era == false and hero_table.progress == false then
+                    -- do nothing
+                else
+                    StoryUtil.SpawnAtSafePlanet(planet, self.p_empire, self.active_planets, {hero_table.object})
                 end
             end
         end

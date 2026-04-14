@@ -1,7 +1,6 @@
 require("eawx-util/StoryUtil")
 require("PGStoryMode")
 require("PGSpawnUnits")
-require("eawx-util/ChangeOwnerUtilities")
 
 --Local function used to sanitize spawn lists for IF/Warlord factions in proteus mode, as they may contain heroes that are not meant to spawn in those modes
 local function SanitizeSpawnList(self, faction, spawnlist)
@@ -26,17 +25,14 @@ end
 
 return {
     on_enter = function(self, state_context)
-        GlobalValue.Set("CURRENT_ERA", 5)
+        GlobalValue.Set("CURRENT_ERA", 2)
 		local infinity = GlobalValue.Get("PROGRESSIVE_INFINITY")
-        
-        self.LegitimacyHeroes = require("LegitimacyHeroLibrary") --Uses a library of legitimacy heroes to determine who to keep / remove
-        self.LeaderApproach = false
-        self.ResearchFired = false
 
+        self.LegitimacyHeroes = require("LegitimacyHeroLibrary") --Uses a library of legitimacy heroes to determine who to keep / remove
         self.Active_Planets = StoryUtil.GetSafePlanetTable()
         self.entry_time = GetCurrentTime()
         self.AI_Active = true
-        
+
         --TechSupport: Planet locks based on proteus mode (as nzoth is an IF world, not yevetha)
         local proteus_map_settings = GlobalValue.Get("PROTEUS_MAP_SETTINGS")
         if not proteus_map_settings then
@@ -49,43 +45,23 @@ return {
         end
 
         if self.entry_time <= 5 then
-            self.ResearchFired = true
-            if Find_Player("local") == Find_Player("Rebel") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_NR_INTRO_E5", 15, nil, "Mon_Mothma_Loop", 0)
-                Story_Event("NEWREP_JAX_STARTED")
-            elseif Find_Player("local") == Find_Player("Pentastar") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_PENTASTAR_INTRO_E5", 15, nil, "Utoxx_Prentioch_Loop", 0)
-                Story_Event("PENTASTAR_ERAFIVE_STARTED")
+            if Find_Player("local") == Find_Player("Pentastar") then
+                StoryUtil.Multimedia("TEXT_CONQUEST_PENTASTAR_INTRO_E2", 15, nil, "Kaine_Loop", 0)
+                Story_Event("PENTASTAR_ERATWO_STARTED")
             elseif Find_Player("local") == Find_Player("Eriadu_Authority") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_ERIADU_INTRO_E5", 15, nil, "Delvardus_Loop", 0)
-                Story_Event("ERIADU_ERAFIVE_STARTED")
+                StoryUtil.Multimedia("TEXT_CONQUEST_ERIADU_INTRO_E2", 15, nil, "Delvardus_Loop", 0)
+                Story_Event("ERIADU_ERATWO_STARTED")
             elseif Find_Player("local") == Find_Player("Greater_Maldrood") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_MALDROOD_INTRO_E5", 15, nil, "Kosh_Teradoc_Loop", 0)
-                Story_Event("MALDROOD_ERAFIVE_STARTED")
-            elseif Find_Player("local") == Find_Player("EmpireoftheHand") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_EOTH_INTRO_E5", 15, nil, "Parck_Loop", 0)
-                Story_Event("HAND_ERAFIVE_STARTED")
-            elseif Find_Player("local") == Find_Player("Hapes_Consortium") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_INTRO_TENENIEL_ONE", 15, nil, "Teneniel_Loop2", 0)
-                Story_Event("HAPES_TENENIEL_START")
-            elseif Find_Player("local") == Find_Player("Corporate_Sector") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_INTRO_ODUMIN", 15, nil, "Odumin_Loop", 0)
-                Story_Event("CSA_ERAONE_STARTED")
-			elseif Find_Player("local") == Find_Player("Hutt_Cartels") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_HUTTS_DURGA_INTRO", 15, nil, "Durga_Loop", 0)
-                Story_Event("HUTTS_DURGA_STARTED")
-            end
-
-            if self.Active_Planets["BYSS"] then
-                Destroy_Planet("Byss")
-            end
-            if self.Active_Planets["DA_SOOCHA"] then
-                Destroy_Planet("Da_Soocha")
+                StoryUtil.Multimedia("TEXT_CONQUEST_MALDROOD_INTRO_E2", 15, nil, "Treuten_Teradoc_Loop", 0)
+                Story_Event("MALDROOD_ERATWO_STARTED")
+            elseif Find_Player("local") == Find_Player("Zsinj_Empire") then
+                StoryUtil.Multimedia("TEXT_CONQUEST_ZSINJ_INTRO_E2", 15, nil, "Zsinj_Loop", 0)
+                Story_Event("ZSINJ_ERATWO_STARTED")
             end
 
             self.AI_Active = false
 			if not infinity then
-            self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EraFiveStartSet")
+				self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EraTwoStartSet")
 				for faction, herolist in pairs(self.Starting_Spawns) do
                     for planet, spawnlist in pairs(herolist) do
                         local safe_spawnlist = SanitizeSpawnList(self, faction, spawnlist) --Sanitize spawn list
@@ -97,7 +73,7 @@ return {
 			end
         else
 			if Find_First_Object("Custom_GC_Starter_Dummy") == nil then
-				self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EraFiveProgressSet")
+				self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EraTwoProgressSet")
 				for faction, herolist in pairs(self.Starting_Spawns) do
                     for planet, spawnlist in pairs(herolist) do
                         local safe_spawnlist = SanitizeSpawnList(self, faction, spawnlist) --Sanitize spawn list
@@ -108,17 +84,12 @@ return {
 				end
 			end
 
-            crossplot:publish("ERA_TRANSITION", 5)
+            crossplot:publish("ERA_TRANSITION", 2)
         end
     end,
 
     on_update = function(self, state_context)
         local current = GetCurrentTime() - self.entry_time
-        if current >= 5 and self.ResearchFired == true then
-            self.ResearchFired = false
-            crossplot:publish("NCMP1_RESEARCH_FINISHED", "empty")
-            crossplot:publish("REPUBLIC_STAR_DESTROYER_RESEARCH_FINISHED", "empty")
-        end
         if current >= 8 and self.AI_Active == false then
             crossplot:publish("CONQUER_MANDALORE_NR", "empty")
             -- Subscribe to the Proteus Conquer Coruscant event, can expand with other events here

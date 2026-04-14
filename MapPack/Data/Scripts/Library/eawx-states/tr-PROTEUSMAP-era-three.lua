@@ -45,10 +45,7 @@ return {
         end
 
         if self.entry_time <= 5 then
-            if Find_Player("local") == Find_Player("Rebel") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_THRAWN_NR_INTRO_ONE", 15, nil, "Mon_Mothma_Loop", 0)
-                Story_Event("NEWREP_THRAWN_STARTED")
-            elseif Find_Player("local") == Find_Player("Pentastar") then
+            if Find_Player("local") == Find_Player("Pentastar") then
                 StoryUtil.Multimedia("TEXT_CONQUEST_PENTASTAR_INTRO_E3", 15, nil, "Kaine_Loop", 0)
                 Story_Event("PENTASTAR_ERATHREE_STARTED")
             elseif Find_Player("local") == Find_Player("Eriadu_Authority") then
@@ -57,18 +54,6 @@ return {
             elseif Find_Player("local") == Find_Player("Greater_Maldrood") then
                 StoryUtil.Multimedia("TEXT_CONQUEST_MALDROOD_INTRO_E3", 15, nil, "Treuten_Teradoc_Loop", 0)
                 Story_Event("MALDROOD_ERATHREE_STARTED")
-            elseif Find_Player("local") == Find_Player("EmpireoftheHand") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_EOTH_INTRO_E3", 15, nil, "Soontir_Fel_Loop", 0)
-                Story_Event("HAND_ERATHREE_STARTED")
-            elseif Find_Player("local") == Find_Player("Hapes_Consortium") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_INTRO_TAA_ONE", 15, nil, "TaaChume_Loop", 0)
-                Story_Event("HAPES_TAA_START")
-            elseif Find_Player("local") == Find_Player("Corporate_Sector") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_INTRO_ODUMIN_E3", 15, nil, "Odumin_Loop", 0)
-                Story_Event("CSA_ERATHREE_STARTED")
-			elseif Find_Player("local") == Find_Player("Hutt_Cartels") then
-                StoryUtil.Multimedia("TEXT_CONQUEST_HUTTS_DURGA_INTRO", 15, nil, "Durga_Loop", 0)
-                Story_Event("HUTTS_DURGA_STARTED")
             end
 
             self.AI_Active = false

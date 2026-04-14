@@ -717,6 +717,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
     <Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
     <Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
 		<Starting_Forces>Warlords, Abregado_Rae, Era_Seven_Dummy</Starting_Forces>
+		<Starting_Forces>Warlords, Abregado_Rae, AI_Proteus_Dummy</Starting_Forces>
 		<Starting_Forces>Warlords, Bimmisaari, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nar_Haaska, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Khomm, Generate_Force</Starting_Forces>
@@ -1646,6 +1647,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
     <Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
     <Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
 		<Starting_Forces>Warlords, Abregado_Rae, Era_Seven_Dummy</Starting_Forces>
+		<Starting_Forces>Warlords, Abregado_Rae, AI_Proteus_Dummy</Starting_Forces>
 		<Starting_Forces>Warlords, Bimmisaari, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nar_Haaska, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Khomm, Generate_Force</Starting_Forces>

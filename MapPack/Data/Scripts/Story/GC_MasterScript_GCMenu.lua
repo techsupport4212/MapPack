@@ -1865,8 +1865,9 @@ function Load_GC(regime_choice)
 	loadEvent.Set_Reward_Parameter(2, difficulty_index)
 	
 	if Progressive_Choice then --TechSupport: Set tech levels to match the options selected
+		-- for the proteus map settings: 5 = static, 4 = progressive, leaving the rest up for grabs
 		if Progressive_Choice == "CUSTOM_GC_STATIC_ERA_PROTEUS" then
-			loadEvent.Set_Reward_Parameter(3, 3)
+			loadEvent.Set_Reward_Parameter(3, 5)
 		end
 		if Progressive_Choice == "CUSTOM_GC_PROGRESSIVE_ERA_PROTEUS" then
 			loadEvent.Set_Reward_Parameter(3, 4)
