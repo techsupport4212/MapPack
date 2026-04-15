@@ -21,10 +21,10 @@ function EventManager:new(galactic_conquest)
         "KASHYYYK", {"Greater_Maldrood"},
         {"Syn_Silooth"}, false, "Syn_Loop", nil, nil, nil, {"IMPERIAL_PROTEUS"})
     -- Added Proteus specific event when they conquer Coruscant, will be used to reward the player. Reward TBD
-    --self.ProteusConquerCoruscant = GenericConquer(self.galactic_conquest,
-        --"PROTEUS_CONQUER_CORUSCANT",
-        --"CORUSCANT", {"IMPERIAL_PROTEUS"},
-        --nil, false, "Syn_Loop", nil, nil, {"PROTEUS_GENERIC_CONQUER"})
+    self.ProteusConquerCoruscant = GenericConquer(self.galactic_conquest,
+        "PROTEUS_CONQUER_CORUSCANT",
+        "CORUSCANT", {"IMPERIAL_PROTEUS"},
+        nil, false, "Syn_Loop", nil, nil, {"PROTEUS_GENERIC_CONQUER"})
                     -- Uses Syn_Loop as a placeholder, should be replaced with a generic officer / moff loop
     self.ConquerCentaresZsinj = GenericConquer(self.galactic_conquest,
         "CONQUER_CENTARES_ZSINJ",
@@ -50,9 +50,10 @@ function EventManager:update()
     if GetCurrentTime() < 6 then
         return
     end
-
-    self.warlord_start = true
+    message = "Warlord Selector Initialised" --temporary message, should be improved before release
+    StoryUtil.ShowScreenText(message, 20)
     crossplot:publish("WARLORD_START")
+    self.warlord_start = true
 end
 
 return EventManager
