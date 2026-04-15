@@ -1,0 +1,549 @@
+<?xml version="1.0" ?>
+<!--TechSupport - welcome intro dialog for proteus factions-->
+<Story>
+	<Event Name="LAMBDA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>LAMBDA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="LAMBDA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>LAMBDA_Welcome_Dialog</Story_Tag>
+		<Prereq>LAMBDA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="ZERO_COMMAND_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ZERO_COMMAND_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ZERO_COMMAND_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>ZERO_COMMAND_Welcome_Dialog</Story_Tag>
+		<Prereq>ZERO_COMMAND_Welcome</Prereq>
+	</Event>
+
+	<Event Name="ELROOD_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ELROOD_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ELROOD_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>ELROOD_Welcome_Dialog</Story_Tag>
+		<Prereq>ELROOD_Welcome</Prereq>
+	</Event>
+
+	<Event Name="ANTEMERIDIAS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ANTEMERIDIAS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ANTEMERIDIAS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>ANTEMERIDIAS_Welcome_Dialog</Story_Tag>
+		<Prereq>ANTEMERIDIAS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="WILD_SPACE_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>WILD_SPACE_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="WILD_SPACE_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>WILD_SPACE_Welcome_Dialog</Story_Tag>
+		<Prereq>WILD_SPACE_Welcome</Prereq>
+	</Event>
+
+	<Event Name="PRENTIOCH_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRENTIOCH_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="PRENTIOCH_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>PRENTIOCH_Welcome_Dialog</Story_Tag>
+		<Prereq>PRENTIOCH_Welcome</Prereq>
+	</Event>
+
+	<Event Name="SECTOR_5_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SECTOR_5_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="SECTOR_5_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>6</Story_Chapter>
+		<Story_Tag>SECTOR_5_Welcome_Dialog</Story_Tag>
+		<Prereq>SECTOR_5_Welcome</Prereq>
+	</Event>
+
+	<Event Name="PRAKITH_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRAKITH_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="PRAKITH_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>7</Story_Chapter>
+		<Story_Tag>PRAKITH_Welcome_Dialog</Story_Tag>
+		<Prereq>PRAKITH_Welcome</Prereq>
+	</Event>
+
+	<Event Name="JARDEEN_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>JARDEEN_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="JARDEEN_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>8</Story_Chapter>
+		<Story_Tag>JARDEEN_Welcome_Dialog</Story_Tag>
+		<Prereq>JARDEEN_Welcome</Prereq>
+	</Event>
+
+	<Event Name="CIUTRIC_HEGEMONY_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CIUTRIC_HEGEMONY_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="CIUTRIC_HEGEMONY_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>9</Story_Chapter>
+		<Story_Tag>CIUTRIC_HEGEMONY_Welcome_Dialog</Story_Tag>
+		<Prereq>CIUTRIC_HEGEMONY_Welcome</Prereq>
+	</Event>
+
+	<Event Name="ZSINJ_REMNANTS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ZSINJ_REMNANTS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ZSINJ_REMNANTS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>10</Story_Chapter>
+		<Story_Tag>ZSINJ_REMNANTS_Welcome_Dialog</Story_Tag>
+		<Prereq>ZSINJ_REMNANTS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="KAMINO_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>KAMINO_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="KAMINO_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>11</Story_Chapter>
+		<Story_Tag>KAMINO_Welcome_Dialog</Story_Tag>
+		<Prereq>KAMINO_Welcome</Prereq>
+	</Event>
+
+	<Event Name="NABOO_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NABOO_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="NABOO_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>12</Story_Chapter>
+		<Story_Tag>NABOO_Welcome_Dialog</Story_Tag>
+		<Prereq>NABOO_Welcome</Prereq>
+	</Event>
+
+	<Event Name="RADAMA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RADAMA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="RADAMA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>13</Story_Chapter>
+		<Story_Tag>RADAMA_Welcome_Dialog</Story_Tag>
+		<Prereq>RADAMA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="TAPANI_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TAPANI_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="TAPANI_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>14</Story_Chapter>
+		<Story_Tag>TAPANI_Welcome_Dialog</Story_Tag>
+		<Prereq>TAPANI_Welcome</Prereq>
+	</Event>
+
+	<Event Name="GAROS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GAROS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="GAROS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>15</Story_Chapter>
+		<Story_Tag>GAROS_Welcome_Dialog</Story_Tag>
+		<Prereq>GAROS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="MAELSTROM_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MAELSTROM_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="MAELSTROM_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>16</Story_Chapter>
+		<Story_Tag>MAELSTROM_Welcome_Dialog</Story_Tag>
+		<Prereq>MAELSTROM_Welcome</Prereq>
+	</Event>
+
+	<Event Name="SHADOWSPAWN_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SHADOWSPAWN_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="SHADOWSPAWN_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>17</Story_Chapter>
+		<Story_Tag>SHADOWSPAWN_Welcome_Dialog</Story_Tag>
+		<Prereq>SHADOWSPAWN_Welcome</Prereq>
+	</Event>
+
+	<Event Name="PROPHETS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROPHETS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="PROPHETS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>18</Story_Chapter>
+		<Story_Tag>PROPHETS_Welcome_Dialog</Story_Tag>
+		<Prereq>PROPHETS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="TAGGE_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TAGGE_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="TAGGE_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>19</Story_Chapter>
+		<Story_Tag>TAGGE_Welcome_Dialog</Story_Tag>
+		<Prereq>TAGGE_Welcome</Prereq>
+	</Event>
+
+	<Event Name="TIERFON_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TIERFON_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="TIERFON_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>20</Story_Chapter>
+		<Story_Tag>TIERFON_Welcome_Dialog</Story_Tag>
+		<Prereq>TIERFON_Welcome</Prereq>
+	</Event>
+
+	<Event Name="BAKURA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>BAKURA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="BAKURA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>21</Story_Chapter>
+		<Story_Tag>BAKURA_Welcome_Dialog</Story_Tag>
+		<Prereq>BAKURA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="BRAK_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>BRAK_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="BRAK_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>22</Story_Chapter>
+		<Story_Tag>BRAK_Welcome_Dialog</Story_Tag>
+		<Prereq>BRAK_Welcome</Prereq>
+	</Event>
+
+	<Event Name="TAMARIN_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TAMARIN_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="TAMARIN_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>23</Story_Chapter>
+		<Story_Tag>TAMARIN_Welcome_Dialog</Story_Tag>
+		<Prereq>TAMARIN_Welcome</Prereq>
+	</Event>
+
+	<Event Name="ISECTOR_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ISECTOR_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ISECTOR_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>24</Story_Chapter>
+		<Story_Tag>ISECTOR_Welcome_Dialog</Story_Tag>
+		<Prereq>ISECTOR_Welcome</Prereq>
+	</Event>
+
+	<Event Name="IMPERIAL_LIANNA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>IMPERIAL_LIANNA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="IMPERIAL_LIANNA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>25</Story_Chapter>
+		<Story_Tag>IMPERIAL_LIANNA_Welcome_Dialog</Story_Tag>
+		<Prereq>IMPERIAL_LIANNA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="QUINTAD_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>QUINTAD_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="QUINTAD_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>26</Story_Chapter>
+		<Story_Tag>QUINTAD_Welcome_Dialog</Story_Tag>
+		<Prereq>QUINTAD_Welcome</Prereq>
+	</Event>
+
+	<Event Name="DASTA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DASTA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="DASTA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>27</Story_Chapter>
+		<Story_Tag>DASTA_Welcome_Dialog</Story_Tag>
+		<Prereq>DASTA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="HAMMERS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAMMERS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="HAMMERS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>28</Story_Chapter>
+		<Story_Tag>HAMMERS_Welcome_Dialog</Story_Tag>
+		<Prereq>HAMMERS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="KASHYYYK_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>KASHYYYK_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="KASHYYYK_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>29</Story_Chapter>
+		<Story_Tag>KASHYYYK_Welcome_Dialog</Story_Tag>
+		<Prereq>KASHYYYK_Welcome</Prereq>
+	</Event>
+
+	<Event Name="LUMIYA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>LUMIYA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="LUMIYA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>30</Story_Chapter>
+		<Story_Tag>LUMIYA_Welcome_Dialog</Story_Tag>
+		<Prereq>LUMIYA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="ARDA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ARDA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ARDA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>31</Story_Chapter>
+		<Story_Tag>ARDA_Welcome_Dialog</Story_Tag>
+		<Prereq>ARDA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="SELLASAS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SELLASAS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="SELLASAS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>32</Story_Chapter>
+		<Story_Tag>SELLASAS_Welcome_Dialog</Story_Tag>
+		<Prereq>SELLASAS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="PROTECTORATE_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROTECTORATE_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="PROTECTORATE_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>33</Story_Chapter>
+		<Story_Tag>PROTECTORATE_Welcome_Dialog</Story_Tag>
+		<Prereq>PROTECTORATE_Welcome</Prereq>
+	</Event>
+
+	<Event Name="ZAARIN_REMNANTS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ZAARIN_REMNANTS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ZAARIN_REMNANTS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>34</Story_Chapter>
+		<Story_Tag>ZAARIN_REMNANTS_Welcome_Dialog</Story_Tag>
+		<Prereq>ZAARIN_REMNANTS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="RAYTER_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RAYTER_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="RAYTER_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>35</Story_Chapter>
+		<Story_Tag>RAYTER_Welcome_Dialog</Story_Tag>
+		<Prereq>RAYTER_Welcome</Prereq>
+	</Event>
+
+	<Event Name="VOGEL_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VOGEL_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="VOGEL_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>36</Story_Chapter>
+		<Story_Tag>VOGEL_Welcome_Dialog</Story_Tag>
+		<Prereq>VOGEL_Welcome</Prereq>
+	</Event>
+
+	<Event Name="WESSEX_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>WESSEX_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="WESSEX_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>37</Story_Chapter>
+		<Story_Tag>WESSEX_Welcome_Dialog</Story_Tag>
+		<Prereq>WESSEX_Welcome</Prereq>
+	</Event>
+
+	<Event Name="CATO_NEIMOIDIA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CATO_NEIMOIDIA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="CATO_NEIMOIDIA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>38</Story_Chapter>
+		<Story_Tag>CATO_NEIMOIDIA_Welcome_Dialog</Story_Tag>
+		<Prereq>CATO_NEIMOIDIA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="KUAT_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>KUAT_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="KUAT_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>39</Story_Chapter>
+		<Story_Tag>KUAT_Welcome_Dialog</Story_Tag>
+		<Prereq>KUAT_Welcome</Prereq>
+	</Event>
+
+	<Event Name="KAARENTH_DISSENSION_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>KAARENTH_DISSENSION_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="KAARENTH_DISSENSION_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>40</Story_Chapter>
+		<Story_Tag>KAARENTH_DISSENSION_Welcome_Dialog</Story_Tag>
+		<Prereq>KAARENTH_DISSENSION_Welcome</Prereq>
+	</Event>
+
+	<Event Name="RESTORED_EMPIRE_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RESTORED_EMPIRE_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="RESTORED_EMPIRE_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>41</Story_Chapter>
+		<Story_Tag>RESTORED_EMPIRE_Welcome_Dialog</Story_Tag>
+		<Prereq>RESTORED_EMPIRE_Welcome</Prereq>
+	</Event>
+</Story>
