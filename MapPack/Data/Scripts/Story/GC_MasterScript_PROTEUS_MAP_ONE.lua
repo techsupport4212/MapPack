@@ -6,7 +6,7 @@ function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 
 	StoryModeEvents = {
-		Trigger_Delayed_Initialize = State_Delayed_Initialize
+		Trigger_Warlord_Start = State_Warlord_Start
 	}
 
 	warlord_selected = false
@@ -14,16 +14,12 @@ function Definitions()
 	crossplot:galactic()
 end
 
-function State_Delayed_Initialize(message)
+function State_Warlord_Start(message)
 	if not warlord_selected then
-		if not Find_Player("Imperial_Proteus").Is_Human() then
-			message = "Warlord Selector Initialised" --temporary message, should be improved before release
-			StoryUtil.ShowScreenText(message, 20)
-			crossplot:publish("WARLORD_START")
-		end
+		message = "Warlord Selector Initialised" --temporary message, should be improved before release
+		StoryUtil.ShowScreenText(message, 20)
+		crossplot:publish("WARLORD_START")
 		warlord_selected = true
-	else
-		crossplot:update()
 	end
 end
 
