@@ -546,4 +546,31 @@
 		<Story_Tag>RESTORED_EMPIRE_Welcome_Dialog</Story_Tag>
 		<Prereq>RESTORED_EMPIRE_Welcome</Prereq>
 	</Event>
+
+	<Event Name="GRUNGER_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GRUNGER_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="GRUNGER_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>42</Story_Chapter>
+		<Story_Tag>GRUNGER_Welcome_Dialog</Story_Tag>
+		<Prereq>GRUNGER_Welcome</Prereq>
+	</Event>
+
+	<Event Name="PRAJI_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRAJI_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="PRAJI_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>43</Story_Chapter>
+		<Story_Tag>PRAJI_Welcome_Dialog</Story_Tag>
+		<Prereq>PRAJI_Welcome</Prereq>
+	</Event>
+
 </Story>

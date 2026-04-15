@@ -60,6 +60,7 @@ return {
 	["KAARENTH_DISSENSION"] ="faction_58",
 	["RESTORED_EMPIRE"] ="faction_59",
 	["GRUNGER"] ="faction_60",
+	["PRAJI"] ="faction_61",
 
 	["AllFactions"] = {
 		"REBEL", --New Republic
@@ -125,6 +126,7 @@ return {
 		"KAARENTH_DISSENSION",
 		"RESTORED_EMPIRE",
 		"GRUNGER",
+		"PRAJI",
 	},
 
 	["Era_XML_Nums"] = {

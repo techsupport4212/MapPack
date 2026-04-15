@@ -817,7 +817,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Pentastar, Jaemus, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Jardeen, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Kaal, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Kaikielius, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Kaikielius, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Kalarba, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Kalist, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Kalla, Generate_Force</Starting_Forces>
@@ -1747,7 +1747,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Pentastar, Jaemus, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Jardeen, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Kaal, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Kaikielius, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Kaikielius, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Kalarba, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Kalist, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Kalla, Generate_Force</Starting_Forces>
@@ -2677,7 +2677,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Pentastar, Jaemus, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Jardeen, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Kaal, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Kaikielius, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Kaikielius, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Kalarba, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Kalist, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Kalla, Generate_Force</Starting_Forces>

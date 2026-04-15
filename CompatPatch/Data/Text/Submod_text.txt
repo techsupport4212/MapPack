@@ -1,5 +1,5 @@
-﻿TEXT_GCMENU_PROTEUS_MAP_ONE,Proteus Submod Map (190)
-TEXT_GCMENU_PROTEUS_MAP_ONE_TOOLTIP,Planets: 190 | Approximate CPU Load: Very High
+﻿TEXT_GCMENU_PROTEUS_MAP_ONE,Proteus Submod Map (200)
+TEXT_GCMENU_PROTEUS_MAP_ONE_TOOLTIP,Planets: 200 | Approximate CPU Load: Very High
 TEXT_LOADING_PROTEUS_MAP_ONE,Loading Proteus Map One
 TEXT_OBJECT_STAR_SYSTEM_GARGON,Gargon
 TEXT_PLANET_INFO_GARGON_FAUNA,Unknown
@@ -225,6 +225,318 @@ TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_GROUND,Ground Roster Power: 3
 TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_POSITION,Starting Position: 1
 TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_ECONOMY,Starting Economy: 1
 TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_COMMENT,"A very unique roster with a hard start. Play if you like stealth units."
+TEXT_PROTEUS_MAP_ONE_PROPHETS_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_PROPHETS_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_PROPHETS_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_PROPHETS_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_PROPHETS_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROPHETS_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROPHETS_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROPHETS_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROPHETS_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROPHETS_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROPHETS_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROPHETS_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_TAGGE_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_TAGGE_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_TAGGE_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_TAGGE_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_TAGGE_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_TIERFON_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_TIERFON_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_TIERFON_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_TIERFON_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_TIERFON_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TIERFON_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TIERFON_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TIERFON_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TIERFON_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TIERFON_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TIERFON_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TIERFON_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_BAKURA_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_BAKURA_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_BAKURA_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_BAKURA_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_BAKURA_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BAKURA_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BAKURA_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BAKURA_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BAKURA_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BAKURA_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BAKURA_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BAKURA_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_BRAK_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_BRAK_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_BRAK_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_BRAK_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_BRAK_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BRAK_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BRAK_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BRAK_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BRAK_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BRAK_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BRAK_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_BRAK_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_TAMARIN_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_TAMARIN_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_TAMARIN_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_TAMARIN_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_TAMARIN_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAMARIN_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAMARIN_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAMARIN_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAMARIN_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAMARIN_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAMARIN_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_TAMARIN_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_ISECTOR_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_ISECTOR_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_ISECTOR_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_ISECTOR_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_ISECTOR_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ISECTOR_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ISECTOR_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ISECTOR_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ISECTOR_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ISECTOR_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ISECTOR_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ISECTOR_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_IMPERIAL_LIANNA_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_IMPERIAL_LIANNA_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_IMPERIAL_LIANNA_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_IMPERIAL_LIANNA_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_IMPERIAL_LIANNA_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_IMPERIAL_LIANNA_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_IMPERIAL_LIANNA_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_IMPERIAL_LIANNA_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_IMPERIAL_LIANNA_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_IMPERIAL_LIANNA_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_IMPERIAL_LIANNA_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_IMPERIAL_LIANNA_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_QUINTAD_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_QUINTAD_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_QUINTAD_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_QUINTAD_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_QUINTAD_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_QUINTAD_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_QUINTAD_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_QUINTAD_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_QUINTAD_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_QUINTAD_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_QUINTAD_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_QUINTAD_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_DASTA_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_DASTA_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_DASTA_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_DASTA_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_DASTA_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_DASTA_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_DASTA_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_DASTA_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_DASTA_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_DASTA_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_DASTA_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_DASTA_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_HAMMERS_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_HAMMERS_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_HAMMERS_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_HAMMERS_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_HAMMERS_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_HAMMERS_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_HAMMERS_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_HAMMERS_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_HAMMERS_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_HAMMERS_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_HAMMERS_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_HAMMERS_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_KASHYYYK_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_KASHYYYK_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_KASHYYYK_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_KASHYYYK_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_KASHYYYK_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KASHYYYK_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KASHYYYK_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KASHYYYK_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KASHYYYK_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KASHYYYK_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KASHYYYK_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KASHYYYK_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_LUMIYA_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_LUMIYA_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_LUMIYA_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_LUMIYA_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_LUMIYA_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_LUMIYA_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_LUMIYA_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_LUMIYA_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_LUMIYA_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_LUMIYA_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_LUMIYA_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_LUMIYA_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_ARDA_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_ARDA_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_ARDA_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_ARDA_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_ARDA_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ARDA_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ARDA_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ARDA_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ARDA_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ARDA_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ARDA_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ARDA_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_SELLASAS_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_SELLASAS_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_SELLASAS_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_SELLASAS_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_SELLASAS_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_SELLASAS_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_SELLASAS_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_SELLASAS_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_SELLASAS_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_SELLASAS_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_SELLASAS_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_SELLASAS_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_PROTECTORATE_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_PROTECTORATE_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_PROTECTORATE_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_PROTECTORATE_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_PROTECTORATE_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROTECTORATE_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROTECTORATE_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROTECTORATE_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROTECTORATE_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROTECTORATE_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROTECTORATE_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PROTECTORATE_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_ZAARIN_REMNANTS_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_ZAARIN_REMNANTS_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_ZAARIN_REMNANTS_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_ZAARIN_REMNANTS_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_ZAARIN_REMNANTS_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZAARIN_REMNANTS_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZAARIN_REMNANTS_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZAARIN_REMNANTS_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZAARIN_REMNANTS_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZAARIN_REMNANTS_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZAARIN_REMNANTS_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_ZAARIN_REMNANTS_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_RAYTER_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_RAYTER_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_RAYTER_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_RAYTER_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_RAYTER_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RAYTER_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RAYTER_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RAYTER_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RAYTER_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RAYTER_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RAYTER_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RAYTER_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_VOGEL_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_VOGEL_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_VOGEL_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_VOGEL_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_VOGEL_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_VOGEL_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_VOGEL_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_VOGEL_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_VOGEL_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_VOGEL_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_VOGEL_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_VOGEL_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_WESSEX_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_WESSEX_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_WESSEX_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_WESSEX_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_WESSEX_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_WESSEX_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_WESSEX_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_WESSEX_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_WESSEX_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_WESSEX_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_WESSEX_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_WESSEX_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_CATO_NEIMOIDIA_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_CATO_NEIMOIDIA_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_CATO_NEIMOIDIA_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_CATO_NEIMOIDIA_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_CATO_NEIMOIDIA_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_CATO_NEIMOIDIA_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_CATO_NEIMOIDIA_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_CATO_NEIMOIDIA_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_CATO_NEIMOIDIA_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_CATO_NEIMOIDIA_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_CATO_NEIMOIDIA_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_CATO_NEIMOIDIA_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_KUAT_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_KUAT_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_KUAT_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_KUAT_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_KUAT_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KUAT_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KUAT_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KUAT_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KUAT_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KUAT_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KUAT_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KUAT_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_KAARENTH_DISSENSION_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_KAARENTH_DISSENSION_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_KAARENTH_DISSENSION_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_KAARENTH_DISSENSION_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_KAARENTH_DISSENSION_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KAARENTH_DISSENSION_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KAARENTH_DISSENSION_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KAARENTH_DISSENSION_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KAARENTH_DISSENSION_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KAARENTH_DISSENSION_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KAARENTH_DISSENSION_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_KAARENTH_DISSENSION_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_RESTORED_EMPIRE_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_RESTORED_EMPIRE_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_RESTORED_EMPIRE_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_RESTORED_EMPIRE_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_RESTORED_EMPIRE_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RESTORED_EMPIRE_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RESTORED_EMPIRE_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RESTORED_EMPIRE_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RESTORED_EMPIRE_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RESTORED_EMPIRE_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RESTORED_EMPIRE_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_RESTORED_EMPIRE_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_GRUNGER_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_GRUNGER_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_GRUNGER_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_GRUNGER_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_GRUNGER_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_GRUNGER_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_GRUNGER_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_GRUNGER_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_GRUNGER_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_GRUNGER_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_GRUNGER_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_GRUNGER_COMMENT,TODO
+TEXT_PROTEUS_MAP_ONE_PRAJI_TITLE,TODO
+TEXT_PROTEUS_MAP_ONE_PRAJI_AUTHOR,TODO
+TEXT_PROTEUS_MAP_ONE_PRAJI_DESCRIPTION_LINE_1,TODO
+TEXT_PROTEUS_MAP_ONE_PRAJI_DESCRIPTION_LINE_2,TODO
+TEXT_PROTEUS_MAP_ONE_PRAJI_DESCRIPTION_LINE_3,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PRAJI_DIFFICULTY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PRAJI_POWER,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PRAJI_SPACE,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PRAJI_GROUND,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PRAJI_POSITION,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PRAJI_ECONOMY,TODO
+TEXT_PROTEUS_MAP_ONE_BODY_PRAJI_COMMENT,TODO
 D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
@@ -265,6 +577,7 @@ TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate_Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an Organization overseeing all aspects of various Imperial Intelligence Agencies. Provides intel on nearby planets in a large radius.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
+TEXT_CONQUEST_PROTEUS_PRAJI;It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
 TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
 TEXT_COYOTE_BOMBER_SQUADRON2,Coyote Advanced Droid Bomber Squadron x2
@@ -291,6 +604,7 @@ TEXT_ETA2_SQUADRON,Eta-2 Actis Squadron
 TEXT_ETA2_SQUADRON_HALF,Eta-2 Actis Squadron 1/2
 TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
+TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
@@ -303,11 +617,14 @@ TEXT_HERO_CEX,Tyionsis Cex
 TEXT_HERO_DEMOS,Demos
 TEXT_HERO_DOMINA_TAGGE,Domina Tagge
 TEXT_HERO_GURNST,Gurnst
+TEXT_HERO_HSSISSK,Hssissk
 TEXT_HERO_IRRV,Dimone Irrv
 TEXT_HERO_JAEFFIS,Jaeffis
+TEXT_HERO_KILE_HANNAD,Kile Hannad
 TEXT_HERO_KLEMP,Klemp
 TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_MERILI,Merili
+TEXT_HERO_NAMMAN,Namman Cha
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_RED_STAR,Iran Ryad
 TEXT_HERO_ROEK,Roek
@@ -451,6 +768,10 @@ TEXT_STATBLOCK_H60_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.1km
 TEXT_STATBLOCK_H60_WEAP2,1x Fighter Ion Cannon: 2 / 2.0s / 1.0km
 TEXT_STATBLOCK_H60_WEAP3,1x Proton Rocket (AC): 1 / 30.0s / 3.0km
 TEXT_STATBLOCK_H60_WEAP4,1x Concussion Bomb (AC): 1 / 18.75s / 0.8km
+TEXT_STATBLOCK_HSSISSK_BASE,Health: 250 | Shields: 150
+TEXT_STATBLOCK_HSSISSK_ESCORT_BASE,Health: 140 | Shields: 60
+TEXT_STATBLOCK_HSSISSK_Z95_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_HSSISSK_Z95_WEAP2,1x Fighter Flechette Slugthrower: 2 / 2.5s / 1.0km
 TEXT_STATBLOCK_IRAN_RYAD_TIE_DEFENDER_BASE,Health: 180 | Shields: 240
 TEXT_STATBLOCK_MANTA_FIGHTER_BASE,Health: 10 | Shields: 5
 TEXT_STATBLOCK_MANTA_FIGHTER_MOVE,Speed: 9.2 | Maneuverability: 4.0
@@ -470,6 +791,7 @@ TEXT_STATBLOCK_NTB_630_SQUADRON_HALF,Squadron: 6x NTB-630
 TEXT_STATBLOCK_NTB_630_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_NTB_630_WEAP2,1x Proton Rocket (AC): 1 / 12.5s / 3.0km
 TEXT_STATBLOCK_NTB_630_WEAP3,1x Concussion Bomb (AC): 1 / 15.0s / 0.8km
+TEXT_STATBLOCK_PRAETORIAN_ESCORT_BASE,Health: 140 | Shields: 60
 TEXT_STATBLOCK_REPUBLIC_Z95_BASE,Health: 15 | Shields: 4
 TEXT_STATBLOCK_REPUBLIC_Z95_ESCORT_BASE,Health: 130 | Shields: 50
 TEXT_STATBLOCK_REPUBLIC_Z95_MOVE,Speed: 4.61 | Maneuverability: 4.03
@@ -628,6 +950,7 @@ TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP3,8x Assault Concussion Missiles: 8 / 20.0
 TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP4,2x Proton Torpedoes: 2 / 7.5s / 5.3km
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT,The end of the Clone Wars saw an explosion in demand for cargo ships and freighters, alongside a post-war surplus of previously mass-produced Acclamators that were no longer needed in peacetime. Thus the remaining military Acclamators were widely converted into cargo ships to meet this new demand, repurposing the vehicle bay into a large cargo bay.
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL,Hull: 1925 (Frigate)
+TEXT_TOOLTIP_ARMORED_INTERCEPTOR_RESEARCH_ELROOD,Configure Elroods TIE Interceptors with additional hull plating, granting them improved survivability.
 TEXT_TOOLTIP_AS_INTERCEPTOR_ELITE,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install some torpedo launchers and upgraded laser cannons with power systems to match. The increased power supply and propulsion systems allow the craft to compensate for its increased mass from all the added systems. The result is a heavy fighter with enormous firepower that retains a stunning nimbleness, at the cost of being expensive and requiring a lot of maintenance.
 TEXT_TOOLTIP_AS_INTERCEPTOR_ION,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to replace the chin-mounted secondary laser cannons with ion cannons, with upgraded power and propulsion systems to regain some of the base model's agility despite the additional mass. The result is a capable fighter, able to engage a wide variety of targets, but expensive and difficult to maintain.
 TEXT_TOOLTIP_AS_INTERCEPTOR_MISSILE,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install internal launchers for small anti-fighter missiles and launchers for anti-ship munitions on the wings. In addition, an overhaul of the power and propulsion systems claws back some of the stock model's performance lost to the increased mass. The result is an expensive and maintenance-heavy fighter that is exceptionally versatile and deadly while remaining nimble despite the heavier load and shield generator.
@@ -739,15 +1062,19 @@ TEXT_TOOLTIP_CLONE_WEAP7,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_CLONE_WEAP8,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONE_WEAP9,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONETROOPER_PHASETWO,Imperial hardliners that have joined Devian's cause to restore the true Empire. They are well equipped with old Republic armor gathered on RZ7, and more fanataical than most other soldiers. They wear a mix of the old Phase I and more comfortable Phase II armor.
+TEXT_TOOLTIP_COMMAND_ACROPORA,Tector Star Destroyer, Acropora
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
 TEXT_TOOLTIP_COMMAND_GURNST,Commands: Elite Mercenary Platoon Taskforce Bravo
+TEXT_TOOLTIP_COMMAND_HSSISSK_SQUADRON,Zssisk Strike Squadron
 TEXT_TOOLTIP_COMMAND_MAHLER,Imperial-II Star Destroyer, Mahler
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
+TEXT_TOOLTIP_COMMAND_PRAETORIAN_SQUADRON,Royal Guard Interceptor, Praetorian Squadron
 TEXT_TOOLTIP_COMMAND_PUNISHER,Imperial-I Star Destroyer (Carrier), Punisher
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
 TEXT_TOOLTIP_COMMAND_RECKONING,Imperial-II Star Destroyer, Reckoning
 TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
 TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet-class Light Cruiser, Rintonne's Flame
+TEXT_TOOLTIP_COMMAND_SITHSPAWN,Modified Belbullab-22, Sithspawn
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
 TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON,Missile TIE Fighter, Celanon Garrison Squadron
 TEXT_TOOLTIP_CONSULAR_HULL,Hull: 550 (Corvette)
@@ -800,9 +1127,11 @@ TEXT_TOOLTIP_GAT_MOVE,Speed: 2.0 | Turn: 6.0
 TEXT_TOOLTIP_GAT_SHIELD,Shields: 50 / [6/R] (Light Vehicle)
 TEXT_TOOLTIP_GAT_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
 TEXT_TOOLTIP_GAT_WEAP2,1x Proton Missile: 1 / 10.0s / 320m
+TEXT_TOOLTIP_GRONN_UPGRADE,Upgrade: Mandator-III
+TEXT_TOOLTIP_GRUNGER_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_GURNST,Colonel of the mercenary company known as Taskforce Bravo. While not loyal to any particular ideology, he was hired by the Empire to help suppress Wookiee revolts on Kashyyyk.
-TEXT_TOOLTIP_GURNST_HEALTH,150 (Infantry)
-TEXT_TOOLTIP_GURNST_MOVE,1.2
+TEXT_TOOLTIP_GURNST_HEALTH,Health: 150 (Hero)
+TEXT_TOOLTIP_GURNST_MOVE,Speed: 1.2
 TEXT_TOOLTIP_GURNST_SHIELD,30 (2%s)
 TEXT_TOOLTIP_GURNST_WEAP2,Antipersonnel Proximity Mine
 TEXT_TOOLTIP_H60,A predecessor design to the famous B-wing of the Rebellion, the Tempest bomber was designed in the waning years of the Republic. Its design contained promise but it was heavily flawed and unpopular due to its limitations and its strange design compared to the Galactic standard. Despite this unpopularity, Tempests would see some service during its life in less wealthy navies where something is better than nothing.
@@ -829,11 +1158,16 @@ TEXT_TOOLTIP_HORNET_WEAP2,2x Light Dual Turbolasers: 2 / 1.25s / 5.6km
 TEXT_TOOLTIP_HORNET_WEAP3,1x Heavy Dual Laser Cannon: 2 / 2.5s / 4.1km
 TEXT_TOOLTIP_HORNET_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.6km
 TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 5.6km
+TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan family relegated to minor slaving duties by the ruling clan of Kashyyyk, the Blackscales. Stationed originally outside of the city of Kachirho of Kashyyyk, Hssissk would arrange the transfer of captured Wookiee slaves to the Blackscale Avatar Platform. For a while, Hsssissk has had his eyes set on overthrowing the Blackscale clan and taking over the planet of Kashyyyk for his own family.
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +20%
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth Prime. A competent manager and administrator by all accounts, she was also more than capable of engaging in corporate maneuvering, making her one of the most noteworthy managers in the employ of the Tagge Family.
 TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by admiral Roek.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
+TEXT_TOOLTIP_KILE_HANNAD,Kile Hannad was a Imperial Royal Guardsmen who served under the Empire, much like other Royal Guards, Kile was trained at the Imperial Royal Guard Academy on Yinchorr where he partook in extensive training in the deadly arts. Trained in the use of many common and exotic weapons and martial arts, Kile found he preferred to use his concealed heavy blaster pistol in a pinch. During Kile's service, he found himself working alongside the likes of Kir Kanos.
+TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
+TEXT_TOOLTIP_KILE_HANNAD_MOVE,Speed: 1.1
+TEXT_TOOLTIP_KILE_HANNAD_WEAP1,1x SE-14 Pistol: 2 / 1.5s / 220m
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions. Features a black paintjob for intimidation and an enhanced EW suite, but otherwise has the same capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
@@ -870,6 +1204,10 @@ TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of th
 TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
+TEXT_TOOLTIP_NAMMAN,Namman Cha was a Human male and an aspiring Dark Jedi in league with the Galactic Empire who believed that he could become a Dark Lord of the Sith through the discovery of ancient relics, like the Codex of Tython. He was an imposing warrior, calling for no quarter in a brutal attack. His hate had pushed him to learn to use a shoto, a short-bladed lightsaber.
+TEXT_TOOLTIP_NAMMAN_HEALTH,Health: 180 [2%/5s] (Hero)
+TEXT_TOOLTIP_NAMMAN_MOVE,Speed: 1.2
+TEXT_TOOLTIP_NAMMAN_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
 TEXT_TOOLTIP_NTB_630,A relatively popular joint Incom and Subpro design, the NTB-630 would be extensively used in the Clone Wars as a bomber craft focused on killing CIS capital ships. It was essentially a bomber version of the ubiquitous ARC-170 and a more agile and space capable PTB-625. The NTB-630 shares many of the same visual design elements of its sister designs.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID,A Baktoid-developed droid meant to enforce Commerce Guild whims, its body is little more than a reactor with armor plating and legs. Both anti-infantry and anti-vehicle weapons make this walker a versatile combatant.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_COMPANY,Company: 4x OG-9 Homing Spider Droid
@@ -895,6 +1233,29 @@ TEXT_TOOLTIP_PROCURATOR_WEAP1,8x Medium Dual Turbolasers: 2 / 2.0s / 6.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP2,14x Light Turbolasers: 2 / 1.0s / 5.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
+TEXT_TOOLTIP_RED_POLICE_COMPANY,Company: 18x Red Police
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP1,9x Blaster SMG: 5 / 2.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP2,9x Underslung Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP3,6x Light Repeating Blaster: 5 / 1.0s / 240m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP4,3x Disruptor Rifle: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP5,6x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP6,3x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_HEALTH,Health: 24 (Infantry)
+TEXT_TOOLTIP_RED_POLICE_MOVE,Speed: 1.1
+TEXT_TOOLTIP_RED_POLICE_SQUAD,Squad: 6x Red Police
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP1,3x Blaster SMG: 5 / 2.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP2,3x Underslung Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP3,2x Light Repeating Blaster: 5 / 1.0s / 240m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP4,1x Disruptor Rifle: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP5,2x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_WEAP1,1x Red Police Issue Blaster: 5 / 2.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_WEAP2,1x Underslung Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_WEAP3,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
+TEXT_TOOLTIP_RED_POLICE_WEAP4,1x DXR-6 Disruptor Rifle: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_WEAP5,1x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_REFORM_PRAETORIAN,Reform Praetorian Squadron
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
 TEXT_TOOLTIP_ROEK,Roek was an officer in the Starfleet of the Galactic Empire. after the Battle of Endor, Admiral Roek and his fleet were recalled to the Core Worlds to defend the Corellian system from the New Republic. Roek replaced Admiral Jaeffis who was previously responsible for the defense of the Corellian shipyards with his fleet of 25 Star Destroyers, and partook in the Empire's withdraw from the system. Roek's fleet eventually passed into the hands of Grand Admiral Grunger.
@@ -906,7 +1267,7 @@ TEXT_TOOLTIP_SHADOW_ATAT_COMPANY,Company: 1x Shadow AT-AT Walker
 TEXT_TOOLTIP_SHADOW_ATAT_DEPLOY,Deploys: 1x Shadow Stormtroopers Squad
 TEXT_TOOLTIP_SHADOW_CUSTOMS_CORVETTE,Designed to infringe on Corellian market niches during the last decades of the Republic, and famous for use with the Imperial Customs Office, this vessel is intended to dock with merchant freighters and transports to conduct routine system patrol and merchant vessel monitoring. It is not as durable as some purely military screening vessels, but is fast and well armed enough to perform the role in fleet combat. Coated in black stygian-triprismatic polymer, this vessel was nearly invisible to the naked eye in deep space.
 TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER,Rare cross-combination of Shadow Stormtrooper and Scout Trooper concepts. Shadow Scout troopers are Cronal's handpicked scout operatives and are tasked with covert operations such as reconnaissance, sabotage and assassinations. Equipped with highly lightweight yet durable cloaking armour that allows these Shadow Scout troopers to get around unnoticed and reposition more effectively. Used for ranged engagement and swift strikes, they are extremely effective against lightly armoured targets.
-TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY,20x Shadow Scout Trooper
+TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY,Company: 20x Shadow Scout Trooper
 TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY_WEAP1,7x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY_WEAP2,2x Heavy Repeating Blaster: 5 / 1.0s / 280m
 TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY_WEAP3,2x Light Repeating Blaster: 5 / 1.0s / 240m
@@ -967,6 +1328,10 @@ TEXT_TOOLTIP_SITH_WAR_MAMMOTH_COMPANY,Company: 2x Sith War Mammoth
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_HEALTH,Health: 425 [2%/5s] (Heavy Vehicle)
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_MOVE,Speed: 1.0 | Turn: 2.5 
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_WEAP1,2x Heavy AI Blaster Cannons (AOE): 2 / 0.5s / 320m
+TEXT_TOOLTIP_SITHSPAWN,Sithspawn was the personal starfighter of Namman Cha. It was an elite model of Belbullab-22 starfighter painted dark red, featuring upgrades over the standard Belbullab-22 resulting in a more deadly starfighter.
+TEXT_TOOLTIP_SITHSPAWN_BASE,Health: 220 | Shields: 200
+TEXT_TOOLTIP_SITHSPAWN_MOVE,Speed: 6.05 | Maneuverability: 4.24
+TEXT_TOOLTIP_SITHSPAWN_WEAP1,1x Fighter Laser Cannon: 6 / 1.2s / 1.0km
 TEXT_TOOLTIP_SKIPRAYK,PLACEHOLDER
 TEXT_TOOLTIP_SKIPRAYM,PLACEHOLDER
 TEXT_TOOLTIP_SKIPRAYZ,PLACEHOLDER
@@ -996,9 +1361,9 @@ TEXT_TOOLTIP_TIE_INTERCEPTOR_ION,A somewhat obscure modification of the TIE Inte
 TEXT_TOOLTIP_TIE_LIGHT_BOMBER,A post-Endor modification of the common TIE/sa with a tongue-in-cheek name. Originally an improvisation by garrisons and task forces with stressed or threatened supply lines; the flight mechanics removed the secondary launchers and support systems and reduced the primary payload to reduce mass and complexity, as well as tuning the power systems for speed. While less versatile or threatening as the base model, these stripped variants proved much easier to maintain and boasted a higher mission survival rate in certain scenarios due to their improved flight performance.
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_TAGGE,Industrialist: TaggeCo (-20% cost, -20% time)
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER,Elite soldier-enforcers serving the Trandoshan slaver clans who also often get employed as mercenaries by governments known to practice slavery. Best used against enemy infantry formations while being supported by allied armor.
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY,18 Trandoshan Hunters
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH,32
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE,1.3
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY,Company: 18x Trandoshan Hunters
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH,Health: 32
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE,Speed: 1.3
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP_1,9x Slug Carbines: 1 / 1.0s / 300m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP_2,3x Slugthrower Repeaters: 5 / 0.2s / 300m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP_3,Concussion Grenades: 1 / 15.0s / 200m
@@ -1058,18 +1423,18 @@ TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Secto
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
-TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
+TEXT_UNIT_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
 TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
-TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
+TEXT_UNIT_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
 TEXT_UNIT_ACCLAMATOR_I_SUPPORT,Acclamator Cargo Ship
 TEXT_UNIT_AT_ACT_WALKER,AT-ACT Walker
 TEXT_UNIT_AT_AT_WALKER_IC,Ion Refit AT-AT Walker
 TEXT_UNIT_AT_KT_WALKER,AT-KT Walker
-TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
+TEXT_UNIT_AT_KT_WALKER_COMPANY,Company: 4x AT-KT Walker
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
-TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
+TEXT_UNIT_AT_OT_WALKER_COMPANY,Company: 2x AT-OT Walker
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
@@ -1101,7 +1466,7 @@ TEXT_UNIT_FAUX_STORMTROOPER_PLATOON,Faux Stormtrooper Platoon
 TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
 TEXT_UNIT_GAT,Ground Armored Tank
-TEXT_UNIT_GAT_COMPANY,GAT Company
+TEXT_UNIT_GAT_COMPANY,Company: 4x GAT
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
@@ -1116,7 +1481,7 @@ TEXT_UNIT_MANSK_FRIGATE,Mansk-class Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta-class Assault Fighter
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
-TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
+TEXT_UNIT_OG9_COMPANY,Company: 4x OG-9 Homing Spider Droid Company
 TEXT_UNIT_OG9HOMINGSPIDERDROID,OG-9 Homing Spider Droid
 TEXT_UNIT_PHASE_TWO_AT_HEAVY,Republic Surplus Trooper Heavy AT 
 TEXT_UNIT_PHASE_TWO_AT_LIGHT,Republic Surplus Trooper Light AT 
@@ -1130,8 +1495,14 @@ TEXT_UNIT_PHASE_TWO_RIFLEMAN_GRENADIER,Republic Surplus Trooper Rifleman Grenadi
 TEXT_UNIT_PHASE_TWO_SQUAD,Republic Surplus Trooper Squad
 TEXT_UNIT_PRAETOR_I,Praetor-I Battlecruiser
 TEXT_UNIT_PROCURATOR,Procurator Battlecruiser
+TEXT_UNIT_RED_POLICE,Red Police
+TEXT_UNIT_RED_POLICE_DISRUPTOR,Red Police Disruptor
+TEXT_UNIT_RED_POLICE_GUNNER_LIGHT,Red Police Light Gunner
+TEXT_UNIT_RED_POLICE_PLATOON,Red Police Platoon
+TEXT_UNIT_RED_POLICE_SQUAD,Red Police Squad
 TEXT_UNIT_REPUBLIC_TIE,T.I.E. Starfighter
 TEXT_UNIT_REPUBLIC_Z95_HEADHUNTER,Republic Z-95 Headhunter
+TEXT_UNIT_RG_STORMTROOPER_PLATOON,Royal Guard Stormtrooper Platoon
 TEXT_UNIT_RHO_SHUTTLE,Rho-class Transport Shuttle
 TEXT_UNIT_SHADOW_ACCLAMATOR_I,Shadow Acclamator-I Cruiser (Carrier)
 TEXT_UNIT_SHADOW_AT_AT_WALKER,Shadow AT-AT Walker
@@ -1148,9 +1519,9 @@ TEXT_UNIT_SHADOW_SCOUT_TROOPER_SNIPER,Shadow Scout Trooper Sniper
 TEXT_UNIT_SHADOW_SCOUT_TROOPER_SNIPER_SQUAD,Shadow Scout Trooper Sniper Squad
 TEXT_UNIT_SHADOW_STAR_DESTROYER_CARRIER,Shadow Imperial-I Star Destroyer (Carrier)
 TEXT_UNIT_SHADOW_TX130S,Shadow TX-130S Fighter Tank
-TEXT_UNIT_SHADOW_TX130S_COMPANY,Shadow TX-130S Fighter Tank Company
+TEXT_UNIT_SHADOW_TX130S_COMPANY,Company: 3x Shadow TX-130S Fighter Tank
 TEXT_UNIT_SHADOW_ULAV,Shadow Ultra-Light Assault Vehicle
-TEXT_UNIT_SHADOW_ULAV_COMPANY,Shadow ULAV Company
+TEXT_UNIT_SHADOW_ULAV_COMPANY,Company: 4x Shadow ULAV Company
 TEXT_UNIT_SHADOW_VENGEANCE_DREADNOUGHT,Shadow Vengeance Star Dreadnought
 TEXT_UNIT_SHADOW_VIGIL,Shadow Vigil Corvette
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_ELITE,Elite Heavy TIE Interceptor
@@ -1165,9 +1536,10 @@ TEXT_UNIT_SITH_MARAUDER,Sith Marauder
 TEXT_UNIT_SITH_SLAYER,Sith Slayer
 TEXT_UNIT_SITH_SORCERER,Sith Sorcerer
 TEXT_UNIT_SITH_STRIDER,Sith Strider
-TEXT_UNIT_SITH_STRIDER_COMPANY,Sith Strider Company
+TEXT_UNIT_SITH_STRIDER_COMPANY,Company: 3x Sith Strider
 TEXT_UNIT_SITH_WAR_MAMMOTH,Sith War Mammoth
-TEXT_UNIT_SITH_WAR_MAMMOTH_COMPANY,Sith War Mammoth Company
+TEXT_UNIT_SITH_WAR_MAMMOTH_COMPANY,Company: 2x Sith War Mammoth
+TEXT_UNIT_SITHSPAWN,Sithspawn
 TEXT_UNIT_SKIPRAYK,Skipray Blastboat GAT-12k
 TEXT_UNIT_SKIPRAYK_SQUADRON,Skipray Blastboat GAT-12k Squadron
 TEXT_UNIT_SKIPRAYK_SQUADRON_HALF,Skipray Blastboat GAT-12k Squadron 1/2
@@ -1199,6 +1571,8 @@ TEXT_UNIT_TIE_GT_TORPS,Torpedo TIE/gt Starfighter
 TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
 TEXT_UNIT_TRANDOSHAN_ALPHA,Trandoshan Alpha
+TEXT_UNIT_TRANDOSHAN_COMMAND_SQUAD,Trandoshan Command Squad
+TEXT_UNIT_TRANDOSHAN_FLAMER,Trandoshan Flamer
 TEXT_UNIT_TRANDOSHAN_GRENADIER,Trandoshan Grenadier
 TEXT_UNIT_TRANDOSHAN_GUNNER_HEAVY,Heavy Trandoshan Gunner
 TEXT_UNIT_TRANDOSHAN_GUNNER_LIGHT,Light Trandoshan Gunner

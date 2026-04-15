@@ -31,6 +31,9 @@ return {
 			["4ABY"] = true
 			,["6ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
 
 	},
 
@@ -85,6 +88,9 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
 
 	},
 	
@@ -95,6 +101,10 @@ return {
 		}
 		,["WesternReaches"] = {
 			["4ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 
 	},
@@ -140,6 +150,10 @@ return {
 			["6ABY"] = true
 			,["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 
 	},
 	
@@ -156,6 +170,10 @@ return {
 		,["WesternReaches"] = {
 			["4ABY"] = true
 			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 		
 	},
@@ -187,6 +205,10 @@ return {
 		,["WesternReaches"] = {
 			["4ABY"] = true
 			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 		
 	},
@@ -250,6 +272,9 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
 		
 	},
 	
@@ -268,6 +293,9 @@ return {
 		,["KnownLarge"] = {
 			["12ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["12ABY"] = true
+		}
 
 	},
 	
@@ -284,6 +312,10 @@ return {
 		,["WesternReaches"] = {
 			["4ABY"] = true
 			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 
 	},
@@ -353,6 +385,10 @@ return {
 		["Empires_At_War"] = {
 			["4ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 		
 	},
 	
@@ -377,6 +413,10 @@ return {
 		,["Empires_At_War"] = {
 			["4ABY"] = true
 			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 
 	},
@@ -417,7 +457,11 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
-		
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
+
 	},
 	
 	["TAPANI"] = {
@@ -435,7 +479,11 @@ return {
 		,["WesternReaches"] = {
 			["4ABY"] = true
 		}
-		
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
+
 	},
 	
 	["GAROS"] = {
@@ -460,7 +508,11 @@ return {
 			["4ABY"] = true
 			,["6ABY"] = true
 		}
-		
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
+
 	},
 	
 	["MAELSTROM"] = {
@@ -523,7 +575,11 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
-		
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
+
 	},
 	
 	["SHADOWSPAWN"] = {
@@ -541,6 +597,10 @@ return {
 			["4ABY"] = true
 			,["6ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 		
 	},
 	
@@ -555,6 +615,9 @@ return {
 		,["Empires_At_War"] = {
 			["4ABY"] = true
 			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
 		}
 	},
 	
@@ -575,7 +638,11 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
-		
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
+
 	},
 	
 	["TIERFON"] = {
@@ -585,7 +652,10 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
-		
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 	},
 	
 	["BAKURA"] = {
@@ -602,7 +672,10 @@ return {
 		,["WesternReaches"] = {
 			["4ABY"] = true
 		}
-		
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
+
 	},
 	
 	["BRAK"] = {
@@ -610,6 +683,10 @@ return {
 		["Empires_At_War"] = {
 			["4ABY"] = true
 			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 		
 	},
@@ -619,7 +696,11 @@ return {
 		["Empires_At_War"] = {
 			["4ABY"] = true
 		}
-		
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
+
 	},
 	
 	["ISECTOR"] = {
@@ -632,6 +713,10 @@ return {
 			["4ABY"] = true
 			,["6ABY"] = true
 			,["9ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 	},
 	
@@ -700,6 +785,10 @@ return {
 			["4ABY"] = true
 			,["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 
 	},
 	
@@ -765,6 +854,10 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 
 	},
 	
@@ -796,6 +889,10 @@ return {
 		}
 		,["WesternReaches"] = {
 			["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 
 	},
@@ -871,6 +968,10 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 
 	},
 	
@@ -879,6 +980,10 @@ return {
 		["Empires_At_War"] = {
 			["4ABY"] = true
 			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 
 	},
@@ -892,6 +997,9 @@ return {
 		,["KnownMedium"] = { ["4ABY"] = true}
 		,["KnownLarge"] = { ["4ABY"] = true}
 		,["Empires_At_War"] = {
+			["4ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
 			["4ABY"] = true
 		}
 
@@ -922,6 +1030,9 @@ return {
 		,["Empires_At_War"] = {
 			["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["12ABY"] = true
+		}
 	},
 	
 	["ARDA"] = {
@@ -931,6 +1042,10 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 
 	},
 	
@@ -938,6 +1053,10 @@ return {
 		
 		["Empires_At_War"] = {
 			["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 
 	},
@@ -947,6 +1066,10 @@ return {
 		["Empires_At_War"] = {
 			["4ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 
 	},
 	
@@ -954,6 +1077,10 @@ return {
 		
 		["Empires_At_War"] = {
 			["4ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 
 	},
@@ -963,6 +1090,10 @@ return {
 		["Empires_At_War"] = {
 			["4ABY"] = true
 			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 
 	},
@@ -996,11 +1127,19 @@ return {
 		,["Empires_At_War"] = {
 			["9ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 	},
 	
 	["CATO_NEIMOIDIA"] = {
 		["Empires_At_War"] = {
 			["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
 		}
 	},
 	
@@ -1033,6 +1172,10 @@ return {
 			["4ABY"] = true
 			,["6ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["12ABY"] = true
+		}
 	},
 	
 	["KAARENTH_DISSENSION"] = {
@@ -1046,6 +1189,9 @@ return {
 			["4ABY"] = true
 			,["6ABY"] = true
 			,["9ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
 		}
 	},
 	
@@ -1078,15 +1224,55 @@ return {
 			,["11.5ABY"] = true
 			,["12ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["12ABY"] = true
+		}
 	},
 	
 	["GRUNGER"] = {
 		["KnownLarge"] = { 
 			["4ABY"] = true
+			,["6ABY"] = true
 		}
 		,["Borderlands"] = {
 			["4ABY"] = true
+			,["6ABY"] = true
 		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
+	},
+
+	["PRAJI"] = {
+		
+		["FullSmall"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		},
+		["FullMedium"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		},
+		["FullLarge"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["12ABY"] = true
+		}
+		
 	},
 	
 }
