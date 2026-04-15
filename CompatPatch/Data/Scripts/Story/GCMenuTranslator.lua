@@ -224,7 +224,7 @@ return {
 	["Custom_Large"] = "inf_map_05",
 	["Custom_FTGU"] = "inf_map_06",
 	["Custom_Influencers"] = "inf_map_07",
-	["PROTEUSMAP"] = "inf_map_08",
+	["Proteus_Map_One"] = "inf_map_08",
 
 	["AllMaps"] = {
 		"FullSmall",
@@ -249,7 +249,7 @@ return {
 		"FIP",
 		"Caamas",
 		"Empires_At_War",
-		"PROTEUSMAP",
+		"Proteus_Map_One",
 		"FTGU",
 		"Custom_Small",
 		"Custom_Medium",
@@ -277,7 +277,7 @@ return {
 
 	["CustomMaps"] = {
 		"Empires_At_War",
-		"PROTEUSMAP",
+		"Proteus_Map_One",
 		"FTGU",
 		"Custom_Small",
 		"Custom_Medium",

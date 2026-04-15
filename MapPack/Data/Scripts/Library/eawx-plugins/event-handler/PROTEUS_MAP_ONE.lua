@@ -43,7 +43,16 @@ function EventManager:new(galactic_conquest)
 end
 
 function EventManager:update()
-    -- intentionally left blank, events will update themselves when necessary
+    if self.warlord_start == true then
+        return
+    end
+
+    if GetCurrentTime() < 6 then
+        return
+    end
+
+    self.warlord_start = true
+    crossplot:publish("WARLORD_START")
 end
 
 return EventManager
