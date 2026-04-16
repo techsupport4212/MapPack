@@ -160,6 +160,15 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 
 	crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", string.upper(self.warlord_name), entry.FriendlyName, entry.PlanetParticle)
 
+	if choice == "KUAT" then
+		crossplot:publish("PROTEUS_MARKET")
+	end
+	
+    local initial_proteus_lock_units = require("eawx-plugins/warlord-start/ProteusLocks")
+    if type(initial_proteus_lock_units) == "table" then
+        UnitUtil.SetLockList(self.warlord_name, get_value_per_era(initial_proteus_lock_units, year), false)
+    end
+	
 	if entry.LockList then
 		UnitUtil.SetLockList(self.warlord_name, get_value_per_era(entry.LockList, year), false)
 	end
@@ -188,7 +197,7 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 			for __, object in pairs(exists) do
 				UnitUtil.DespawnCompany(hero)
 			end
-		end 
+		end
 	end
 
 	local spawncapital = true
@@ -200,6 +209,29 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 				ChangePlanetOwnerAndRetreatHeroes(locale, self.warlord_player, nil, 2)
 				if spawncapital then
 					spawncapital = false
+					if entry.ShipyardCapitalOverride then
+						local FactionObjects = Find_All_Objects_Of_Type(self.warlord_player)
+						for _, obj in pairs(FactionObjects) do
+							if obj.Get_Planet_Location() == locale then
+								if string.find(obj.Get_Type().Get_Name(), "IMPERIAL_PROTEUS_SHIPYARD_LEVEL_") then
+									obj.Despawn()
+									break
+								end
+							end
+						end
+						self.capital = entry.ShipyardCapitalOverride
+					elseif entry.CapitalOverride then
+						local FactionObjects = Find_All_Objects_Of_Type(self.warlord_player)
+						for _, obj in pairs(FactionObjects) do
+							if obj.Get_Planet_Location() == locale then
+								if string.find(obj.Get_Type().Get_Name(), "IMPERIAL_PROTEUS_CAPITAL") then
+									obj.Despawn()
+									break
+								end
+							end
+						end
+						self.capital = entry.CapitalOverride
+					end
 					SpawnList({self.capital},locale,self.warlord_player,true,false)
 					local heroes = get_value_per_era(entry.HeroList,year)
 					for __, hero in pairs(heroes) do
@@ -223,6 +255,10 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 		for _, pair in pairs(entry.FighterHero) do
 			Set_Fighter_Hero(pair[1], pair[2])
 		end
+	end
+
+	if entry.LegitimacyLock then
+		crossplot:publish("LEGITIMACY_LOCK", entry.LegitimacyLock)
 	end
 
 	crossplot:publish("INITIALIZE_PROTEUS_LEGITIMACY", entry.LeaderTable)
