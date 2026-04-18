@@ -41,7 +41,6 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
 
     self.legitimacy_groups = require("eawx-mod-icw/LegitimacyRewardLibrary")
     self.legitimacy_documentation = {}
-    self.lock_group = nil
 
     self.HighestLegitimacy = "EMPIRE"
     self.LowestLegitimacy = "GREATER_MALDROOD"
@@ -249,7 +248,6 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
     crossplot:subscribe("FACTION_DISPLAY_NAME_CHANGE", self.faction_display_name_change, self)
     --TechSupport: Subscribe to the new Proteus Conquer event
     crossplot:subscribe("PROTEUS_GENERIC_CONQUER", self.proteus_conquer_reward, self) 
-    crossplot:subscribe("LEGITIMACY_LOCK", self.legitimacy_group_lock, self)
 
     if self.human_is_imperial == true then
         crossplot:subscribe("UPDATE_GOVERNMENT", self.UpdateDisplay, self)
@@ -348,13 +346,6 @@ function GovernmentEmpire:proteus_init(leaders)
          end
      end
     self.ProteusInited = true
-end
-
-function GovernmentEmpire:legitimacy_group_lock(group)
-    --Logger:trace("entering GovernmentEmpire:legitimacy_group_lock")
-    if group ~=nil then
-        self.lock_group = group
-    end
 end
 
 function GovernmentEmpire:initialize_legitimacy()
@@ -466,12 +457,6 @@ function GovernmentEmpire:initialize_legitimacy()
                             uselocale = true
                         end
                     end
-                end
-            end
-            if self.lock_group ~= nil then
-                if entry.unlocks[1] == self.lock_group then
-                    table.insert(groups_to_remove, 1, i)
-                    doc_entry.state = " / [ " .. GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME") .. " ]"
                 end
             end
             if uselocale then
@@ -739,20 +724,20 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
 	if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
         --locks first loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser",
+            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
         }, false)
         --unlocks second
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser",
+            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
         })
     elseif game_object_type_name == "SELLASAS_LOADOUT_SWAP2" then
         --locks second loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser",
+            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
         }, false)
         --unlocks first
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser",
+            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
         })
     end
 
@@ -1001,12 +986,18 @@ function GovernmentEmpire:group_joins(faction_name)
     -- }
 
     local index = self.legitimacy_groups[level][group_number].name
-    for _,docentry in pairs(self.legitimacy_documentation[level]) do
-        if index == docentry.name then
-            docentry.state = " / [ " .. CONSTANTS.ALL_FACTION_NAMES[string.upper(faction_name)] .. " ]"
-            break
+
+    if self.legitimacy_documentation[level] == nil then
+        StoryUtil.ShowScreenText(GetCurrentTime().." Attempted to recruit legitimacy group of level "..tostring(level).." but failed. Please report this bug!", 30, nil, {r = 217, g = 2, b = 125}, false)
+    else
+        for _,docentry in pairs(self.legitimacy_documentation[level]) do
+            if index == docentry.name then
+                docentry.state = " / [ " .. CONSTANTS.ALL_FACTION_NAMES[string.upper(faction_name)] .. " ]"
+                break
+            end
         end
     end
+    
     table.insert(self.imperial_table[faction_name].joined_groups, self.legitimacy_groups[level][group_number].unlocks[1])
     table.remove(self.legitimacy_groups[level], group_number)
     if level == 5 then

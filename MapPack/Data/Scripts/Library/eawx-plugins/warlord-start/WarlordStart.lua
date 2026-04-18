@@ -210,6 +210,7 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 				if spawncapital then
 					spawncapital = false
 					if entry.ShipyardCapitalOverride then
+						UnitUtil.SetLockList(self.warlord_name, {self.capital}, false)
 						local FactionObjects = Find_All_Objects_Of_Type(self.warlord_player)
 						for _, obj in pairs(FactionObjects) do
 							if obj.Get_Planet_Location() == locale then
@@ -220,7 +221,9 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 							end
 						end
 						self.capital = entry.ShipyardCapitalOverride
+						UnitUtil.SetLockList(self.warlord_name, {self.capital})
 					elseif entry.CapitalOverride then
+						UnitUtil.SetLockList(self.warlord_name, {self.capital}, false)
 						local FactionObjects = Find_All_Objects_Of_Type(self.warlord_player)
 						for _, obj in pairs(FactionObjects) do
 							if obj.Get_Planet_Location() == locale then
@@ -231,6 +234,7 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 							end
 						end
 						self.capital = entry.CapitalOverride
+						UnitUtil.SetLockList(self.warlord_name, {self.capital})
 					end
 					SpawnList({self.capital},locale,self.warlord_player,true,false)
 					local heroes = get_value_per_era(entry.HeroList,year)
@@ -255,10 +259,6 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 		for _, pair in pairs(entry.FighterHero) do
 			Set_Fighter_Hero(pair[1], pair[2])
 		end
-	end
-
-	if entry.LegitimacyLock then
-		crossplot:publish("LEGITIMACY_LOCK", entry.LegitimacyLock)
 	end
 
 	crossplot:publish("INITIALIZE_PROTEUS_LEGITIMACY", entry.LeaderTable)

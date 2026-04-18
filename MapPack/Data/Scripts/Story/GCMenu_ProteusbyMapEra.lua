@@ -1274,5 +1274,13 @@ return {
 		}
 		
 	},
-	
+		["THORN"] = {
+		["WesternReaches"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
+	},
 }
