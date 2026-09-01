@@ -1,23 +1,16 @@
-# TechSupport's Map Pack
-
-# How to play this submod:
- - Download the MapPack release and extract to mods folder. An example of what it should look like is this - C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\MapPack
- - Change your launch option in steam, adding this entry before for one for Project Proteus - ModPath=Mods\MapPack
-
-# What does this Map Pack do?
- - Adds a new map to the game, currently has 200 planets.
- - The map is playable by all Imperial factions and is intended to be a testing ground for all Proteus factions.
- - Accessible in the Infinities section of the Galactic Conquest Menu.
- - For the 4 ABY start, players have to option to choose between fixed / progressive era.
- - This means that certain events e.g. Black Fleet Crisis won't occur, and that Nzoth isnt locked but starts as an independant world.
- - Similarly Byss and other worlds affected by planet locks like the Maw are unlocked from the beginning
- - Choosing Progressive will mean the campaign will function like any other progressive map.
-
-# Update Plans:
- - expand number of maps available
- - option to disable dark empire completely
- - add aditional setup options to customize the GC even more
+# Supernova + TechSupport MegaMap Sub-Submod for Project Proteus and Thrawn's Revenge
+# How to play this sub-submod:
+ - Download the MapPack files and extract inner folder (containing /Data folder) to the FOC mods folder (if not create one inside the directory). An example of what it should look like is this - C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\MapPack
+ - Change your launch option in Steam, to this - ModPath=Mods\MapPack STEAMMOD=3711433343 STEAMMOD=1125571106
+ - If you wish to play the stable version for the current version of ProPro, subscribe to the workshop item below and use the workshop code there instead:
+ - https://steamcommunity.com/sharedfiles/filedetails/?id=3711566915
+ - Subscribe to Project Proteus on the workshop here:
+ - https://steamcommunity.com/workshop/filedetails/?id=3711433343
+ - Link to the Project Proteus GitHub page:
+ - https://github.com/TaxEvader6686/Project-Proteus
+ - And of course, here is Thrawn's Revenge:
+ - https://steamcommunity.com/workshop/filedetails/?id=1125571106
 
 # Credits:
  - thanks to EaWX team for Thrawn's Revenge
- - Supernova for the initial proteus map idea
+ - Supernova for direction
