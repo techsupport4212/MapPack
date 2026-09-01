@@ -659,7 +659,6 @@
     + Variable_Target.Type.IsType {Parameter_Type = "Pako_Ramoon"}
     + Variable_Target.Type.IsType {Parameter_Type = "Ralltiir"}
     + Variable_Target.Type.IsType {Parameter_Type = "Regnant"}
-    + Variable_Target.Type.IsType {Parameter_Type = "Rendili"}
     + Variable_Target.Type.IsType {Parameter_Type = "Rennek"}
     + Variable_Target.Type.IsType {Parameter_Type = "Rhand"}
     + Variable_Target.Type.IsType {Parameter_Type = "Ringneldia"}
@@ -698,6 +697,7 @@
     + Variable_Target.Type.IsType {Parameter_Type = "Nzoth"}
     + Variable_Target.Type.IsType {Parameter_Type = "Oslumpex"}
     + Variable_Target.Type.IsType {Parameter_Type = "Pammant"}
+    + Variable_Target.Type.IsType {Parameter_Type = "Rendili"}
     + Variable_Target.Type.IsType {Parameter_Type = "Sluis_Van"}
     + Variable_Target.Type.IsType {Parameter_Type = "Sullust"}
     + Variable_Target.Type.IsType {Parameter_Type = "Thomork"}
@@ -721,9 +721,9 @@
     + Variable_Target.Type.IsType {Parameter_Type = "Centares"}
     + Variable_Target.Type.IsType {Parameter_Type = "Chazwa"}
     + Variable_Target.Type.IsType {Parameter_Type = "Columex"}
-    + Variable_Target.Type.IsType {Parameter_Type = "Coruscant"}
     + Variable_Target.Type.IsType {Parameter_Type = "Dravian_Starport"}
     + Variable_Target.Type.IsType {Parameter_Type = "Elrood"}
+    + Variable_Target.Type.IsType {Parameter_Type = "Emberlene"}
     + Variable_Target.Type.IsType {Parameter_Type = "Enarc"}
     + Variable_Target.Type.IsType {Parameter_Type = "Entralla"}
     + Variable_Target.Type.IsType {Parameter_Type = "Eriadu"}

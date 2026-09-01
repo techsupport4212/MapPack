@@ -35,7 +35,11 @@ function EventManager:new(galactic_conquest)
         "CONQUER_MANDALORE_NR",
         "MANDALORE", {"Rebel"},
         {"Fenn_Shysa_Team"}, false, "Boba_Fett_Loop")
-
+        
+    self.NzothConquer = GenericConquer(self.galactic_conquest,
+        "CONQUER_NZOTH",
+        "NZOTH", {},
+        {"EX_F"}, false)
     self.DummyBuildExtras = DummyBuildExtras(self.galactic_conquest)
     self.EmpireReborn = EmpireReborn(self.galactic_conquest)
     self.FelChildren = FelChildren(self.galactic_conquest)
@@ -50,8 +54,8 @@ function EventManager:update()
     if GetCurrentTime() < 6 then
         return
     end
-    message = "Warlord Selector Initialised" --temporary message, should be improved before release
-    StoryUtil.ShowScreenText(message, 20)
+    -- message = "Warlord Selector Initialised" temporary message, should be improved before release
+    -- StoryUtil.ShowScreenText(message, 20)
     crossplot:publish("WARLORD_START")
     self.warlord_start = true
 end

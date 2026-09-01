@@ -22,7 +22,9 @@ function Begin_GC(message)
         GameObjectLibrary = ModContentLoader.get("GameObjectLibrary")
         local plot = StoryUtil.GetPlayerAgnosticPlot()
         GlobalValue.Set("PROTEUS_MAP_SETTINGS", true)
-        local message = "Proteus Map One state machine active" --temporary message, should be improved before release
+        StoryUtil.ShowScreenText("TEXT_GUI_INITIALIZING", 10)
+
+        --local message = "Proteus Map One state machine active" --temporary message, should be improved before release
 
         -- logic to set correct mode, potential to expand in future for more preselecable options
         if Find_Player("local").Get_Tech_Level() > 4 then
@@ -31,7 +33,7 @@ function Begin_GC(message)
         elseif Find_Player("local").Get_Tech_Level() > 3 then
             GlobalValue.Set("PROGRESS_REGIME", true)
         elseif Find_Player("local").Get_Tech_Level() > 2 then
-            message = "Initialising Proteus Map One state machine (Era 1)"
+            --message = "Initialising Proteus Map One state machine (Era 1)"
             GlobalValue.Set("PROTEUS_INFINITY", true)
             GlobalValue.Set("PROGRESS_REGIME", false)
         else
@@ -39,7 +41,7 @@ function Begin_GC(message)
             GlobalValue.Set("PROGRESS_REGIME", false)
         end
 
-        StoryUtil.ShowScreenText(message, 20)
+        --StoryUtil.ShowScreenText(message, 20)
 
         local era = 1
 

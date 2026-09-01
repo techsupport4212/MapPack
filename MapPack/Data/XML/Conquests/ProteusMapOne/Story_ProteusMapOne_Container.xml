@@ -573,4 +573,17 @@
 		<Prereq>PRAJI_Welcome</Prereq>
 	</Event>
 
+	<Event Name="THORN_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THORN_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="THORN_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>44</Story_Chapter>
+		<Story_Tag>THORN_Welcome_Dialog</Story_Tag>
+		<Prereq>THORN_Welcome</Prereq>
+	</Event>
+
 </Story>

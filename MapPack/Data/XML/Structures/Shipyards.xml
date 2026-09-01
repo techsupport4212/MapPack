@@ -231,7 +231,7 @@
 
 		<Required_Planets>
 <!-- Shipyard_Level_Three Start -->
-		Abhean,Allanteen,Arized,Axxila,Bormter,Bormus,Byblos,Chardaan,Charubah,Ciutric,Contruum,Corellia,Csaus,DQar,Essien,Etti,Fedalle,Gamor,Geroon,Gwori,Gyndine,Hakassi,Hapes,Hast,Humbarine,Hypori,Iokath,Iridonia,Jaemus,Kalist,Kampe,Koru_Neimoidia,Lianna,Lioan,Loronar,Lwhekk,Mandalore,Mephout,Mulatan,Nadiri,Naporar,Nettehi,Nirauan,Odik,Ord_Trasi,Pako_Ramoon,Ralltiir,Regnant,Rendili,Rennek,Rhand,Ringneldia,Roche,Rothana,Salvara,Scarif,Scarl,Shree,Tellanroaeg,Tepasi,Thanos,The_Maw,Ubrikkia,Urch,Vagar_Praxut,Vulpter,Xa_Fel,Peg_Shar,Glade,Mardona,Walinor,Argul,Bacrana,Gall,Ord_Janon,UR6572AK,Spawn_Nebula,Distna
+		Abhean,Allanteen,Arized,Axxila,Bormter,Bormus,Byblos,Chardaan,Charubah,Ciutric,Contruum,Corellia,Csaus,DQar,Essien,Etti,Fedalle,Gamor,Geroon,Gwori,Gyndine,Hakassi,Hapes,Hast,Humbarine,Hypori,Iokath,Iridonia,Jaemus,Kalist,Kampe,Koru_Neimoidia,Lianna,Lioan,Loronar,Lwhekk,Mandalore,Mephout,Mulatan,Nadiri,Naporar,Nettehi,Nirauan,Odik,Ord_Trasi,Pako_Ramoon,Ralltiir,Regnant,Rennek,Rhand,Ringneldia,Roche,Rothana,Salvara,Scarif,Scarl,Shree,Tellanroaeg,Tepasi,Thanos,The_Maw,Ubrikkia,Urch,Vagar_Praxut,Vulpter,Xa_Fel,Peg_Shar,Glade,Mardona,Walinor,Argul,Bacrana,Gall,Ord_Janon,UR6572AK,Spawn_Nebula,Distna
 <!-- Shipyard_Level_Three End -->
 		</Required_Planets>
 
@@ -337,7 +337,7 @@
 		<Required_Planets>
 		<!--TechSupport: Added entry for Fenel-->
 <!-- Shipyard_Level_Four Start -->
-		Bilbringi,Byss,Copero,Deko_Neimoidia,Fenel,Foerost,Fondor,Geonosis,Kuat,Minntooine,Mon_Calamari,Moonus_Mandel,Nal_Hutta,Nzoth,Oslumpex,Sluis_Van,Sullust,Thomork,Yaga_Minor,Zakuul
+		Bilbringi,Byss,Copero,Deko_Neimoidia,Fenel,Foerost,Fondor,Geonosis,Kuat,Minntooine,Mon_Calamari,Moonus_Mandel,Nal_Hutta,Nzoth,Oslumpex,Rendili,Sluis_Van,Sullust,Thomork,Yaga_Minor,Zakuul
 <!-- Shipyard_Level_Four End -->
 		</Required_Planets>
 

@@ -9060,7 +9060,7 @@
     <Planet Name="Coruscant">
 
         <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORUSCANT</Text_ID>
-        <Encyclopedia_Text>TEXT_PLANET_HEAVY TEXT_PLANET_SEPARATOR TEXT_PLANET_TRADEHUB TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_REVOLT_OWNER TEXT_FACTION_NEW_REPUBLIC TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_PLANETARY_BONUS TEXT_PLANET_INFO_INFLUENCE_REWARD_NONE TEXT_PLANET_SEPARATOR TEXT_PLANET_INFO_BIOME_ECUMENOPOLIS</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_PLANET_HEAVY TEXT_PLANET_SEPARATOR TEXT_PLANET_BANK_RESERVE TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_REVOLT_OWNER TEXT_FACTION_NEW_REPUBLIC TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_PLANETARY_BONUS TEXT_PLANET_INFO_INFLUENCE_REWARD_NONE TEXT_PLANET_SEPARATOR TEXT_PLANET_INFO_BIOME_ECUMENOPOLIS</Encyclopedia_Text>
 
         <Galactic_Position>0, 0, 10</Galactic_Position>
 
@@ -9088,14 +9088,14 @@
         <Describe_Wildlife>TEXT_PLANET_INFO_CORUSCANT_FAUNA</Describe_Wildlife>
         <Describe_Terrain>TEXT_FACTION_NEW_REPUBLIC</Describe_Terrain>
         <Describe_Weather>TEXT_PLANET_HEAVY</Describe_Weather>
-        <Describe_Tactical>TEXT_RESOURCE_SUPPORTS_TRADE</Describe_Tactical>
+        <Describe_Tactical>TEXT_RESOURCE_SUPPORTS_BANK_RESERVE</Describe_Tactical>
         <Describe_Advantage>TEXT_PLANET_SHIPYARD_LEVEL</Describe_Advantage>
         <Describe_History>TEXT_PLANET_INFO_CORUSCANT_HISTORY</Describe_History>
         <Native_Icon_Name></Native_Icon_Name>
 
-        <Encyclopedia_Weather_Icon>i_pr_supports_trade.tga</Encyclopedia_Weather_Icon>
-        <Encyclopedia_Weather_Name>TEXT_RESOURCE_SUPPORTS_TRADE</Encyclopedia_Weather_Name>
-        <Encyclopedia_Weather_Info>TEXT_RESOURCE_SUPPORTS_TRADE_DESCRIPTION</Encyclopedia_Weather_Info>
+        <Encyclopedia_Weather_Icon>i_pr_supports_bank_reserve.tga</Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name>TEXT_RESOURCE_SUPPORTS_BANK_RESERVE</Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info>TEXT_RESOURCE_SUPPORTS_BANK_RESERVE_DESCRIPTION</Encyclopedia_Weather_Info>
 
         <Planet_Ability_Icon>i_button_space_station_two.tga</Planet_Ability_Icon>
         <Planet_Ability_Name>TEXT_PLANET_HEAVY</Planet_Ability_Name>
@@ -12420,7 +12420,7 @@
     <Planet Name="Emberlene">
 
         <Text_ID>TEXT_OBJECT_STAR_SYSTEM_EMBERLENE</Text_ID>
-        <Encyclopedia_Text>TEXT_PLANET_LIGHT TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_REVOLT_OWNER TEXT_FACTION_INDEPENDENT_FORCES TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_PLANETARY_BONUS TEXT_PLANET_INFO_INFLUENCE_REWARD_NONE TEXT_PLANET_SEPARATOR TEXT_PLANET_INFO_BIOME_TEMPERATE</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_PLANET_LIGHT TEXT_PLANET_SEPARATOR TEXT_PLANET_TRADEHUB TEXT_PLANET_TOOLTIP_REVOLT_OWNER TEXT_FACTION_INDEPENDENT_FORCES TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_PLANETARY_BONUS TEXT_PLANET_INFO_INFLUENCE_REWARD_NONE TEXT_PLANET_SEPARATOR TEXT_PLANET_INFO_BIOME_TEMPERATE</Encyclopedia_Text>
 
         <Galactic_Position>771, -327, 10</Galactic_Position>
 
@@ -12448,14 +12448,14 @@
         <Describe_Wildlife>TEXT_PLANET_INFO_EMBERLENE_FAUNA</Describe_Wildlife>
         <Describe_Terrain>TEXT_FACTION_INDEPENDENT_FORCES</Describe_Terrain>
         <Describe_Weather>TEXT_PLANET_LIGHT</Describe_Weather>
-        <Describe_Tactical></Describe_Tactical>
+        <Describe_Tactical>TEXT_RESOURCE_SUPPORTS_TRADE</Describe_Tactical>
         <Describe_Advantage>TEXT_PLANET_SHIPYARD_LEVEL</Describe_Advantage>
         <Describe_History>TEXT_PLANET_INFO_EMBERLENE_HISTORY</Describe_History>
         <Native_Icon_Name></Native_Icon_Name>
 
-        <Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
-        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
-        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+        <Encyclopedia_Weather_Icon>i_pr_supports_trade.tga</Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name>TEXT_RESOURCE_SUPPORTS_TRADE</Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info>TEXT_RESOURCE_SUPPORTS_TRADE_DESCRIPTION</Encyclopedia_Weather_Info>
 
         <Planet_Ability_Icon>i_button_space_station_one.tga</Planet_Ability_Icon>
         <Planet_Ability_Name>TEXT_PLANET_LIGHT</Planet_Ability_Name>
@@ -34239,7 +34239,7 @@
     <Planet Name="Rendili">
 
         <Text_ID>TEXT_OBJECT_STAR_SYSTEM_RENDILI</Text_ID>
-        <Encyclopedia_Text>TEXT_PLANET_CAPITAL TEXT_PLANET_SEPARATOR TEXT_PLANET_MINING_TIBANNA TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_REVOLT_OWNER TEXT_FACTION_NEW_REPUBLIC TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_PLANETARY_BONUS TEXT_PLANET_INFO_INFLUENCE_REWARD_NONE TEXT_PLANET_SEPARATOR TEXT_PLANET_INFO_BIOME_ECUMENOPOLIS</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_PLANET_DREAD TEXT_PLANET_SEPARATOR TEXT_PLANET_MINING_TIBANNA TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_REVOLT_OWNER TEXT_FACTION_NEW_REPUBLIC TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_PLANETARY_BONUS TEXT_PLANET_INFO_INFLUENCE_REWARD_NONE TEXT_PLANET_SEPARATOR TEXT_PLANET_INFO_BIOME_ECUMENOPOLIS</Encyclopedia_Text>
 
         <Galactic_Position>283, -179, 10</Galactic_Position>
 
@@ -34266,7 +34266,7 @@
         <Describe_Population>TEXT_PLANET_INFO_RENDILI_POPULATION</Describe_Population>
         <Describe_Wildlife>TEXT_PLANET_INFO_RENDILI_FAUNA</Describe_Wildlife>
         <Describe_Terrain>TEXT_FACTION_NEW_REPUBLIC</Describe_Terrain>
-        <Describe_Weather>TEXT_PLANET_CAPITAL</Describe_Weather>
+        <Describe_Weather>TEXT_PLANET_DREAD</Describe_Weather>
         <Describe_Tactical>TEXT_RESOURCE_SUPPORTS_MINING</Describe_Tactical>
         <Describe_Advantage>TEXT_PLANET_SHIPYARD_LEVEL</Describe_Advantage>
         <Describe_History>TEXT_PLANET_INFO_RENDILI_HISTORY</Describe_History>
@@ -34276,8 +34276,8 @@
         <Encyclopedia_Weather_Name>TEXT_RESOURCE_SUPPORTS_MINING</Encyclopedia_Weather_Name>
         <Encyclopedia_Weather_Info>TEXT_RESOURCE_SUPPORTS_MINING_DESCRIPTION</Encyclopedia_Weather_Info>
 
-        <Planet_Ability_Icon>i_button_space_station_three.tga</Planet_Ability_Icon>
-        <Planet_Ability_Name>TEXT_PLANET_CAPITAL</Planet_Ability_Name>
+        <Planet_Ability_Icon>i_button_space_station_four.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name>TEXT_PLANET_DREAD</Planet_Ability_Name>
         <Planet_Ability_Description></Planet_Ability_Description>
 
         <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>

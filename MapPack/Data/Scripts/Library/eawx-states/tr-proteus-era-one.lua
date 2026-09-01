@@ -46,18 +46,6 @@ return {
                 end
             end
         end
-
-        local endor = FindPlanet("Endor")
-        if TestValid(endor) then
-            local post_endor_fleet = require("eawx-mod-icw/spawn-sets/EndorFleet")
-            local new_republic = Find_Player("Rebel")
-            if Find_Player("local") == new_republic then
-                SpawnList(post_endor_fleet["Normal"], endor, new_republic, true, false)
-            else
-                local difficulty = Find_Player("Rebel").Get_Difficulty()
-                SpawnList(post_endor_fleet[difficulty], endor, new_republic, true, false)
-            end
-        end
     end,
 
     on_update = function(self, state_context)
@@ -69,6 +57,7 @@ return {
             --Subscribe to proteus-specific events if in proteus mode
             if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
                 crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
+                crossplot:publish("CONQUER_NZOTH", "empty")
             end
 
 			if not GlobalValue.Get("PROGRESSIVE_INFINITY") then

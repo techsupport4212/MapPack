@@ -27,6 +27,11 @@ return {
         end
 
         if self.entry_time <= 5 then
+            -- Era 7 name change to reflect the fact that these factions are long since dead, their leaders gone, no heroes spawned. the name can be changed as necessary
+            crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "PENTASTAR", "Pentastar Alignment Remnants")
+            crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ZSINJ_EMPIRE", "Zsinj Remnants")
+            crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ERIADU_AUTHORITY", "Eriadu Authority Remnants")
+            crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "GREATER_MALDROOD", "Lesser Maldrood")
             self.ResearchFired = true
             if Find_Player("local") == Find_Player("Greater_Maldrood") then
                 StoryUtil.Multimedia("TEXT_CONQUEST_MALDROOD_INTRO_E7", 15, nil, "Kosh_Teradoc_Loop", 0)
@@ -67,7 +72,6 @@ return {
 				end
 			end
 
-            crossplot:publish("CONQUER_NZOTH", "empty")
             crossplot:publish("ERA_TRANSITION", 7)
         end
     end,
@@ -81,10 +85,10 @@ return {
         end
         if current >= 8 and self.AI_Active == false then
             crossplot:publish("CONQUER_MANDALORE_NR", "empty")
-            crossplot:publish("CONQUER_NZOTH", "empty")
             -- Subscribe to the Proteus Conquer Coruscant event, can expand with other events here
             if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
                 crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
+                crossplot:publish("CONQUER_NZOTH", "empty")
             end
             
             self.AI_Active = true
