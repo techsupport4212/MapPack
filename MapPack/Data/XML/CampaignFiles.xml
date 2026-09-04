@@ -124,6 +124,7 @@
 
 	<!--TechSupport: Added new campaign maps -->
 	<File>Conquests\ProteusMapOne\Proteus_Map_One_Era_1.xml</File>
+	<File>Conquests\ProteusMapOne\Proteus_Map_One_Era_3.xml</File>
 	<File>Conquests\ProteusMapOne\Proteus_Map_One_Era_7.xml</File>
 
 	<!-- FTGU -->

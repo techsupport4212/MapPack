@@ -14,6 +14,25 @@
     <Camera_Shift_Y>0.0</Camera_Shift_Y>
     <Camera_Distance>1000.0</Camera_Distance>
 		<Locations>
+			<!-- New Additions -->
+			Katana_Space,
+			Jabiim,
+			Mirial,
+			Ryloth,
+			Feriae_Junction,
+			Glade,
+			Jaminere,
+			Vjun,
+			Alzoc,
+			Ketaris,
+			Talus_Tralus,
+			Chandrila,
+			Ringneldia,
+			Makem_Te,
+			Tatooine,
+			Empress_Teta,
+			Randon,
+			<!-- Continue -->
 			Nar_Haaska,
 			Khomm,
 			Lur,
@@ -37,7 +56,6 @@
 			Balmorra,
 			Bandomeer,
 			Bastion,
-			Belgaroth,
 			Bescane,
 			Bespin,
 			Bilbringi,
@@ -118,7 +136,6 @@
 			Lianna,
 			Liinade,
 			Loronar,
-			Lucazec,
 			Lwhekk,
 			Manda,
 			Mandalore,
@@ -139,7 +156,6 @@
 			Naboo,
 			Nal_Hutta,
 			Nar_Shaddaa,
-			New_Cov,
 			Nez_Peron,
 			Nirauan,
 			Nzoth,
@@ -192,7 +208,6 @@
 			Troukree,
 			Trulalis,
 			Ubrikkia,
-			Ulicia,
 			Umbara,
 			Valc,
 			Vondarc,
@@ -211,7 +226,96 @@
 			Zyzek,
 </Locations>
 		<Trade_Routes>
-			Abregado_Rae_Belgaroth,
+			<!-- New Additions -->
+			Ghorman_Jardeen,
+			Roche_Trandosha,
+			Axxila_Vrosynri,
+			Elrood_Saijo,
+			Emberlene_Filve,
+			Iphigin_Loronar,
+			Rothana_Hollastin,
+			Abregado_Rae_Mrlsst,
+			Foerost_Metellos,
+			Metellos_Nzoth,
+			Ryloth_Trulalis,
+			Geonosis_Ryloth,
+			Mirial_Sagma,
+			Mirial_Thila,
+			Jabiim_Saleucami,
+			Jabiim_Xuaquarres,
+			<!-- 20/08/26 -->
+			Bescane_Troukree,
+			Regnant_Troukree,
+			Copero_Regnant,
+			Bilbringi_Regnant,
+			Lur_Mirial,
+			Taris_Thyrsus,
+			Arkania_Ord_Mantell,
+			Gargon_Thustra,
+			Atchorb_Bonadan,
+			Antemeridias_Arda,
+			Arda_Centares,
+			Jabiim_Ringo_Vinda,
+			Desevro_Korriban,
+			Bimmisaari_Ubrikkia,
+			Bimmisaari_Trandosha,
+			Mon_Calamari_Xuaquarres,
+			Jabiim_Minntooine,
+			Nar_Shaddaa_Ubrikkia,
+			Nar_Haaska_Rothana,
+			Rothana_Ryloth,
+			Mon_Gazza_Trulalis,
+			Druckenwell_Kalarba,
+			Bacrana_Druckenwell,
+			Druckenwell_Emberlene,
+			Druckenwell_Filve,
+			Christophsis_Filve,
+			Colla_Taanab,
+			Centares_Garos,
+			Garos_Lantillies,
+			Vondarc_Sellasas,
+			Miztoc_Vondarc,
+			Bomis_Koori_Kinyen,
+			Columus_Khomm,
+			Copero_Xa_Fel,
+			Kaikielius_Foerost,
+			Ando_Prime_Mon_Gazza,
+			Ando_Prime_Rintonne,
+			Kalist_Vulpter,
+			Abregado_Rae_Nzoth,
+			Celanon_Feriae_Junction,
+			Feriae_Junction_Serenno,
+			Jaminere_Lianna,
+			Desevro_Jaminere,
+			Jaminere_Xuaquarres,
+			Desevro_Makem_Te,
+			Ession_Makem_Te,
+			Delacrix_Ringneldia,
+			Minntooine_Ringneldia,
+			Arda_Vjun,
+			Garos_Vjun,
+			Ketaris_Ord_Biniir,
+			Ketaris_Paarin_Minor,
+			Kashyyyk_Randon,
+			Randon_Ubrikkia,
+			Katana_Space_Kriselist,
+			Bormter_Katana_Space,
+			Chandrila_Corulag,
+			Brentaal_Chandrila,
+			Chandrila_Tepasi,
+			Empress_Teta_Foerost,
+			Empress_Teta_Prakith,
+			Empress_Teta_Vulpter,
+			Alzoc_Ryloth,
+			Alzoc_Svivren,
+			Filve_Tatooine,
+			Hypori_Tatooine,
+			Geonosis_Tatooine,
+			Corellia_Talus_Tralus,
+			Cato_Neimoidia_Talus_Tralus,
+		</Trade_Routes>
+		<Trade_Routes>
+			<!-- Continue -->
 			Abregado_Rae_Fondor,
 			Abregado_Rae_Thomork,
 			Aguarl_Bacrana,
@@ -235,9 +339,7 @@
 			Ando_Prime_Zolan,
 			Antemeridias_Centares,
 			Antemeridias_Columex,
-			Antemeridias_Lucazec,
 			Arda_Korriban,
-			Arda_Lucazec,
 			Arda_Yavin,
 			Arkania_Brentaal,
 			Arkania_Corulag,
@@ -245,7 +347,6 @@
 			Atchorb_Etti,
 			Atchorb_Lur,
 			Atchorb_Soullex,
-			Atchorb_Ulicia,
 			Atravis_Eriadu,
 			Atravis_Mustafar,
 			Atravis_Sellasas,
@@ -254,7 +355,6 @@
 			Axxila_Ord_Cestus,
 			Bacrana_Emberlene,
 			Bacrana_Kalarba,
-			Bacrana_New_Cov,
 			Bakura_Bormter,
 			Bakura_Lwhekk,
 			Bakura_Pako_Ramoon,
@@ -269,9 +369,6 @@
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
-			Belgaroth_Bormter,
-			Belgaroth_Jardeen,
-			Belgaroth_Nzoth,
 			Bescane_Jaemus,
 			Bescane_Valc,
 			Bespin_Kaal,
@@ -289,9 +386,7 @@
 			Bomis_Koori_Miztoc,
 			Bonadan_Etti,
 			Bonadan_Saffalore,
-			Bonadan_Ulicia,
 			Bormter_Jardeen,
-			Bormter_Kriselist,
 			Bormter_Rennek,
 			Bormter_Zyzek,
 			Botajef_Celanon,
@@ -302,7 +397,6 @@
 			Bothawui_Moonus_Mandel,
 			Brentaal_Carida,
 			Brentaal_Chazwa,
-			Brentaal_Corulag,
 			Brentaal_Ralltiir,
 			Brentaal_Tepasi,
 			Brintooin_Dravian_Starport,
@@ -328,7 +422,6 @@
 			Cato_Neimoidia_Rendili,
 			Celanon_Nez_Peron,
 			Celanon_Ord_Cestus,
-			Celanon_Serenno,
 			Celanon_Yavin,
 			Centares_Ringo_Vinda,
 			Centares_Xuaquarres,
@@ -361,7 +454,6 @@
 			Corellia_Rendili,
 			Corulag_Ixtlar,
 			Corulag_Skako,
-			Corulag_Tepasi,
 			Coruscant_Foerost,
 			Coruscant_Ixtlar,
 			Coruscant_Kaikielius,
@@ -378,17 +470,14 @@
 			Deko_Neimoidia_Gyndine,
 			Deko_Neimoidia_Quellor,
 			Desevro_Lianna,
-			Desevro_Ession,
 			Desevro_Oslumpex,
 			Delacrix_Honoghr,
-			Delacrix_Minntooine,
 			Delacrix_Saleucami,
 			Delacrix_Sleheyron,
 			Dravian_Starport_Enarc,
 			Dravian_Starport_Kirdo,
 			Dravian_Starport_Sanrafsix,
 			Dravian_Starport_Sevarcos,
-			Druckenwell_New_Cov,
 			Druckenwell_Zolan,
 			Elrood_Mustafar,
 			Elrood_Sluis_Van,
@@ -430,11 +519,9 @@
 			Gargon_Mandalore,
 			Gargon_Taris,
 			Gargon_Bandomeer,
-			Garos_Lucazec,
 			Garos_Fenel,
 			Garos_Ringo_Vinda,
 			Garos_Yavin,
-			Geonosis_Hypori,
 			Geonosis_Trulalis,
 			Ghorman_Wroona,
 			Ghorman_Mrlsst,
@@ -463,7 +550,6 @@
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
 			Kalarba_Naboo,
-			Kalarba_New_Cov,
 			Kalist_Thomork,
 			Kalist_Khomm,
 			Kalla_Saffalore,
@@ -484,7 +570,6 @@
 			Liinade_Paarin_Minor,
 			Liinade_Taris,
 			Liinade_Vrosynri,
-			Lur_Sagma,
 			Lwhekk_Rennek,
 			Metellos_Mrisst,
 			Mhaeli_Sanrafsix,
@@ -492,9 +577,7 @@
 			Mindor_Thyrsus,
 			Mindor_Walinor,
 			Minntooine_Mon_Calamari,
-			Minntooine_Xuaquarres,
 			Miztoc_Sellasas,
-			Miztoc_Woostri,
 			Mon_Calamari_Oslumpex,
 			Mon_Gazza_Rintonne,
 			Mon_Gazza_Svivren,
@@ -522,7 +605,6 @@
 			Nzoth_Zyzek,
 			Odik_Prakith,
 			Ord_Biniir_Ord_Trasi,
-			Ord_Biniir_Paarin_Minor,
 			Ord_Mantell_Paarin_Minor,
 			Ord_Mantell_Walinor,
 			Ord_Radama_Sagma,
@@ -530,7 +612,6 @@
 			Ord_Radama_Thila,
 			Ord_Radama_Yavin,
 			Oslumpex_Saffalore,
-			Oslumpex_Xuaquarres,
 			Paarin_Minor_Walinor,
 			Pako_Ramoon_Saijo,
 			Pako_Ramoon_Sellasas,
@@ -541,7 +622,6 @@
 			Rennek_Zakuul,
 			Rhigar_Zyzek,
 			Ringo_Vinda_Roche,
-			Ringo_Vinda_Xuaquarres,
 			Ringo_Vinda_Saleucami,
 			Rintonne_Zolan,
 			Sagma_Thila,
@@ -552,7 +632,6 @@
 			Sleheyron_Ubrikkia,
 			Soullex_Thila,
 			Sullust_Vondarc,
-			Svivren_Trulalis,
 			Taanab_Terephon,
 			Taris_Walinor,
 			Taris_Wayland,
@@ -684,7 +763,28 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
     <Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
     <Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
 		<Starting_Forces>Warlords, Abregado_Rae, Era_Seven_Dummy</Starting_Forces>
-		<Starting_Forces>Warlords, Bimmisaari, Generate_Force</Starting_Forces>
+		<!-- New Additions -->
+		<Starting_Forces>Warlords, Jabiim, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Mirial, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ryloth, Generate_Force</Starting_Forces>
+
+
+		<Starting_Forces>Zsinj_Empire, Feriae_Junction, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Katana_Space, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Makem_Te, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Jaminere, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Vjun, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Chandrila, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Empress_Teta, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Tatooine, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Alzoc, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Emberlene, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Randon, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Ringneldia, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Talus_Tralus, Generate_Force</Starting_Forces> <!-- Connected -->
+		<!-- Continue -->
+		<Starting_Forces>Greater_Maldrood, Bimmisaari, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nar_Haaska, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Khomm, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Lur, Generate_Force</Starting_Forces>
@@ -712,7 +812,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Independent_Forces, Balmorra, Generate_Force</Starting_Forces>
 		<Starting_Forces>Zsinj_Empire, Bandomeer, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Belgaroth, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bespin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bilbringi, Generate_Force</Starting_Forces>
@@ -752,7 +851,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Dravian_Starport, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Druckenwell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Elrood, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Emberlene, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Enarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
@@ -761,21 +859,21 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Corporate_Sector, Etti, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Etti, CSA_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Fenel, Generate_Force</Starting_Forces>
-		<Starting_Forces>Rebel, Filve, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Filve, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Foerost, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Foless, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Fondor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Gargon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Garos, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Geonosis, Generate_Force</Starting_Forces>
-		<Starting_Forces>Empire, Gyndine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Gyndine, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hapes_Consortium, Hapes, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hapes_Consortium, Hapes, Hapan_Capital</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Hollastin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Honoghr, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Hypori, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Iphigin, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Ixtlar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Jaemus, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Jardeen, Generate_Force</Starting_Forces>
@@ -795,9 +893,8 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Lianna, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Liinade, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Loronar, Generate_Force</Starting_Forces>
-		<Starting_Forces>Greater_Maldrood, Lucazec, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Lwhekk, Generate_Force</Starting_Forces>
-		<Starting_Forces>Rebel, Manda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Manda, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Mandalore, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Metellos, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Mhaeli, Generate_Force</Starting_Forces>
@@ -806,10 +903,10 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Miztoc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Rebel, Mon_Calamari, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Mon_Gazza, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Moonus_Mandel, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Moonus_Mandel, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Morishim, Generate_Force</Starting_Forces>
 		<Starting_Forces>Empire, Mrisst, Generate_Force</Starting_Forces>
-		<Starting_Forces>Empire, Mrisst, Empire_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Empire_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Mrlsst, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Mustafar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
@@ -818,7 +915,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Hutt_Cartels, Nal_Hutta, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nal_Hutta, Hutt_Capital</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nar_Shaddaa, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, New_Cov, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Nez_Peron, Generate_Force</Starting_Forces>
 		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
 		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
@@ -830,7 +926,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Independent_Forces, Ord_Mantell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Radama, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Trasi, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Oslumpex, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Oslumpex, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Paarin_Minor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Pako_Ramoon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Prakith, Generate_Force</Starting_Forces>
@@ -842,16 +938,16 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Hapes_Consortium, Relephon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rendili, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rennek, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Rhigar, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Rhigar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Greater_Maldrood, Ringo_Vinda, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Rintonne, Generate_Force</Starting_Forces>
-		<Starting_Forces>Greater_Maldrood, Roche, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Roche, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rothana, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Saffalore, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Sagma, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Saijo, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Sanrafsix, Generate_Force</Starting_Forces>
-		<Starting_Forces>Eriadu_Authority, Sanrafsix, Eriadu_Capital</Starting_Forces>
+		<Starting_Forces>Eriadu_Authority, Vondarc, Eriadu_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Sellasas, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Serenno, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Sevarcos, Generate_Force</Starting_Forces>
@@ -873,23 +969,22 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Trulalis, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Ubrikkia, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Ulicia, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Umbara, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Valc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Vondarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Vrosynri, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Vulpter, Generate_Force</Starting_Forces>
-		<Starting_Forces>Zsinj_Empire, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Walinor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wayland, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Woostri, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wroona, Generate_Force</Starting_Forces>
 		<Starting_Forces>Empire, Xa_Fel, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Xuaquarres, Generate_Force</Starting_Forces>
+		<Starting_Forces>Greater_Maldrood, Xuaquarres, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Yaga_Minor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Yavin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Zakuul, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Zolan, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Zyzek, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Zyzek, Generate_Force</Starting_Forces>
   </Campaign>
   <Campaign Name="Proteus_Map_One_Era_7_Greater_Maldrood">
     <Campaign_Set>Proteus_Map_One_Era_7</Campaign_Set>
@@ -905,6 +1000,25 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
     <Camera_Shift_Y>0.0</Camera_Shift_Y>
     <Camera_Distance>1000.0</Camera_Distance>
 		<Locations>
+			<!-- New Additions -->
+			Katana_Space,
+			Jabiim,
+			Mirial,
+			Ryloth,
+			Feriae_Junction,
+			Glade,
+			Jaminere,
+			Vjun,
+			Alzoc,
+			Ketaris,
+			Talus_Tralus,
+			Chandrila,
+			Ringneldia,
+			Makem_Te,
+			Tatooine,
+			Empress_Teta,
+			Randon,
+			<!-- Continue -->
 			Nar_Haaska,
 			Khomm,
 			Lur,
@@ -928,7 +1042,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Balmorra,
 			Bandomeer,
 			Bastion,
-			Belgaroth,
 			Bescane,
 			Bespin,
 			Bilbringi,
@@ -1009,7 +1122,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Lianna,
 			Liinade,
 			Loronar,
-			Lucazec,
 			Lwhekk,
 			Manda,
 			Mandalore,
@@ -1030,7 +1142,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Naboo,
 			Nal_Hutta,
 			Nar_Shaddaa,
-			New_Cov,
 			Nez_Peron,
 			Nirauan,
 			Nzoth,
@@ -1083,7 +1194,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Troukree,
 			Trulalis,
 			Ubrikkia,
-			Ulicia,
 			Umbara,
 			Valc,
 			Vondarc,
@@ -1102,7 +1212,96 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Zyzek,
 </Locations>
 		<Trade_Routes>
-			Abregado_Rae_Belgaroth,
+			<!-- New Additions -->
+			Ghorman_Jardeen,
+			Roche_Trandosha,
+			Axxila_Vrosynri,
+			Elrood_Saijo,
+			Emberlene_Filve,
+			Iphigin_Loronar,
+			Rothana_Hollastin,
+			Abregado_Rae_Mrlsst,
+			Foerost_Metellos,
+			Metellos_Nzoth,
+			Ryloth_Trulalis,
+			Geonosis_Ryloth,
+			Mirial_Sagma,
+			Mirial_Thila,
+			Jabiim_Saleucami,
+			Jabiim_Xuaquarres,
+			<!-- 20/08/26 -->
+			Bescane_Troukree,
+			Regnant_Troukree,
+			Copero_Regnant,
+			Bilbringi_Regnant,
+			Lur_Mirial,
+			Taris_Thyrsus,
+			Arkania_Ord_Mantell,
+			Gargon_Thustra,
+			Atchorb_Bonadan,
+			Antemeridias_Arda,
+			Arda_Centares,
+			Jabiim_Ringo_Vinda,
+			Desevro_Korriban,
+			Bimmisaari_Ubrikkia,
+			Bimmisaari_Trandosha,
+			Mon_Calamari_Xuaquarres,
+			Jabiim_Minntooine,
+			Nar_Shaddaa_Ubrikkia,
+			Nar_Haaska_Rothana,
+			Rothana_Ryloth,
+			Mon_Gazza_Trulalis,
+			Druckenwell_Kalarba,
+			Bacrana_Druckenwell,
+			Druckenwell_Emberlene,
+			Druckenwell_Filve,
+			Christophsis_Filve,
+			Colla_Taanab,
+			Centares_Garos,
+			Garos_Lantillies,
+			Vondarc_Sellasas,
+			Miztoc_Vondarc,
+			Bomis_Koori_Kinyen,
+			Columus_Khomm,
+			Copero_Xa_Fel,
+			Kaikielius_Foerost,
+			Ando_Prime_Mon_Gazza,
+			Ando_Prime_Rintonne,
+			Kalist_Vulpter,
+			Abregado_Rae_Nzoth,
+			Celanon_Feriae_Junction,
+			Feriae_Junction_Serenno,
+			Jaminere_Lianna,
+			Desevro_Jaminere,
+			Jaminere_Xuaquarres,
+			Desevro_Makem_Te,
+			Ession_Makem_Te,
+			Delacrix_Ringneldia,
+			Minntooine_Ringneldia,
+			Arda_Vjun,
+			Garos_Vjun,
+			Ketaris_Ord_Biniir,
+			Ketaris_Paarin_Minor,
+			Kashyyyk_Randon,
+			Randon_Ubrikkia,
+			Katana_Space_Kriselist,
+			Bormter_Katana_Space,
+			Chandrila_Corulag,
+			Brentaal_Chandrila,
+			Chandrila_Tepasi,
+			Empress_Teta_Foerost,
+			Empress_Teta_Prakith,
+			Empress_Teta_Vulpter,
+			Alzoc_Ryloth,
+			Alzoc_Svivren,
+			Filve_Tatooine,
+			Hypori_Tatooine,
+			Geonosis_Tatooine,
+			Corellia_Talus_Tralus,
+			Cato_Neimoidia_Talus_Tralus,
+		</Trade_Routes>
+		<Trade_Routes>
+			<!-- Continue -->
 			Abregado_Rae_Fondor,
 			Abregado_Rae_Thomork,
 			Aguarl_Bacrana,
@@ -1126,9 +1325,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Ando_Prime_Zolan,
 			Antemeridias_Centares,
 			Antemeridias_Columex,
-			Antemeridias_Lucazec,
 			Arda_Korriban,
-			Arda_Lucazec,
 			Arda_Yavin,
 			Arkania_Brentaal,
 			Arkania_Corulag,
@@ -1136,7 +1333,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Atchorb_Etti,
 			Atchorb_Lur,
 			Atchorb_Soullex,
-			Atchorb_Ulicia,
 			Atravis_Eriadu,
 			Atravis_Mustafar,
 			Atravis_Sellasas,
@@ -1145,7 +1341,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Axxila_Ord_Cestus,
 			Bacrana_Emberlene,
 			Bacrana_Kalarba,
-			Bacrana_New_Cov,
 			Bakura_Bormter,
 			Bakura_Lwhekk,
 			Bakura_Pako_Ramoon,
@@ -1160,9 +1355,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
-			Belgaroth_Bormter,
-			Belgaroth_Jardeen,
-			Belgaroth_Nzoth,
 			Bescane_Jaemus,
 			Bescane_Valc,
 			Bespin_Kaal,
@@ -1180,9 +1372,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Bomis_Koori_Miztoc,
 			Bonadan_Etti,
 			Bonadan_Saffalore,
-			Bonadan_Ulicia,
 			Bormter_Jardeen,
-			Bormter_Kriselist,
 			Bormter_Rennek,
 			Bormter_Zyzek,
 			Botajef_Celanon,
@@ -1193,7 +1383,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Bothawui_Moonus_Mandel,
 			Brentaal_Carida,
 			Brentaal_Chazwa,
-			Brentaal_Corulag,
 			Brentaal_Ralltiir,
 			Brentaal_Tepasi,
 			Brintooin_Dravian_Starport,
@@ -1219,7 +1408,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Cato_Neimoidia_Rendili,
 			Celanon_Nez_Peron,
 			Celanon_Ord_Cestus,
-			Celanon_Serenno,
 			Celanon_Yavin,
 			Centares_Ringo_Vinda,
 			Centares_Xuaquarres,
@@ -1252,7 +1440,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Corellia_Rendili,
 			Corulag_Ixtlar,
 			Corulag_Skako,
-			Corulag_Tepasi,
 			Coruscant_Foerost,
 			Coruscant_Ixtlar,
 			Coruscant_Kaikielius,
@@ -1269,17 +1456,14 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Deko_Neimoidia_Gyndine,
 			Deko_Neimoidia_Quellor,
 			Desevro_Lianna,
-			Desevro_Ession,
 			Desevro_Oslumpex,
 			Delacrix_Honoghr,
-			Delacrix_Minntooine,
 			Delacrix_Saleucami,
 			Delacrix_Sleheyron,
 			Dravian_Starport_Enarc,
 			Dravian_Starport_Kirdo,
 			Dravian_Starport_Sanrafsix,
 			Dravian_Starport_Sevarcos,
-			Druckenwell_New_Cov,
 			Druckenwell_Zolan,
 			Elrood_Mustafar,
 			Elrood_Sluis_Van,
@@ -1321,11 +1505,9 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Gargon_Mandalore,
 			Gargon_Taris,
 			Gargon_Bandomeer,
-			Garos_Lucazec,
 			Garos_Fenel,
 			Garos_Ringo_Vinda,
 			Garos_Yavin,
-			Geonosis_Hypori,
 			Geonosis_Trulalis,
 			Ghorman_Wroona,
 			Ghorman_Mrlsst,
@@ -1354,7 +1536,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
 			Kalarba_Naboo,
-			Kalarba_New_Cov,
 			Kalist_Thomork,
 			Kalist_Khomm,
 			Kalla_Saffalore,
@@ -1375,7 +1556,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Liinade_Paarin_Minor,
 			Liinade_Taris,
 			Liinade_Vrosynri,
-			Lur_Sagma,
 			Lwhekk_Rennek,
 			Metellos_Mrisst,
 			Mhaeli_Sanrafsix,
@@ -1383,9 +1563,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Mindor_Thyrsus,
 			Mindor_Walinor,
 			Minntooine_Mon_Calamari,
-			Minntooine_Xuaquarres,
 			Miztoc_Sellasas,
-			Miztoc_Woostri,
 			Mon_Calamari_Oslumpex,
 			Mon_Gazza_Rintonne,
 			Mon_Gazza_Svivren,
@@ -1413,7 +1591,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Nzoth_Zyzek,
 			Odik_Prakith,
 			Ord_Biniir_Ord_Trasi,
-			Ord_Biniir_Paarin_Minor,
 			Ord_Mantell_Paarin_Minor,
 			Ord_Mantell_Walinor,
 			Ord_Radama_Sagma,
@@ -1421,7 +1598,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Ord_Radama_Thila,
 			Ord_Radama_Yavin,
 			Oslumpex_Saffalore,
-			Oslumpex_Xuaquarres,
 			Paarin_Minor_Walinor,
 			Pako_Ramoon_Saijo,
 			Pako_Ramoon_Sellasas,
@@ -1432,7 +1608,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Rennek_Zakuul,
 			Rhigar_Zyzek,
 			Ringo_Vinda_Roche,
-			Ringo_Vinda_Xuaquarres,
 			Ringo_Vinda_Saleucami,
 			Rintonne_Zolan,
 			Sagma_Thila,
@@ -1443,7 +1618,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Sleheyron_Ubrikkia,
 			Soullex_Thila,
 			Sullust_Vondarc,
-			Svivren_Trulalis,
 			Taanab_Terephon,
 			Taris_Walinor,
 			Taris_Wayland,
@@ -1575,7 +1749,28 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
     <Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
     <Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
 		<Starting_Forces>Warlords, Abregado_Rae, Era_Seven_Dummy</Starting_Forces>
-		<Starting_Forces>Warlords, Bimmisaari, Generate_Force</Starting_Forces>
+		<!-- New Additions -->
+		<Starting_Forces>Warlords, Jabiim, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Mirial, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ryloth, Generate_Force</Starting_Forces>
+
+
+		<Starting_Forces>Zsinj_Empire, Feriae_Junction, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Katana_Space, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Makem_Te, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Jaminere, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Vjun, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Chandrila, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Empress_Teta, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Tatooine, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Alzoc, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Emberlene, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Randon, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Ringneldia, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Talus_Tralus, Generate_Force</Starting_Forces> <!-- Connected -->
+		<!-- Continue -->
+		<Starting_Forces>Greater_Maldrood, Bimmisaari, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nar_Haaska, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Khomm, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Lur, Generate_Force</Starting_Forces>
@@ -1603,7 +1798,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Independent_Forces, Balmorra, Generate_Force</Starting_Forces>
 		<Starting_Forces>Zsinj_Empire, Bandomeer, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Belgaroth, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bespin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bilbringi, Generate_Force</Starting_Forces>
@@ -1643,7 +1837,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Dravian_Starport, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Druckenwell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Elrood, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Emberlene, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Enarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
@@ -1652,21 +1845,21 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Corporate_Sector, Etti, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Etti, CSA_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Fenel, Generate_Force</Starting_Forces>
-		<Starting_Forces>Rebel, Filve, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Filve, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Foerost, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Foless, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Fondor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Gargon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Garos, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Geonosis, Generate_Force</Starting_Forces>
-		<Starting_Forces>Empire, Gyndine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Gyndine, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hapes_Consortium, Hapes, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hapes_Consortium, Hapes, Hapan_Capital</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Hollastin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Honoghr, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Hypori, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Iphigin, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Ixtlar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Jaemus, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Jardeen, Generate_Force</Starting_Forces>
@@ -1686,9 +1879,8 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Lianna, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Liinade, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Loronar, Generate_Force</Starting_Forces>
-		<Starting_Forces>Greater_Maldrood, Lucazec, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Lwhekk, Generate_Force</Starting_Forces>
-		<Starting_Forces>Rebel, Manda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Manda, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Mandalore, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Metellos, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Mhaeli, Generate_Force</Starting_Forces>
@@ -1697,10 +1889,10 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Miztoc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Rebel, Mon_Calamari, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Mon_Gazza, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Moonus_Mandel, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Moonus_Mandel, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Morishim, Generate_Force</Starting_Forces>
 		<Starting_Forces>Empire, Mrisst, Generate_Force</Starting_Forces>
-		<Starting_Forces>Empire, Mrisst, Empire_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Empire_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Mrlsst, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Mustafar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
@@ -1709,7 +1901,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Hutt_Cartels, Nal_Hutta, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nal_Hutta, Hutt_Capital</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nar_Shaddaa, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, New_Cov, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Nez_Peron, Generate_Force</Starting_Forces>
 		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
 		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
@@ -1721,7 +1912,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Independent_Forces, Ord_Mantell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Radama, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Trasi, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Oslumpex, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Oslumpex, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Paarin_Minor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Pako_Ramoon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Prakith, Generate_Force</Starting_Forces>
@@ -1733,16 +1924,16 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Hapes_Consortium, Relephon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rendili, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rennek, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Rhigar, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Rhigar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Greater_Maldrood, Ringo_Vinda, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Rintonne, Generate_Force</Starting_Forces>
-		<Starting_Forces>Greater_Maldrood, Roche, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Roche, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rothana, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Saffalore, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Sagma, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Saijo, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Sanrafsix, Generate_Force</Starting_Forces>
-		<Starting_Forces>Eriadu_Authority, Sanrafsix, Eriadu_Capital</Starting_Forces>
+		<Starting_Forces>Eriadu_Authority, Vondarc, Eriadu_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Sellasas, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Serenno, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Sevarcos, Generate_Force</Starting_Forces>
@@ -1764,23 +1955,22 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Trulalis, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Ubrikkia, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Ulicia, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Umbara, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Valc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Vondarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Vrosynri, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Vulpter, Generate_Force</Starting_Forces>
-		<Starting_Forces>Zsinj_Empire, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Walinor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wayland, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Woostri, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wroona, Generate_Force</Starting_Forces>
 		<Starting_Forces>Empire, Xa_Fel, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Xuaquarres, Generate_Force</Starting_Forces>
+		<Starting_Forces>Greater_Maldrood, Xuaquarres, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Yaga_Minor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Yavin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Zakuul, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Zolan, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Zyzek, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Zyzek, Generate_Force</Starting_Forces>
   </Campaign>
   <Campaign Name="Proteus_Map_One_Era_7_Imperial_Proteus">
     <Campaign_Set>Proteus_Map_One_Era_7</Campaign_Set>
@@ -1796,6 +1986,25 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
     <Camera_Shift_Y>0.0</Camera_Shift_Y>
     <Camera_Distance>1000.0</Camera_Distance>
 		<Locations>
+			<!-- New Additions -->
+			Katana_Space,
+			Jabiim,
+			Mirial,
+			Ryloth,
+			Feriae_Junction,
+			Glade,
+			Jaminere,
+			Vjun,
+			Alzoc,
+			Ketaris,
+			Talus_Tralus,
+			Chandrila,
+			Ringneldia,
+			Makem_Te,
+			Tatooine,
+			Empress_Teta,
+			Randon,
+			<!-- Continue -->
 			Nar_Haaska,
 			Khomm,
 			Lur,
@@ -1819,7 +2028,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Balmorra,
 			Bandomeer,
 			Bastion,
-			Belgaroth,
 			Bescane,
 			Bespin,
 			Bilbringi,
@@ -1900,7 +2108,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Lianna,
 			Liinade,
 			Loronar,
-			Lucazec,
 			Lwhekk,
 			Manda,
 			Mandalore,
@@ -1921,7 +2128,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Naboo,
 			Nal_Hutta,
 			Nar_Shaddaa,
-			New_Cov,
 			Nez_Peron,
 			Nirauan,
 			Nzoth,
@@ -1974,7 +2180,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Troukree,
 			Trulalis,
 			Ubrikkia,
-			Ulicia,
 			Umbara,
 			Valc,
 			Vondarc,
@@ -1993,7 +2198,96 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Zyzek,
 </Locations>
 		<Trade_Routes>
-			Abregado_Rae_Belgaroth,
+			<!-- New Additions -->
+			Ghorman_Jardeen,
+			Roche_Trandosha,
+			Axxila_Vrosynri,
+			Elrood_Saijo,
+			Emberlene_Filve,
+			Iphigin_Loronar,
+			Rothana_Hollastin,
+			Abregado_Rae_Mrlsst,
+			Foerost_Metellos,
+			Metellos_Nzoth,
+			Ryloth_Trulalis,
+			Geonosis_Ryloth,
+			Mirial_Sagma,
+			Mirial_Thila,
+			Jabiim_Saleucami,
+			Jabiim_Xuaquarres,
+			<!-- 20/08/26 -->
+			Bescane_Troukree,
+			Regnant_Troukree,
+			Copero_Regnant,
+			Bilbringi_Regnant,
+			Lur_Mirial,
+			Taris_Thyrsus,
+			Arkania_Ord_Mantell,
+			Gargon_Thustra,
+			Atchorb_Bonadan,
+			Antemeridias_Arda,
+			Arda_Centares,
+			Jabiim_Ringo_Vinda,
+			Desevro_Korriban,
+			Bimmisaari_Ubrikkia,
+			Bimmisaari_Trandosha,
+			Mon_Calamari_Xuaquarres,
+			Jabiim_Minntooine,
+			Nar_Shaddaa_Ubrikkia,
+			Nar_Haaska_Rothana,
+			Rothana_Ryloth,
+			Mon_Gazza_Trulalis,
+			Druckenwell_Kalarba,
+			Bacrana_Druckenwell,
+			Druckenwell_Emberlene,
+			Druckenwell_Filve,
+			Christophsis_Filve,
+			Colla_Taanab,
+			Centares_Garos,
+			Garos_Lantillies,
+			Vondarc_Sellasas,
+			Miztoc_Vondarc,
+			Bomis_Koori_Kinyen,
+			Columus_Khomm,
+			Copero_Xa_Fel,
+			Kaikielius_Foerost,
+			Ando_Prime_Mon_Gazza,
+			Ando_Prime_Rintonne,
+			Kalist_Vulpter,
+			Abregado_Rae_Nzoth,
+			Celanon_Feriae_Junction,
+			Feriae_Junction_Serenno,
+			Jaminere_Lianna,
+			Desevro_Jaminere,
+			Jaminere_Xuaquarres,
+			Desevro_Makem_Te,
+			Ession_Makem_Te,
+			Delacrix_Ringneldia,
+			Minntooine_Ringneldia,
+			Arda_Vjun,
+			Garos_Vjun,
+			Ketaris_Ord_Biniir,
+			Ketaris_Paarin_Minor,
+			Kashyyyk_Randon,
+			Randon_Ubrikkia,
+			Katana_Space_Kriselist,
+			Bormter_Katana_Space,
+			Chandrila_Corulag,
+			Brentaal_Chandrila,
+			Chandrila_Tepasi,
+			Empress_Teta_Foerost,
+			Empress_Teta_Prakith,
+			Empress_Teta_Vulpter,
+			Alzoc_Ryloth,
+			Alzoc_Svivren,
+			Filve_Tatooine,
+			Hypori_Tatooine,
+			Geonosis_Tatooine,
+			Corellia_Talus_Tralus,
+			Cato_Neimoidia_Talus_Tralus,
+		</Trade_Routes>
+		<Trade_Routes>
+			<!-- Continue -->
 			Abregado_Rae_Fondor,
 			Abregado_Rae_Thomork,
 			Aguarl_Bacrana,
@@ -2017,9 +2311,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Ando_Prime_Zolan,
 			Antemeridias_Centares,
 			Antemeridias_Columex,
-			Antemeridias_Lucazec,
 			Arda_Korriban,
-			Arda_Lucazec,
 			Arda_Yavin,
 			Arkania_Brentaal,
 			Arkania_Corulag,
@@ -2027,7 +2319,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Atchorb_Etti,
 			Atchorb_Lur,
 			Atchorb_Soullex,
-			Atchorb_Ulicia,
 			Atravis_Eriadu,
 			Atravis_Mustafar,
 			Atravis_Sellasas,
@@ -2036,7 +2327,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Axxila_Ord_Cestus,
 			Bacrana_Emberlene,
 			Bacrana_Kalarba,
-			Bacrana_New_Cov,
 			Bakura_Bormter,
 			Bakura_Lwhekk,
 			Bakura_Pako_Ramoon,
@@ -2051,9 +2341,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
-			Belgaroth_Bormter,
-			Belgaroth_Jardeen,
-			Belgaroth_Nzoth,
 			Bescane_Jaemus,
 			Bescane_Valc,
 			Bespin_Kaal,
@@ -2071,9 +2358,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Bomis_Koori_Miztoc,
 			Bonadan_Etti,
 			Bonadan_Saffalore,
-			Bonadan_Ulicia,
 			Bormter_Jardeen,
-			Bormter_Kriselist,
 			Bormter_Rennek,
 			Bormter_Zyzek,
 			Botajef_Celanon,
@@ -2084,7 +2369,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Bothawui_Moonus_Mandel,
 			Brentaal_Carida,
 			Brentaal_Chazwa,
-			Brentaal_Corulag,
 			Brentaal_Ralltiir,
 			Brentaal_Tepasi,
 			Brintooin_Dravian_Starport,
@@ -2110,7 +2394,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Cato_Neimoidia_Rendili,
 			Celanon_Nez_Peron,
 			Celanon_Ord_Cestus,
-			Celanon_Serenno,
 			Celanon_Yavin,
 			Centares_Ringo_Vinda,
 			Centares_Xuaquarres,
@@ -2143,7 +2426,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Corellia_Rendili,
 			Corulag_Ixtlar,
 			Corulag_Skako,
-			Corulag_Tepasi,
 			Coruscant_Foerost,
 			Coruscant_Ixtlar,
 			Coruscant_Kaikielius,
@@ -2160,17 +2442,14 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Deko_Neimoidia_Gyndine,
 			Deko_Neimoidia_Quellor,
 			Desevro_Lianna,
-			Desevro_Ession,
 			Desevro_Oslumpex,
 			Delacrix_Honoghr,
-			Delacrix_Minntooine,
 			Delacrix_Saleucami,
 			Delacrix_Sleheyron,
 			Dravian_Starport_Enarc,
 			Dravian_Starport_Kirdo,
 			Dravian_Starport_Sanrafsix,
 			Dravian_Starport_Sevarcos,
-			Druckenwell_New_Cov,
 			Druckenwell_Zolan,
 			Elrood_Mustafar,
 			Elrood_Sluis_Van,
@@ -2212,11 +2491,9 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Gargon_Mandalore,
 			Gargon_Taris,
 			Gargon_Bandomeer,
-			Garos_Lucazec,
 			Garos_Fenel,
 			Garos_Ringo_Vinda,
 			Garos_Yavin,
-			Geonosis_Hypori,
 			Geonosis_Trulalis,
 			Ghorman_Wroona,
 			Ghorman_Mrlsst,
@@ -2245,7 +2522,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
 			Kalarba_Naboo,
-			Kalarba_New_Cov,
 			Kalist_Thomork,
 			Kalist_Khomm,
 			Kalla_Saffalore,
@@ -2266,7 +2542,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Liinade_Paarin_Minor,
 			Liinade_Taris,
 			Liinade_Vrosynri,
-			Lur_Sagma,
 			Lwhekk_Rennek,
 			Metellos_Mrisst,
 			Mhaeli_Sanrafsix,
@@ -2274,9 +2549,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Mindor_Thyrsus,
 			Mindor_Walinor,
 			Minntooine_Mon_Calamari,
-			Minntooine_Xuaquarres,
 			Miztoc_Sellasas,
-			Miztoc_Woostri,
 			Mon_Calamari_Oslumpex,
 			Mon_Gazza_Rintonne,
 			Mon_Gazza_Svivren,
@@ -2304,7 +2577,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Nzoth_Zyzek,
 			Odik_Prakith,
 			Ord_Biniir_Ord_Trasi,
-			Ord_Biniir_Paarin_Minor,
 			Ord_Mantell_Paarin_Minor,
 			Ord_Mantell_Walinor,
 			Ord_Radama_Sagma,
@@ -2312,7 +2584,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Ord_Radama_Thila,
 			Ord_Radama_Yavin,
 			Oslumpex_Saffalore,
-			Oslumpex_Xuaquarres,
 			Paarin_Minor_Walinor,
 			Pako_Ramoon_Saijo,
 			Pako_Ramoon_Sellasas,
@@ -2323,7 +2594,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Rennek_Zakuul,
 			Rhigar_Zyzek,
 			Ringo_Vinda_Roche,
-			Ringo_Vinda_Xuaquarres,
 			Ringo_Vinda_Saleucami,
 			Rintonne_Zolan,
 			Sagma_Thila,
@@ -2334,7 +2604,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 			Sleheyron_Ubrikkia,
 			Soullex_Thila,
 			Sullust_Vondarc,
-			Svivren_Trulalis,
 			Taanab_Terephon,
 			Taris_Walinor,
 			Taris_Wayland,
@@ -2466,7 +2735,28 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
     <Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
     <Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
 		<Starting_Forces>Warlords, Abregado_Rae, Era_Seven_Dummy</Starting_Forces>
-		<Starting_Forces>Warlords, Bimmisaari, Generate_Force</Starting_Forces>
+		<!-- New Additions -->
+		<Starting_Forces>Warlords, Jabiim, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Mirial, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ryloth, Generate_Force</Starting_Forces>
+
+
+		<Starting_Forces>Zsinj_Empire, Feriae_Junction, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Katana_Space, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Makem_Te, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Jaminere, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Vjun, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Chandrila, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Empress_Teta, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Tatooine, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Alzoc, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Emberlene, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Randon, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Ringneldia, Generate_Force</Starting_Forces> <!-- Connected -->
+		<Starting_Forces>Warlords, Talus_Tralus, Generate_Force</Starting_Forces> <!-- Connected -->
+		<!-- Continue -->
+		<Starting_Forces>Greater_Maldrood, Bimmisaari, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nar_Haaska, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Khomm, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Lur, Generate_Force</Starting_Forces>
@@ -2494,7 +2784,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Independent_Forces, Balmorra, Generate_Force</Starting_Forces>
 		<Starting_Forces>Zsinj_Empire, Bandomeer, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Belgaroth, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bespin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bilbringi, Generate_Force</Starting_Forces>
@@ -2534,7 +2823,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Dravian_Starport, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Druckenwell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Elrood, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Emberlene, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Enarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
@@ -2543,21 +2831,21 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Corporate_Sector, Etti, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Etti, CSA_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Fenel, Generate_Force</Starting_Forces>
-		<Starting_Forces>Rebel, Filve, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Filve, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Foerost, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Foless, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Fondor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Gargon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Garos, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Geonosis, Generate_Force</Starting_Forces>
-		<Starting_Forces>Empire, Gyndine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Gyndine, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hapes_Consortium, Hapes, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hapes_Consortium, Hapes, Hapan_Capital</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Hollastin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Honoghr, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Hypori, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Iphigin, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Ixtlar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Jaemus, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Jardeen, Generate_Force</Starting_Forces>
@@ -2577,9 +2865,8 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Lianna, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Liinade, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Loronar, Generate_Force</Starting_Forces>
-		<Starting_Forces>Greater_Maldrood, Lucazec, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Lwhekk, Generate_Force</Starting_Forces>
-		<Starting_Forces>Rebel, Manda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Manda, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Mandalore, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Metellos, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Mhaeli, Generate_Force</Starting_Forces>
@@ -2588,10 +2875,10 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Warlords, Miztoc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Rebel, Mon_Calamari, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Mon_Gazza, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Moonus_Mandel, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Moonus_Mandel, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Morishim, Generate_Force</Starting_Forces>
 		<Starting_Forces>Empire, Mrisst, Generate_Force</Starting_Forces>
-		<Starting_Forces>Empire, Mrisst, Empire_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Empire_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Mrlsst, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Mustafar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
@@ -2600,7 +2887,6 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Hutt_Cartels, Nal_Hutta, Generate_Force</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nal_Hutta, Hutt_Capital</Starting_Forces>
 		<Starting_Forces>Hutt_Cartels, Nar_Shaddaa, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, New_Cov, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Nez_Peron, Generate_Force</Starting_Forces>
 		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
 		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
@@ -2612,7 +2898,7 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Independent_Forces, Ord_Mantell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Radama, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Trasi, Generate_Force</Starting_Forces>
-		<Starting_Forces>Warlords, Oslumpex, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Oslumpex, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Paarin_Minor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Pako_Ramoon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Prakith, Generate_Force</Starting_Forces>
@@ -2624,16 +2910,16 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>Hapes_Consortium, Relephon, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rendili, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rennek, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Rhigar, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Rhigar, Generate_Force</Starting_Forces>
 		<Starting_Forces>Greater_Maldrood, Ringo_Vinda, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Rintonne, Generate_Force</Starting_Forces>
-		<Starting_Forces>Greater_Maldrood, Roche, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Roche, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Rothana, Generate_Force</Starting_Forces>
 		<Starting_Forces>Corporate_Sector, Saffalore, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Sagma, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Saijo, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Sanrafsix, Generate_Force</Starting_Forces>
-		<Starting_Forces>Eriadu_Authority, Sanrafsix, Eriadu_Capital</Starting_Forces>
+		<Starting_Forces>Eriadu_Authority, Vondarc, Eriadu_Capital</Starting_Forces>
 		<Starting_Forces>Warlords, Sellasas, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Serenno, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Sevarcos, Generate_Force</Starting_Forces>
@@ -2655,22 +2941,21 @@ Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml</S
 		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Trulalis, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Ubrikkia, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Ulicia, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Umbara, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Valc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Vondarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Vrosynri, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Vulpter, Generate_Force</Starting_Forces>
-		<Starting_Forces>Zsinj_Empire, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Walinor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wayland, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Woostri, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wroona, Generate_Force</Starting_Forces>
 		<Starting_Forces>Empire, Xa_Fel, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Xuaquarres, Generate_Force</Starting_Forces>
+		<Starting_Forces>Greater_Maldrood, Xuaquarres, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Yaga_Minor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Yavin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Zakuul, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Zolan, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Zyzek, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Zyzek, Generate_Force</Starting_Forces>
   </Campaign>
 </Campaigns>

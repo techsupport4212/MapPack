@@ -22,6 +22,8 @@ return {
         end
 
         if self.entry_time <= 5 then
+            -- Era 7 name change to reflect the fact that these factions are long since dead, their leaders gone, no heroes spawned. the name can be changed as necessary
+            crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ZSINJ_EMPIRE", "Zsinj Remnants")
             if Find_Player("local") == Find_Player("Pentastar") then
                 StoryUtil.Multimedia("TEXT_CONQUEST_PENTASTAR_INTRO_E3", 15, nil, "Kaine_Loop", 0)
                 Story_Event("PENTASTAR_ERATHREE_STARTED")

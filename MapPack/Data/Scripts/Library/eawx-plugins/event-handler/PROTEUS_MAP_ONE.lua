@@ -39,7 +39,7 @@ function EventManager:new(galactic_conquest)
     self.NzothConquer = GenericConquer(self.galactic_conquest,
         "CONQUER_NZOTH",
         "NZOTH", {},
-        {"EX_F"}, false)
+        {"EX_F"}, false, "Piett_Loop", {"Dummy_Aramadia_Dreadnought"})
     self.DummyBuildExtras = DummyBuildExtras(self.galactic_conquest)
     self.EmpireReborn = EmpireReborn(self.galactic_conquest)
     self.FelChildren = FelChildren(self.galactic_conquest)

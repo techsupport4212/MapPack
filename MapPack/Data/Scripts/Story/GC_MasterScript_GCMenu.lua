@@ -1798,7 +1798,7 @@ function Clicked_Start_GC(message)
 
 		if (string.find(string.upper(Map_Selected), "KNOWN") or string.find(string.upper(Map_Selected), "FULL") or string.find(string.upper(Map_Selected), "AT_WAR")  or string.find(string.upper(Map_Selected), "WESTERNREACHES") or string.find(string.upper(Map_Selected), "BORDERLANDS") or string.find(string.upper(Map_Selected), "STARS_ALIGN")) and Era_Selected == "6ABY" and Faction_Selected == "EMPIRE" then
 			Regime_Choice()
-		elseif string.find(string.upper(Map_Selected), "FTGU") or string.find(string.upper(Map_Selected), "CUSTOM") or (string.find(string.upper(Map_Selected), "PROTEUS_MAP") and Era_Selected == "4ABY") then
+		elseif string.find(string.upper(Map_Selected), "FTGU") or string.find(string.upper(Map_Selected), "CUSTOM") or (string.find(string.upper(Map_Selected), "PROTEUS_MAP") and Era_Selected ~= "12ABY") then
 			Infinity_Progression_Choice()
 		else
 			Load_GC()
