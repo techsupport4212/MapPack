@@ -1283,4 +1283,200 @@ return {
 			["4ABY"] = true
 		}
 	},
+	
+	["THARKUS"] = {
+		["FullLarge"] = {
+			["4ABY"] = true
+		}
+		,["FullMedium"] = {
+			["4ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["4ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
+	},
+
+	["BALMORRA"] = {
+		
+		["FullLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+		}
+		,["Empires_At_War"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+			,["9ABY"] = true
+		}
+	},
+
+	["RENDILI"] = {
+		
+		["Empires_At_War"] = {
+			["6ABY"] = true
+			,["9ABY"] = true
+		},
+		["Proteus_Map_One"] = {
+			["6ABY"] = true
+			,["9ABY"] = true
+		}
+	},
+	["VEERS"] = {
+		
+		["FullLarge"] = {
+			["9ABY"] = true
+		}
+		,["FullMedium"] = {
+			["9ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["9ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["9ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["9ABY"] = true
+		}
+	},
+	["LANOX"] = {
+		
+		["FullLarge"] = {
+			["11ABY"] = true
+		     ,["11.5ABY"] = true
+		}
+		,["FullMedium"] = {
+			["11ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["11ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["11ABY"] = true
+		    ,["11.5ABY"] = true
+		}
+		,["KnownSmall"] = {
+		   ["11ABY"] = true
+		}	
+	},
+	["STORM_COMMANDOS"] = {
+		["FullSmall"] = {
+			["4ABY"] = true
+		},
+		["FullMedium"] = {
+			["4ABY"] = true
+		},
+		["FullLarge"] = {
+			["4ABY"] = true
+		},
+		["KnownSmall"] = {
+			["4ABY"] = true
+		},
+		["KnownMedium"] = {
+			["4ABY"] = true
+		},
+		["KnownLarge"] = {
+			["4ABY"] = true
+		},
+		["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
+	},
+	["SCREED"] = {
+		["FullSmall"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		},
+		["FullMedium"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		},
+		["FullLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		},
+		["KnownSmall"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		},
+		["KnownMedium"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		},
+		["KnownLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		},
+		["Borderlands"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
+	},
+	["CENTRALITY"] = {
+		["FullLarge"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		},
+		["KnownLarge"] = {
+			["6ABY"] = true
+			,["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		},
+		["CorporateAcquisitions"] = {
+			["12ABY"] = true
+		},
+		["KnownMedium"] = {
+			["12ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["12ABY"] = true
+		}
+	},
+	["ANAXES"] = {
+		["FullLarge"] = {
+			["6ABY"] = true
+		},
+		["Empires_At_War"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["4ABY"] = true
+		}
+	},
+		["BRANDEI"] = {
+		["FullLarge"] = {
+			["10ABY"] = true
+			 ,["11ABY"] = true
+			 ,["11.5ABY"] = true
+			 ,["12ABY"] = true
+		}
+		,["Proteus_Map_One"] = {
+			["12ABY"] = true
+		}
+
+	},
 }

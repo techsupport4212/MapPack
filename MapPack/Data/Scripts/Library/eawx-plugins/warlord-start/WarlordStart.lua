@@ -55,9 +55,11 @@ function get_value_per_era(array, year, nontable)
 		local corenne = array[1]
 		local maxevent = 0 --The order of evaluation is not guaranteed
 		for event, data in pairs(array) do
-			if year >= event and event > maxevent then
-				maxevent = event
-				corenne = data
+			if type(event) == "number" then
+				if year >= event and event > maxevent then
+					maxevent = event
+					corenne = data
+				end
 			end
 		end
 		return corenne
@@ -153,12 +155,13 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 	if year == nil then
 		year = 1.0
 	end
+	local FriendlyName = get_value_per_era(entry.FriendlyName, year, true)
 
 	GlobalValue.Set("PROTEUS_GROUP_NAME",choice)
-	GlobalValue.Set("PROTEUS_INITIAL_DISPLAY_NAME",entry.FriendlyName)
-	GlobalValue.Set("PROTEUS_CURRENT_DISPLAY_NAME",entry.FriendlyName)
+	GlobalValue.Set("PROTEUS_INITIAL_DISPLAY_NAME",FriendlyName)	--GlobalValue.Set("PROTEUS_INITIAL_DISPLAY_NAME",entry.FriendlyName)
+	GlobalValue.Set("PROTEUS_CURRENT_DISPLAY_NAME",FriendlyName)	--GlobalValue.Set("PROTEUS_CURRENT_DISPLAY_NAME",entry.FriendlyName)
 
-	crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", string.upper(self.warlord_name), entry.FriendlyName, entry.PlanetParticle)
+	crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", string.upper(self.warlord_name), FriendlyName, entry.PlanetParticle)	--crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", string.upper(self.warlord_name), entry.FriendlyName, entry.PlanetParticle)
 
 	if choice == "KUAT" then
 		crossplot:publish("PROTEUS_MARKET")
@@ -169,11 +172,23 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
         UnitUtil.SetLockList(self.warlord_name, get_value_per_era(initial_proteus_lock_units, year), false)
     end
 	
+	if entry.UnlockList then
+		local unlock = get_value_per_era(entry.UnlockList, year)
+		if entry.UnlockList["TimeGate"] then
+			local gated = entry.UnlockList["TimeGate"]
+			for _, data in pairs(gated) do
+				if year >= data[2] then
+					table.insert(unlock, data[1])
+				end
+				if data[3] then
+					Find_Player("IMPERIAL_PROTEUS").Lock_Tech(Find_Object_Type(data[3]))
+				end
+			end
+		end
+		UnitUtil.SetLockList(self.warlord_name, unlock)
+	end
 	if entry.LockList then
 		UnitUtil.SetLockList(self.warlord_name, get_value_per_era(entry.LockList, year), false)
-	end
-	if entry.UnlockList then
-		UnitUtil.SetLockList(self.warlord_name, get_value_per_era(entry.UnlockList, year))
 	end
 
 	if cosmetic ~= nil then
@@ -262,6 +277,10 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 		end
 	end
 
+	if entry.CustomRewardTable then
+		GlobalValue.Set("CUSTOM_PROTEUS_REWARDS",true)
+	end
+
 	crossplot:publish("INITIALIZE_PROTEUS_LEGITIMACY", entry.LeaderTable)
 	crossplot:publish("INITIALIZE_AI", "empty")
 	self.warlordlist = nil
@@ -305,7 +324,7 @@ function WarlordStart:ZsinjRemnantHandler(year)
 	if table.getn(Find_All_Objects_Of_Type(self.p_zsinj)) > 0 then
 		local warlordlist = require("ProteusWarlordLibrary")
 		local zsinjdata = warlordlist["ZSINJ_REMNANTS"]
-		crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ZSINJ_EMPIRE", zsinjdata.FriendlyName)
+		crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ZSINJ_EMPIRE", get_value_per_era(zsinjdata.FriendlyName, year, true))	--crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ZSINJ_EMPIRE", zsinjdata.FriendlyName)
 		if self.p_zsinj.Is_Human() then
 			StoryUtil.Multimedia(zsinjdata.IntroText, 15, nil, zsinjdata.IntroHolo, 0)
 		end
