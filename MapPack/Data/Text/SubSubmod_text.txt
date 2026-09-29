@@ -3,9 +3,9 @@ TEXT_GCMENU_PROTEUS_MAP_ONE_TOOLTIP,Planets: 200 | Approximate CPU Load: Very Hi
 TEXT_LOADING_PROTEUS_MAP_ONE,Loading Proteus Map One
 TEXT_NOTE,Put text changes for submods here
 TEXT_OBJECT_STAR_SYSTEM_GARGON,Gargon
-TEXT_PLANET_INFO_GARGON_FAUNA,Unknown
-TEXT_PLANET_INFO_GARGON_HISTORY,TODO
-TEXT_PLANET_INFO_GARGON_POPULATION,TODO
+TEXT_PLANET_INFO_GARGON_FAUNA,None
+TEXT_PLANET_INFO_GARGON_HISTORY,A largely unremarkable world in the Mandalorian Sector. Gargon's main industries were extractive, with minerals und metals being mined in large quantities for projects elsewhere; much of phobium used in the construction of the Death Stars' reactor cores came from Gargon. The planet was overrun with gangsters and notorious as a spice production planet, housing the legendary Spice Vaults of Gargon. After the Battle of Endor, Grand Admiral Josef Grunger elected Gargon as a temporary headquarters while he planned his ascension to the Imperial Throne. After Grunger's death over Tralus, the planet became once again obscure to anyone not in the mining or smuggling businesses. 
+TEXT_PLANET_INFO_GARGON_POPULATION,Native: None\nImmigrated: | Humans | Mandalorians
 TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_AUTHOR,Made by: Eleian
 TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_DESCRIPTION_LINE_1,The largely unimportant Antemeridian Sector was governed by Moff Tol Getelles, and during the Imperial period Antemeridas itself became a wealthy world with extensive Loronar Corporation facilities. The sector avoided New Republic attention immediately after Endor, allowing Getelles to dig in and consolidate his power base carefully while the galaxy descended into further war.
 TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_DESCRIPTION_LINE_2,The Imperial forces in the Antemeridian Sector rely on a small core of heavy star destroyers, supported by a selection of modern small and medium-sized support craft providing fire support. While somewhat lacking in carriers and larger battlecruisers, the fleet under the command of Admiral Larm has more than enough long-range firepower to make up for it in a direct fight. On land, the Imperial garrison is supported by a range of mostly light support units from local or corporate forces, with a strong focus on aerial maneuvers and fast strikes, but lacking in direct combat power. Heavy battlefield recovery vehicles help provide some staying power, but the armies of the Antemeridian Sector still prefer to avoid concentrated enemy fire.
@@ -555,3 +555,4 @@ TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_DESCRIPTION_LINE_1,TODO
 TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_DESCRIPTION_LINE_2,TODO
 TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_DESCRIPTION_LINE_3,TODO
 TEXT_PROTEUS_MAP_ONE_ZSINJ_REMNANTS_TITLE,TODO
+TEXT_SPEECH_CONQUER_NZOTH_PROTEUS_FINISHED,Commander, during the battle we were able to recapture the experimental battlecruiser Rakehell, which has been transferred to your command. Among other craft discovered in their shipyards is an unfinished dreadnought of unknown design - with sufficient funding, this vessel can be completed to serve under our banner!

@@ -36,9 +36,12 @@ return {
             if Find_Player("local") == Find_Player("Greater_Maldrood") then
                 StoryUtil.Multimedia("TEXT_CONQUEST_MALDROOD_INTRO_E7", 15, nil, "Kosh_Teradoc_Loop", 0)
                 Story_Event("MALDROOD_ERASEVEN_STARTED")
+            elseif Find_Player("local") == Find_Player("Zsinj_Empire") then
+                --StoryUtil.Multimedia("TEXT_CONQUEST_ZSINJ_REMNANTS_INTRO_E3", 15, nil, "Imperial_Naval_Officer_Loop", 0)
+                Story_Event("ZSINJ_ERASEVEN_STARTED")
             end
 
-            self.AI_Active = false
+            self.AI_Active = false  
             self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EraSevenStartSet")
             for faction, herolist in pairs(self.Starting_Spawns) do
                 for planet, spawnlist in pairs(herolist) do

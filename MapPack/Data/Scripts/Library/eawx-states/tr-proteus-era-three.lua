@@ -33,6 +33,9 @@ return {
             elseif Find_Player("local") == Find_Player("Greater_Maldrood") then
                 StoryUtil.Multimedia("TEXT_CONQUEST_MALDROOD_INTRO_E3", 15, nil, "Treuten_Teradoc_Loop", 0)
                 Story_Event("MALDROOD_ERATHREE_STARTED")
+            elseif Find_Player("local") == Find_Player("Zsinj_Empire") then
+                --StoryUtil.Multimedia("TEXT_CONQUEST_ZSINJ_REMNANTS_INTRO_E3", 15, nil, "Imperial_Naval_Officer_Loop", 0)
+                Story_Event("ZSINJ_ERATHREE_STARTED")
             end
 
             self.AI_Active = false

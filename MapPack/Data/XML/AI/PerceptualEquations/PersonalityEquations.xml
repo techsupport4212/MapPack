@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!-- Equations that define perception functions -->
+<Equations>
+
+	<!-- Attacks as often as possible, retreats only when necessary -->
+	<Aggressive_Personality>
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"}
+		+                       
+		Variable_Self.IsFaction {Parameter_Faction = "Greater_Maldrood"}
+		+                       
+		Variable_Self.IsFaction {Parameter_Faction = "Pentastar"}
+		+                       
+		Variable_Self.IsFaction {Parameter_Faction = "Imperial_Proteus"}
+		+       
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
+		+
+		Variable_Self.IsFaction {Parameter_Faction = "Zsinj_Empire"}
+		+
+		Variable_Self.IsFaction {Parameter_Faction = "Eriadu_Authority"}
+	</Aggressive_Personality>
+
+	<!-- Attacks weak targets, retreats somewhat early -->
+	<Cautious_Personality>           
+		Variable_Self.IsFaction {Parameter_Faction = "EmpireoftheHand"} 
+		* 
+		(Script_GetCurrentYear.Evaluate >= 12)
+	</Cautious_Personality>
+
+	<!-- Attacks only very weak targets, retreats ASAP -->
+	<!-- Always wants to outnumber the enemy -->
+	<Cowardly_Personality>
+
+	</Cowardly_Personality>
+
+	<!-- Does not attack. Defends strongly -->
+	<Isolationist_Personality>      
+		Variable_Self.IsFaction {Parameter_Faction = "Hapes_Consortium"}
+		+
+		Variable_Self.IsFaction {Parameter_Faction = "Corporate_Sector"}
+		+
+		Variable_Self.IsFaction {Parameter_Faction = "EmpireoftheHand"} * (12 > Script_GetCurrentYear.Evaluate)
+		+
+		Variable_Self.IsFaction {Parameter_Faction = "Hutt_Cartels"}
+		+
+		Variable_Self.IsFaction {Parameter_Faction = "Yevetha"}
+	</Isolationist_Personality>
+
+	<!-- Only cares about money -->
+	<Economic_Personality>
+		Variable_Self.IsFaction {Parameter_Faction = "Corporate_Sector"}
+		+
+		Variable_Self.IsFaction {Parameter_Faction = "Hutt_Cartels"}
+	</Economic_Personality>
+
+
+</Equations>

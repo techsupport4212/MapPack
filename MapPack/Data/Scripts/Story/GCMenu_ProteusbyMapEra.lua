@@ -656,6 +656,7 @@ return {
 			["4ABY"] = true
 			,["12ABY"] = true
 		}
+
 	},
 	
 	["BAKURA"] = {
@@ -1274,6 +1275,7 @@ return {
 		}
 		
 	},
+	
 		["THORN"] = {
 		["WesternReaches"] = {
 			["4ABY"] = true
@@ -1478,5 +1480,63 @@ return {
 			["12ABY"] = true
 		}
 
+	},
+	["EMPIRE_REBORN"] = {
+		
+		["FullSmall"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+		}
+		,["FullMedium"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["FullLarge"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["Borderlands"] = { 
+			["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+
+	},
+		["X1"] = {
+		["KnownLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+		}
+	},
+	
+	["FEL"] = {
+		["Empires_At_War"] = {
+			["4ABY"] = true
+		}
+		,["FullLarge"] = {
+			["4ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["4ABY"] = true
+		}
 	},
 }

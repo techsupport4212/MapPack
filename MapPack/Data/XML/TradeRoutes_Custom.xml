@@ -441,6 +441,38 @@
     <Credit_Gain_Factor>0</Credit_Gain_Factor>
     <Visible_Line_Name>DEFAULT</Visible_Line_Name>
   </TradeRoute>
+	<TradeRoute Name="Bilbringi_Xa_Fel">
+		<Point_A>Bilbringi</Point_A>
+		<Point_B>Xa_Fel</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Jaminere_Makem_Te">
+		<Point_A>Jaminere</Point_A>
+		<Point_B>Makem_Te</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Honoghr_Ringneldia">
+		<Point_A>Honoghr</Point_A>
+		<Point_B>Ringneldia</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Metellos_Xa_Fel">
+		<Point_A>Metellos</Point_A>
+		<Point_B>Xa_Fel</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
   <TradeRoute Name="Ando_Prime_Christophsis">
     <Point_A>Ando_Prime</Point_A>
     <Point_B>Christophsis</Point_B>
