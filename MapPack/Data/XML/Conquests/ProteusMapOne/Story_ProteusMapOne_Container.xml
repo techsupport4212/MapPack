@@ -586,4 +586,160 @@
 		<Prereq>THORN_Welcome</Prereq>
 	</Event>
 
+	<Event Name="ALLIED_TION_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ALLIED_TION_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ALLIED_TION_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>45</Story_Chapter>
+		<Story_Tag>ALLIED_TION_Welcome_Dialog</Story_Tag>
+		<Prereq>ALLIED_TION_Welcome</Prereq>
+	</Event>
+
+	<Event Name="ANAXES_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ANAXES_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="ANAXES_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>46</Story_Chapter>
+		<Story_Tag>ANAXES_Welcome_Dialog</Story_Tag>
+		<Prereq>ANAXES_Welcome</Prereq>
+	</Event>
+
+	<Event Name="BALMORRA_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>BALMORRA_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="BALMORRA_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>47</Story_Chapter>
+		<Story_Tag>BALMORRA_Welcome_Dialog</Story_Tag>
+		<Prereq>BALMORRA_Welcome</Prereq>
+	</Event>
+
+	<Event Name="CENTRALITY_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CENTRALITY_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="CENTRALITY_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>48</Story_Chapter>
+		<Story_Tag>CENTRALITY_Welcome_Dialog</Story_Tag>
+		<Prereq>CENTRALITY_Welcome</Prereq>
+	</Event>
+
+	<Event Name="EMPIRE_REBORN_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>EMPIRE_REBORN_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="EMPIRE_REBORN_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>49</Story_Chapter>
+		<Story_Tag>EMPIRE_REBORN_Welcome_Dialog</Story_Tag>
+		<Prereq>EMPIRE_REBORN_Welcome</Prereq>
+	</Event>
+
+	<Event Name="LANOX_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>LANOX_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="LANOX_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>50</Story_Chapter>
+		<Story_Tag>LANOX_Welcome_Dialog</Story_Tag>
+		<Prereq>LANOX_Welcome</Prereq>
+	</Event>
+
+	<Event Name="RENDILI_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RENDILI_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="RENDILI_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>51</Story_Chapter>
+		<Story_Tag>RENDILI_Welcome_Dialog</Story_Tag>
+		<Prereq>RENDILI_Welcome</Prereq>
+	</Event>
+
+	<Event Name="SECOND_IMPERIUM_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SECOND_IMPERIUM_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="SECOND_IMPERIUM_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>52</Story_Chapter>
+		<Story_Tag>SECOND_IMPERIUM_Welcome_Dialog</Story_Tag>
+		<Prereq>SECOND_IMPERIUM_Welcome</Prereq>
+	</Event>
+
+	<Event Name="STORM_COMMANDOS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>STORM_COMMANDOS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="STORM_COMMANDOS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>53</Story_Chapter>
+		<Story_Tag>STORM_COMMANDOS_Welcome_Dialog</Story_Tag>
+		<Prereq>STORM_COMMANDOS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="VEERS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VEERS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="VEERS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>54</Story_Chapter>
+		<Story_Tag>VEERS_Welcome_Dialog</Story_Tag>
+		<Prereq>VEERS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="THARKUS_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THARKUS_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="THARKUS_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>55</Story_Chapter>
+		<Story_Tag>THARKUS_Welcome_Dialog</Story_Tag>
+		<Prereq>THARKUS_Welcome</Prereq>
+	</Event>
+
+	<Event Name="X1_Welcome">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>X1_WELCOME</Event_Param2>
+	</Event>
+	<Event Name="X1_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Story_Dialog>Dialog_Game_Mode_PROTEUS_MAP_ONE</Story_Dialog>
+		<Story_Chapter>56</Story_Chapter>
+		<Story_Tag>X1_Welcome_Dialog</Story_Tag>
+		<Prereq>X1_Welcome</Prereq>
+	</Event>
+
 </Story>

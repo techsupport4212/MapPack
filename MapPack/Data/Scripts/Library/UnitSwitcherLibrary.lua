@@ -29,27 +29,7 @@ return {
 	["PELLAEON_MEGADOR_DUMMY"] = {"Pellaeon_Chimaera_Grand","Pellaeon_Megador"},
 	["ROGRISS_DOMINION_DUMMY"] = {"Rogriss_Agonizer","Rogriss_Dominion"},
 	["HARRSK_SHOCKWAVE_DUMMY"] = {"Harrsk_Whirlwind","Harrsk_Shockwave"},
-	["HARRSK_MEGADOR_DUMMY_1"] = {"Harrsk_Whirlwind","Harrsk_Megador"},
-	["HARRSK_MEGADOR_DUMMY_2"] = {"Harrsk_Shockwave","Harrsk_Megador"},
-	["DESANNE_DOMINION_DUMMY"] = {"Desanne_Redemption","Desanne_Dominion"},
 	["PARCK_CHAF_DESTROYER_UPGRADE"] = {"Parck_Strikefast","Parck_Chaf_Destroyer"},
-	["GRUNGER_AGGRESSOR_DUMMY"] = {"Grunger_Mahler","Grunger_Aggressor"},
-	["GRONN_ACULEUS_DUMMY"] = {"Gronn_Acropora","Gronn_Aculeus"},
-	["THORN_ASSERTOR_DUMMY"] = {"Thorn","Thorn_Assertor"},
-	["COMEG_BELLATOR_DUMMY"] = {"Comeg_Ostrander","Comeg_Bellator"},
-	["X1_EXECUTOR_DUMMY"] = {"X1","X1_Executor"},
-	["ROGRISS_AURORA_DUMMY"] = {"Rogriss_Agonizer","Rogriss_Aurora"},
-	["ROGRISS_DOMINION_DUMMY2"] = {"Rogriss_Aurora", "Rogriss_Dominion"},
-	["KALE_MODERNIZED_DUMMY"] = {"Anton_Kale", "Anton_Kale_Modernized"},
-	["THARKUS_AMBITION_DUMMY"] = {"Tharkus_Greed", "Tharkus_Ambition"},
-	["KIEZ_WHELM_DUMMY"] = {"Kiez_Empire", "Kiez_Whelm"},
-	["TAXEVADER_DREAM_OF_A_QUIET_LIFE_DUMMY"] = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_of_a_Quiet_Life"},
-	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
-	["STRANG_IEC_DUMMY"] = {"Victor_Strang", "Strang_IEC"},
-
-
-	-- Aramadia Class Dreadnought Dummy_Aramadia_Dreadnought
-	["DUMMY_ARAMADIA_DREADNOUGHT"] = {nil,{"Aramadia_Star_Dreadnought"}},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},
@@ -118,13 +98,37 @@ return {
 	["DUMMY_RECRUIT_GROUP_BANJEER"] = {nil,{"Banjeer_Quasar"}},
 	["DUMMY_RECRUIT_GROUP_TREMAYNE"] = {nil,{"Antinnis_Tremayne_Team", "Bly_Team", "Parnet_Team", "Waleran_Interrogator"}},
 	["DUMMY_RECRUIT_GROUP_PROTECTORATE"] = {nil,{"Adalric_Brandl_Team", "Jaalib_Brandl_Protectorate_I", "Fable_Astin_Team"}},
-	["DUMMY_RECRUIT_GROUP_SHADOW_REALM"] = {nil,{"Cronal_Singularity", "Shadowspawn_Team", "Klick_Team", "Rbann"}},
+	["DUMMY_RECRUIT_GROUP_SHADOW_REALM"] = {nil,{"Cronal_Singularity", "Shadowspawn_Team", "Klick_Team"}},
 	["DUMMY_RECRUIT_GROUP_X1"] = {nil,{"X1_Executor"}},
 	["DUMMY_RECRUIT_GROUP_LANOX"] = {nil,{"Lanox_Hazard"}},
 	["DUMMY_RECRUIT_GROUP_PRAJI"] = {nil,{"Praji_Secutor"}},
 	["DUMMY_RECRUIT_GROUP_JANARA"] = {nil,{"Brandei_Judicator"}},
 	["DUMMY_RECRUIT_GROUP_THORN"] = {nil,{"Thorn_Assertor"}},
-	--Unit upgrades for generics
+	-- Project Proteus Dummies
+
+	-- Aramadia Class Dreadnought Dummy_Aramadia_Dreadnought
+	["DUMMY_ARAMADIA_DREADNOUGHT"] = {nil,{"Aramadia_Star_Dreadnought"}},
+
+	-- Proteus upgrades for heroes
+	["HARRSK_MEGADOR_DUMMY_1"] = {"Harrsk_Whirlwind","Harrsk_Megador"},
+	["HARRSK_MEGADOR_DUMMY_2"] = {"Harrsk_Shockwave","Harrsk_Megador"},
+	["DESANNE_DOMINION_DUMMY"] = {"Desanne_Redemption","Desanne_Dominion"},
+	["GRUNGER_AGGRESSOR_DUMMY"] = {"Grunger_Mahler","Grunger_Aggressor"},
+	["GRONN_ACULEUS_DUMMY"] = {"Gronn_Acropora","Gronn_Aculeus"},
+	["THORN_ASSERTOR_DUMMY"] = {"Thorn","Thorn_Assertor"},
+	["COMEG_BELLATOR_DUMMY"] = {"Comeg_Ostrander","Comeg_Bellator"},
+	["X1_EXECUTOR_DUMMY"] = {"X1","X1_Executor"},
+	["ROGRISS_AURORA_DUMMY"] = {"Rogriss_Agonizer","Rogriss_Aurora"},
+	["ROGRISS_DOMINION_DUMMY2"] = {"Rogriss_Aurora", "Rogriss_Dominion"},
+	["KALE_MODERNIZED_DUMMY"] = {"Anton_Kale", "Anton_Kale_Modernized"},
+	["THARKUS_AMBITION_DUMMY"] = {"Tharkus_Greed", "Tharkus_Ambition"},
+	["KIEZ_WHELM_DUMMY"] = {"Kiez_Empire", "Kiez_Whelm"},
+	["TAXEVADER_DREAM_OF_A_QUIET_LIFE_DUMMY"] = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_of_a_Quiet_Life"},
+	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
+	["STRANG_IEC_DUMMY"] = {"Victor_Strang", "Strang_IEC"},
+	-- Proteus Unit upgrades for generics
 	["DHC_CARRIER_UPGRADE"] = {"PDF_DHC","DHC_CARRIER",["location_check"] = true},
 	["PROCURATOR_UPGRADE_DUMMY"] = {"Procurator_Battlecruiser","Modernized_Procurator",["location_check"] = true},
+	-- Proteus Hero Recruitment
+	["DUMMY_RECRUIT_URLAN_RENDILI"] = {nil,{"Bengila_Urlan_Team"}, Unlocks = {"Dummy_RepublicSD_Rendili"}},
 }
