@@ -29,7 +29,7 @@
 	<!-- Attacks only very weak targets, retreats ASAP -->
 	<!-- Always wants to outnumber the enemy -->
 	<Cowardly_Personality>
-
+		Variable_Self.IsFaction {Parameter_Faction = "EmpireoftheHand"} * (12 > Script_GetCurrentYear.Evaluate)
 	</Cowardly_Personality>
 
 	<!-- Does not attack. Defends strongly -->
@@ -37,8 +37,6 @@
 		Variable_Self.IsFaction {Parameter_Faction = "Hapes_Consortium"}
 		+
 		Variable_Self.IsFaction {Parameter_Faction = "Corporate_Sector"}
-		+
-		Variable_Self.IsFaction {Parameter_Faction = "EmpireoftheHand"} * (12 > Script_GetCurrentYear.Evaluate)
 		+
 		Variable_Self.IsFaction {Parameter_Faction = "Hutt_Cartels"}
 		+
