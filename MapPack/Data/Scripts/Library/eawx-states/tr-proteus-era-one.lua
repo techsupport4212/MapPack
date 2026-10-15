@@ -57,7 +57,7 @@ return {
             --Subscribe to proteus-specific events if in proteus mode
             if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
                 crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
-                crossplot:publish("CONQUER_NZOTH", "empty")
+                crossplot:publish("PROTEUS_CONQUER_NZOTH", "empty")
             end
 
 			if not GlobalValue.Get("PROGRESSIVE_INFINITY") then

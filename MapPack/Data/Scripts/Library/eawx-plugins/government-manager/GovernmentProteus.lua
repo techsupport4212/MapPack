@@ -65,13 +65,6 @@ function GovernmentProteus:update()
     end
 end
 
--- New function to handle government related rewards for conquering Coruscant as Proteus. Currently just shows a message, but can be expanded to do more.
-function GovernmentProteus:proteus_conquer_reward()
-    local message = "Goooood. You've taken Coruscant!"
-    StoryUtil.ShowScreenText(message, 20)
-    --local faction_name = "IMPERIAL_PROTEUS"
-    -- self:group_joins(faction_name)
-end
 
 ---@param planet Planet
 ---@param object_type_name string Assumes all CAPS

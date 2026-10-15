@@ -4224,7 +4224,7 @@ TEXT_SPEECH_CAMPAIGN_SINGLE_60_INTRO_E,Imperial forces have managed to push back
 TEXT_SPEECH_CONQUER_CENTARES_ZSINJ_FINISHED,Warlord Zsinj: We've liberated my old friend Ambris Selit from Teradoc's clutches, and he has gratefully offered his service.
 TEXT_SPEECH_CONQUER_KASHYYYK_MALDROOD_FINISHED,Peccati Syn: Thank you Teradoc, your assistance must be a sign! I will help you unite all Imperials in the name of the Church of the Dark Side!
 TEXT_SPEECH_CONQUER_MANDALORE_NR_FINISHED,Fenn Shysa:  It's taken too long, but the traitors have finally been driven from our home. I can't express my gratitude to the New Republic enough for this. As Mand'alor, I swear to fight by your side until the Empire is shattered. For Tobbi, and all Mando'ade.
-TEXT_SPEECH_CONQUER_NZOTH_FINISHED,Commander, during the battle we were able to capture several Yevethan craft! They have been transferred to your command.
+TEXT_SPEECH_PROTEUS_CONQUER_NZOTH_FINISHED,Commander, during the battle we were able to capture several Yevethan craft! They have been transferred to your command.
 TEXT_SPEECH_CORONA_RESEARCH,Corona Frigate Research available.
 TEXT_SPEECH_CORONA_RESEARCH_FINISHED,Corona Frigate research finished.
 TEXT_SPEECH_GORATH_RESEARCH,Gorath Strike Cruiser Research available.

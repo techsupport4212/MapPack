@@ -1,6 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TradeRoutes>
   <!--TechSupport: Added custom trade routes including those for ported planets-->
+	<TradeRoute Name="Rendili_Talus_Tralus">
+		<Point_A>Rendili</Point_A>
+		<Point_B>Talus_Tralus</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Jaminere_Mon_Calamari">
+		<Point_A>Jaminere</Point_A>
+		<Point_B>Mon_Calamari</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Centares_Jabiim">
+		<Point_A>Centares</Point_A>
+		<Point_B>Jabiim</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Bescane_Troukree">
 		<Point_A>Bescane</Point_A>
 		<Point_B>Troukree</Point_B>

@@ -719,6 +719,7 @@
     + Variable_Target.Type.IsType {Parameter_Type = "Byblos"}
     + Variable_Target.Type.IsType {Parameter_Type = "Celanon"}
     + Variable_Target.Type.IsType {Parameter_Type = "Centares"}
+    + Variable_Target.Type.IsType {Parameter_Type = "Coruscant"}
     + Variable_Target.Type.IsType {Parameter_Type = "Chazwa"}
     + Variable_Target.Type.IsType {Parameter_Type = "Columex"}
     + Variable_Target.Type.IsType {Parameter_Type = "Dravian_Starport"}
