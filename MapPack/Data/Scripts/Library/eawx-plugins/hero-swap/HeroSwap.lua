@@ -2,7 +2,6 @@ require("deepcore/std/class")
 require("eawx-util/StoryUtil")
 require("PGSpawnUnits")
 require("UnitSwitcherLibrary")
-require("UnitSwitcherMap")
 require("SetFighterResearch")
 
 HeroSwap = class()
