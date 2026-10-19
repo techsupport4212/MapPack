@@ -211,6 +211,22 @@
 		</Locations>
 		<Trade_Routes>
 			<!-- New Additions -->
+			Mustafar_Pako_Ramoon,
+			Kashyyyk_Umbara,
+			Kashyyyk_Ubrikkia,
+			Kashyyyk_Roche,
+			Saleucami_Sleheyron,
+			Soullex_Lur,
+			Arda_Serenno,
+			Arda_Botajef,
+			Dathomir_Liinade,
+			Bandomeer_Walinor,
+			Gargon_Wayland,
+			Thyrsus_Wayland,
+			Colla_Thyrsus,
+			Corvis_Minor_Ord_Trasi,
+			Ord_Biniir_Paarin_Minor,
+			Jardeen_Kriselist,
 			Alsakan_Anaxes,
 			Anaxes_Corulag,
 			Rendili_Talus_Tralus,
@@ -248,7 +264,7 @@
 			Nar_Shaddaa_Ubrikkia,
 			Nar_Haaska_Rothana,
 			Rothana_Ryloth,
-			Mon_Gazza_Trulalis,
+			
 			Druckenwell_Kalarba,
 			Bacrana_Druckenwell,
 			Druckenwell_Emberlene,
@@ -323,7 +339,7 @@
 			Balmorra_Umbara,
 			Bandomeer_Botajef,
 			Bandomeer_Dathomir,
-			Bandomeer_Mandalore,
+			
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
@@ -404,7 +420,7 @@
 			Coruscant_Kaikielius,
 			Coruscant_Metellos,
 			Corvis_Minor_Liinade,
-			Corvis_Minor_Paarin_Minor,
+			
 			Corvis_Minor_RZ7,
 			Copero_Rhigar,
 			Copero_Zyzek,
@@ -479,7 +495,7 @@
 			Ixtlar_Skako,
 			Jaemus_Muunilinst,
 			Jardeen_Kinyen,
-			Jardeen_Wroona,
+			
 			Kaal_Kriselist,
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
@@ -537,7 +553,7 @@
 			Ord_Radama_Thila,
 			Oslumpex_Saffalore,
 			Paarin_Minor_Walinor,
-			Pako_Ramoon_Sellasas,
+			
 			Prefsbelt_Valc,
 			Prefsbelt_Yaga_Minor,
 			RZ7_Soullex,
@@ -733,7 +749,7 @@
 		<Starting_Forces>Warlords, Brentaal, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Brintooin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Byblos, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Byss, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Byss,Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Carida, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Cartao, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Cato_Neimoidia, Generate_Force</Starting_Forces>
@@ -1099,6 +1115,22 @@
 		</Locations>
 		<Trade_Routes>
 			<!-- New Additions -->
+			Mustafar_Pako_Ramoon,
+			Kashyyyk_Umbara,
+			Kashyyyk_Ubrikkia,
+			Kashyyyk_Roche,
+			Saleucami_Sleheyron,
+			Soullex_Lur,
+			Arda_Serenno,
+			Arda_Botajef,
+			Dathomir_Liinade,
+			Bandomeer_Walinor,
+			Gargon_Wayland,
+			Thyrsus_Wayland,
+			Colla_Thyrsus,
+			Corvis_Minor_Ord_Trasi,
+			Ord_Biniir_Paarin_Minor,
+			Jardeen_Kriselist,
 			Alsakan_Anaxes,
 			Anaxes_Corulag,
 			Rendili_Talus_Tralus,
@@ -1136,7 +1168,7 @@
 			Nar_Shaddaa_Ubrikkia,
 			Nar_Haaska_Rothana,
 			Rothana_Ryloth,
-			Mon_Gazza_Trulalis,
+			
 			Druckenwell_Kalarba,
 			Bacrana_Druckenwell,
 			Druckenwell_Emberlene,
@@ -1211,7 +1243,7 @@
 			Balmorra_Umbara,
 			Bandomeer_Botajef,
 			Bandomeer_Dathomir,
-			Bandomeer_Mandalore,
+			
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
@@ -1292,7 +1324,7 @@
 			Coruscant_Kaikielius,
 			Coruscant_Metellos,
 			Corvis_Minor_Liinade,
-			Corvis_Minor_Paarin_Minor,
+			
 			Corvis_Minor_RZ7,
 			Copero_Rhigar,
 			Copero_Zyzek,
@@ -1367,7 +1399,7 @@
 			Ixtlar_Skako,
 			Jaemus_Muunilinst,
 			Jardeen_Kinyen,
-			Jardeen_Wroona,
+			
 			Kaal_Kriselist,
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
@@ -1425,7 +1457,7 @@
 			Ord_Radama_Thila,
 			Oslumpex_Saffalore,
 			Paarin_Minor_Walinor,
-			Pako_Ramoon_Sellasas,
+			
 			Prefsbelt_Valc,
 			Prefsbelt_Yaga_Minor,
 			RZ7_Soullex,
@@ -1621,7 +1653,7 @@
 		<Starting_Forces>Warlords, Brentaal, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Brintooin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Byblos, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Byss, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Byss,Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Carida, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Cartao, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Cato_Neimoidia, Generate_Force</Starting_Forces>
@@ -1987,6 +2019,22 @@
 		</Locations>
 		<Trade_Routes>
 			<!-- New Additions -->
+			Mustafar_Pako_Ramoon,
+			Kashyyyk_Umbara,
+			Kashyyyk_Ubrikkia,
+			Kashyyyk_Roche,
+			Saleucami_Sleheyron,
+			Soullex_Lur,
+			Arda_Serenno,
+			Arda_Botajef,
+			Dathomir_Liinade,
+			Bandomeer_Walinor,
+			Gargon_Wayland,
+			Thyrsus_Wayland,
+			Colla_Thyrsus,
+			Corvis_Minor_Ord_Trasi,
+			Ord_Biniir_Paarin_Minor,
+			Jardeen_Kriselist,
 			Alsakan_Anaxes,
 			Anaxes_Corulag,
 			Rendili_Talus_Tralus,
@@ -2024,7 +2072,7 @@
 			Nar_Shaddaa_Ubrikkia,
 			Nar_Haaska_Rothana,
 			Rothana_Ryloth,
-			Mon_Gazza_Trulalis,
+			
 			Druckenwell_Kalarba,
 			Bacrana_Druckenwell,
 			Druckenwell_Emberlene,
@@ -2099,7 +2147,7 @@
 			Balmorra_Umbara,
 			Bandomeer_Botajef,
 			Bandomeer_Dathomir,
-			Bandomeer_Mandalore,
+			
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
@@ -2180,7 +2228,7 @@
 			Coruscant_Kaikielius,
 			Coruscant_Metellos,
 			Corvis_Minor_Liinade,
-			Corvis_Minor_Paarin_Minor,
+			
 			Corvis_Minor_RZ7,
 			Copero_Rhigar,
 			Copero_Zyzek,
@@ -2255,7 +2303,7 @@
 			Ixtlar_Skako,
 			Jaemus_Muunilinst,
 			Jardeen_Kinyen,
-			Jardeen_Wroona,
+			
 			Kaal_Kriselist,
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
@@ -2313,7 +2361,7 @@
 			Ord_Radama_Thila,
 			Oslumpex_Saffalore,
 			Paarin_Minor_Walinor,
-			Pako_Ramoon_Sellasas,
+			
 			Prefsbelt_Valc,
 			Prefsbelt_Yaga_Minor,
 			RZ7_Soullex,
@@ -2509,7 +2557,7 @@
 		<Starting_Forces>Warlords, Brentaal, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Brintooin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Byblos, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Byss, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Byss,Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Carida, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Cartao, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Cato_Neimoidia, Generate_Force</Starting_Forces>
@@ -2875,6 +2923,22 @@
 		</Locations>
 		<Trade_Routes>
 			<!-- New Additions -->
+			Mustafar_Pako_Ramoon,
+			Kashyyyk_Umbara,
+			Kashyyyk_Ubrikkia,
+			Kashyyyk_Roche,
+			Saleucami_Sleheyron,
+			Soullex_Lur,
+			Arda_Serenno,
+			Arda_Botajef,
+			Dathomir_Liinade,
+			Bandomeer_Walinor,
+			Gargon_Wayland,
+			Thyrsus_Wayland,
+			Colla_Thyrsus,
+			Corvis_Minor_Ord_Trasi,
+			Ord_Biniir_Paarin_Minor,
+			Jardeen_Kriselist,
 			Alsakan_Anaxes,
 			Anaxes_Corulag,
 			Rendili_Talus_Tralus,
@@ -2912,7 +2976,7 @@
 			Nar_Shaddaa_Ubrikkia,
 			Nar_Haaska_Rothana,
 			Rothana_Ryloth,
-			Mon_Gazza_Trulalis,
+			
 			Druckenwell_Kalarba,
 			Bacrana_Druckenwell,
 			Druckenwell_Emberlene,
@@ -2987,7 +3051,7 @@
 			Balmorra_Umbara,
 			Bandomeer_Botajef,
 			Bandomeer_Dathomir,
-			Bandomeer_Mandalore,
+			
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
@@ -3068,7 +3132,7 @@
 			Coruscant_Kaikielius,
 			Coruscant_Metellos,
 			Corvis_Minor_Liinade,
-			Corvis_Minor_Paarin_Minor,
+			
 			Corvis_Minor_RZ7,
 			Copero_Rhigar,
 			Copero_Zyzek,
@@ -3143,7 +3207,7 @@
 			Ixtlar_Skako,
 			Jaemus_Muunilinst,
 			Jardeen_Kinyen,
-			Jardeen_Wroona,
+			
 			Kaal_Kriselist,
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
@@ -3201,7 +3265,7 @@
 			Ord_Radama_Thila,
 			Oslumpex_Saffalore,
 			Paarin_Minor_Walinor,
-			Pako_Ramoon_Sellasas,
+			
 			Prefsbelt_Valc,
 			Prefsbelt_Yaga_Minor,
 			RZ7_Soullex,
@@ -3397,7 +3461,7 @@
 		<Starting_Forces>Warlords, Brentaal, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Brintooin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Byblos, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Byss, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Byss,Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Carida, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Cartao, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Cato_Neimoidia, Generate_Force</Starting_Forces>
@@ -3763,6 +3827,22 @@
 		</Locations>
 		<Trade_Routes>
 			<!-- New Additions -->
+			Mustafar_Pako_Ramoon,
+			Kashyyyk_Umbara,
+			Kashyyyk_Ubrikkia,
+			Kashyyyk_Roche,
+			Saleucami_Sleheyron,
+			Soullex_Lur,
+			Arda_Serenno,
+			Arda_Botajef,
+			Dathomir_Liinade,
+			Bandomeer_Walinor,
+			Gargon_Wayland,
+			Thyrsus_Wayland,
+			Colla_Thyrsus,
+			Corvis_Minor_Ord_Trasi,
+			Ord_Biniir_Paarin_Minor,
+			Jardeen_Kriselist,
 			Alsakan_Anaxes,
 			Anaxes_Corulag,
 			Rendili_Talus_Tralus,
@@ -3800,7 +3880,7 @@
 			Nar_Shaddaa_Ubrikkia,
 			Nar_Haaska_Rothana,
 			Rothana_Ryloth,
-			Mon_Gazza_Trulalis,
+			
 			Druckenwell_Kalarba,
 			Bacrana_Druckenwell,
 			Druckenwell_Emberlene,
@@ -3875,7 +3955,7 @@
 			Balmorra_Umbara,
 			Bandomeer_Botajef,
 			Bandomeer_Dathomir,
-			Bandomeer_Mandalore,
+			
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
@@ -3956,7 +4036,7 @@
 			Coruscant_Kaikielius,
 			Coruscant_Metellos,
 			Corvis_Minor_Liinade,
-			Corvis_Minor_Paarin_Minor,
+			
 			Corvis_Minor_RZ7,
 			Copero_Rhigar,
 			Copero_Zyzek,
@@ -4031,7 +4111,7 @@
 			Ixtlar_Skako,
 			Jaemus_Muunilinst,
 			Jardeen_Kinyen,
-			Jardeen_Wroona,
+			
 			Kaal_Kriselist,
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
@@ -4089,7 +4169,7 @@
 			Ord_Radama_Thila,
 			Oslumpex_Saffalore,
 			Paarin_Minor_Walinor,
-			Pako_Ramoon_Sellasas,
+			
 			Prefsbelt_Valc,
 			Prefsbelt_Yaga_Minor,
 			RZ7_Soullex,
@@ -4285,7 +4365,7 @@
 		<Starting_Forces>Warlords, Brentaal, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Brintooin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Byblos, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Byss, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Byss,Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Carida, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Cartao, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Cato_Neimoidia, Generate_Force</Starting_Forces>
@@ -4651,6 +4731,22 @@
 		</Locations>
 		<Trade_Routes>
 			<!-- New Additions -->
+			Mustafar_Pako_Ramoon,
+			Kashyyyk_Umbara,
+			Kashyyyk_Ubrikkia,
+			Kashyyyk_Roche,
+			Saleucami_Sleheyron,
+			Soullex_Lur,
+			Arda_Serenno,
+			Arda_Botajef,
+			Dathomir_Liinade,
+			Bandomeer_Walinor,
+			Gargon_Wayland,
+			Thyrsus_Wayland,
+			Colla_Thyrsus,
+			Corvis_Minor_Ord_Trasi,
+			Ord_Biniir_Paarin_Minor,
+			Jardeen_Kriselist,
 			Alsakan_Anaxes,
 			Anaxes_Corulag,
 			Rendili_Talus_Tralus,
@@ -4688,7 +4784,7 @@
 			Nar_Shaddaa_Ubrikkia,
 			Nar_Haaska_Rothana,
 			Rothana_Ryloth,
-			Mon_Gazza_Trulalis,
+			
 			Druckenwell_Kalarba,
 			Bacrana_Druckenwell,
 			Druckenwell_Emberlene,
@@ -4763,7 +4859,7 @@
 			Balmorra_Umbara,
 			Bandomeer_Botajef,
 			Bandomeer_Dathomir,
-			Bandomeer_Mandalore,
+			
 			Bastion_Bescane,
 			Bastion_Jaemus,
 			Bastion_RZ7,
@@ -4844,7 +4940,7 @@
 			Coruscant_Kaikielius,
 			Coruscant_Metellos,
 			Corvis_Minor_Liinade,
-			Corvis_Minor_Paarin_Minor,
+			
 			Corvis_Minor_RZ7,
 			Copero_Rhigar,
 			Copero_Zyzek,
@@ -4919,7 +5015,7 @@
 			Ixtlar_Skako,
 			Jaemus_Muunilinst,
 			Jardeen_Kinyen,
-			Jardeen_Wroona,
+			
 			Kaal_Kriselist,
 			Kaal_Miztoc,
 			Kaikielius_Vulpter,
@@ -4977,7 +5073,7 @@
 			Ord_Radama_Thila,
 			Oslumpex_Saffalore,
 			Paarin_Minor_Walinor,
-			Pako_Ramoon_Sellasas,
+			
 			Prefsbelt_Valc,
 			Prefsbelt_Yaga_Minor,
 			RZ7_Soullex,
@@ -5173,7 +5269,7 @@
 		<Starting_Forces>Warlords, Brentaal, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Brintooin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Byblos, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Byss, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Byss,Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Carida, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Cartao, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Cato_Neimoidia, Generate_Force</Starting_Forces>

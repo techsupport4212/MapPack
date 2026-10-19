@@ -8,6 +8,7 @@ return {
 
         self.LeaderApproach = false
 
+        self.StaticFleets = true
         self.Active_Planets = StoryUtil.GetSafePlanetTable()
         self.entry_time = GetCurrentTime()
         self.AI_Active = true
@@ -46,24 +47,42 @@ return {
                 end
             end
         end
+
+        if self.StaticFleets == true then
+            self.StaticFleets = false
+            local StaticSpawns = require("eawx-mod-icw/spawn-sets/ProteusStaticFleetSet")
+            for planet, spawnlist in pairs(StaticSpawns) do
+                if self.Active_Planets[planet] then
+                    local locale = FindPlanet(planet)
+					local owner = locale.Get_Owner()
+					if owner == Find_Player("Warlords") then
+                        player = Find_Player("Warlords")
+                        StoryUtil.SpawnAtSafePlanet(planet, player, self.Active_Planets, spawnlist, false)
+                    end
+                end
+            end
+        end
     end,
 
     on_update = function(self, state_context)
         local current = GetCurrentTime() - self.entry_time
-        if current >= 8 and self.AI_Active == false then
-            crossplot:publish("CONQUER_CENTARES_ZSINJ", "empty")
-            crossplot:publish("CONQUER_KASHYYYK_MALDROOD", "empty")
-            crossplot:publish("CONQUER_MANDALORE_NR", "empty")
-            --Subscribe to proteus-specific events if in proteus mode
-            if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
-                crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
-                crossplot:publish("PROTEUS_CONQUER_NZOTH", "empty")
-            end
+        if current >= 8 then
 
-			if not GlobalValue.Get("PROGRESSIVE_INFINITY") then
-				crossplot:publish("INITIALIZE_AI", "empty")
-			end
-            self.AI_Active = true
+            if self.AI_Active == false then
+                crossplot:publish("CONQUER_CENTARES_ZSINJ", "empty")
+                crossplot:publish("CONQUER_KASHYYYK_MALDROOD", "empty")
+                crossplot:publish("CONQUER_MANDALORE_NR", "empty")
+                --Subscribe to proteus-specific events if in proteus mode
+                if GlobalValue.Get("PROTEUS_MAP_SETTINGS") then
+                    crossplot:publish("PROTEUS_CONQUER_CORUSCANT", "empty")
+                    crossplot:publish("PROTEUS_CONQUER_NZOTH", "empty")
+                end
+
+                if not GlobalValue.Get("PROGRESSIVE_INFINITY") then
+                    crossplot:publish("INITIALIZE_AI", "empty")
+                end
+                self.AI_Active = true
+            end
         end
     end,
 

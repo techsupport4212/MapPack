@@ -1,5 +1,85 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TradeRoutes>
+  <TradeRoute Name="Mustafar_Pako_Ramoon">
+    <Point_A>Mustafar</Point_A>
+    <Point_B>Pako_Ramoon</Point_B>
+    <HS_Speed_Factor>1.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  	<TradeRoute Name="Saleucami_Sleheyron">
+		<Point_A>Saleucami</Point_A>
+		<Point_B>Sleheyron</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+  	<TradeRoute Name="Soullex_Lur">
+		<Point_A>Soullex</Point_A>
+		<Point_B>Lur</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+  	<TradeRoute Name="Arda_Serenno">
+		<Point_A>Arda</Point_A>
+		<Point_B>Serenno</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+  	<TradeRoute Name="Arda_Botajef">
+		<Point_A>Arda</Point_A>
+		<Point_B>Botajef</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Bandomeer_Walinor">
+		<Point_A>Bandomeer</Point_A>
+		<Point_B>Walinor</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Gargon_Wayland">
+		<Point_A>Gargon</Point_A>
+		<Point_B>Wayland</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Thyrsus_Wayland">
+		<Point_A>Thyrsus</Point_A>
+		<Point_B>Wayland</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Corvis_Minor_Ord_Trasi">
+		<Point_A>Corvis_Minor</Point_A>
+		<Point_B>Ord_Trasi</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Ord_Biniir_Paarin_Minor">
+		<Point_A>Ord_Biniir</Point_A>
+		<Point_B>Paarin_Minor</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
   <!--TechSupport: Added custom trade routes including those for ported planets-->
 	<TradeRoute Name="Rendili_Talus_Tralus">
 		<Point_A>Rendili</Point_A>
@@ -1820,14 +1900,6 @@
   <TradeRoute Name="Pako_Ramoon_Saijo">
     <Point_A>Pako_Ramoon</Point_A>
     <Point_B>Saijo</Point_B>
-    <HS_Speed_Factor>1.0</HS_Speed_Factor>
-    <Political_Control_Gain>0</Political_Control_Gain>
-    <Credit_Gain_Factor>0</Credit_Gain_Factor>
-    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
-  </TradeRoute>
-  <TradeRoute Name="Pako_Ramoon_Sellasas">
-    <Point_A>Pako_Ramoon</Point_A>
-    <Point_B>Sellasas</Point_B>
     <HS_Speed_Factor>1.0</HS_Speed_Factor>
     <Political_Control_Gain>0</Political_Control_Gain>
     <Credit_Gain_Factor>0</Credit_Gain_Factor>
