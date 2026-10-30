@@ -1,13 +1,13 @@
 ﻿TEXT_PLANET_TRADEHUB_RESERVE,Banking World & Trade Hub: Galactic Bank Reserve with Additional income (Trade Port: 2x income)
 TEXT_RESOURCE_SUPPORTS_TRADE_HUB_BANK_RESERVE,Banking World & Trade Hub
 TEXT_RESOURCE_SUPPORTS_TRADE_HUB_BANK_RESERVE_DESCRIPTION,A Galactic Bank Reserve and a Trade Hub (2x income) can be built on this world
-TEXT_GCMENU_PROTEUS_MAP_ONE,Proteus Submod Map (200)
+TEXT_GCMENU_PROTEUS_MAP_ONE,Proteus Megamap (200)
 TEXT_GCMENU_PROTEUS_MAP_ONE_TOOLTIP,Planets: 200 | Approximate CPU Load: Very High
 TEXT_LOADING_PROTEUS_MAP_ONE,Loading Proteus Map One
 TEXT_NOTE,Put text changes for submods here
 TEXT_OBJECT_STAR_SYSTEM_GARGON,Gargon
 TEXT_PLANET_INFO_GARGON_FAUNA,None
-TEXT_PLANET_INFO_GARGON_HISTORY,A largely unremarkable world in the Mandalorian Sector. Gargon's main industries were extractive, with minerals und metals being mined in large quantities for projects elsewhere; much of phobium used in the construction of the Death Stars' reactor cores came from Gargon. The planet was overrun with gangsters and notorious as a spice production planet, housing the legendary Spice Vaults of Gargon. After the Battle of Endor, Grand Admiral Josef Grunger elected Gargon as a temporary headquarters while he planned his ascension to the Imperial Throne. After Grunger's death over Tralus, the planet became once again obscure to anyone not in the mining or smuggling businesses. 
+TEXT_PLANET_INFO_GARGON_HISTORY,A largely unremarkable world in the Mandalorian Sector. Gargon's main industries were extractive, with minerals and metals being mined in large quantities for projects elsewhere; much of the phobium used in the construction of the Death Stars' reactor cores came from Gargon, for example. The planet was overrun with gangsters and notorious as a spice production planet, housing the legendary Spice Vaults of Gargon. After the Battle of Endor, Grand Admiral Josef Grunger elected Gargon as a temporary headquarters while he planned his ascension to the Imperial Throne. After Grunger's death over Tralus, the planet once again became obscure to anyone not in the mining or smuggling businesses. 
 TEXT_PLANET_INFO_GARGON_POPULATION,Native: None\nImmigrated: | Humans | Mandalorians
 TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_AUTHOR,Made by: Eleian
 TEXT_PROTEUS_MAP_ONE_ANTEMERIDIAS_DESCRIPTION_LINE_1,The largely unimportant Antemeridian Sector was governed by Moff Tol Getelles, and during the Imperial period Antemeridas itself became a wealthy world with extensive Loronar Corporation facilities. The sector avoided New Republic attention immediately after Endor, allowing Getelles to dig in and consolidate his power base carefully while the galaxy descended into further war.
@@ -262,7 +262,7 @@ TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_GROUND,Ground Roster Power: 3
 TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_POSITION,Starting Position: 1
 TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_POWER,Hero Power and Utility: 4
 TEXT_PROTEUS_MAP_ONE_BODY_SHADOWSPAWN_SPACE,Space Roster Power: 3
-TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_COMMENT,"An economic Powerhouse with a janky roster that rewards slow, methodical strategies. Play if you like to get as much income per cycle as possible."
+TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_COMMENT,"An economic powerhouse with a janky roster that rewards slow, methodical strategies. Play if you like to get as much income per cycle as possible."
 TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_DIFFICULTY,Difficulty: Easy
 TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_ECONOMY,Starting Economy: 5
 TEXT_PROTEUS_MAP_ONE_BODY_TAGGE_GROUND,Ground Roster Power: 3
