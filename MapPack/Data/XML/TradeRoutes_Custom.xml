@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TradeRoutes>
+	<TradeRoute Name="Columus_Khomm">
+		<Point_A>Columus</Point_A>
+		<Point_B>Khomm</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Brentaal_Ralltiir">
+		<Point_A>Brentaal</Point_A>
+		<Point_B>Ralltiir</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Kuat_Ralltiir">
+		<Point_A>Kuat</Point_A>
+		<Point_B>Ralltiir</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Fenel_Thustra">
+		<Point_A>Fenel</Point_A>
+		<Point_B>Thustra</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Christophsis_Filve">
+		<Point_A>Christophsis</Point_A>
+		<Point_B>Filve</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
   <TradeRoute Name="Mustafar_Pako_Ramoon">
     <Point_A>Mustafar</Point_A>
     <Point_B>Pako_Ramoon</Point_B>
@@ -140,14 +180,6 @@
 	<TradeRoute Name="Taris_Thyrsus">
 		<Point_A>Taris</Point_A>
 		<Point_B>Thyrsus</Point_B>
-		<HS_Speed_Factor>1.0</HS_Speed_Factor>
-		<Political_Control_Gain>0</Political_Control_Gain>
-		<Credit_Gain_Factor>0</Credit_Gain_Factor>
-		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
-	</TradeRoute>
-	<TradeRoute Name="Gargon_Thustra">
-		<Point_A>Gargon</Point_A>
-		<Point_B>Thustra</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
@@ -324,14 +356,6 @@
 	<TradeRoute Name="Ando_Prime_Rintonne">
 		<Point_A>Ando_Prime</Point_A>
 		<Point_B>Rintonne</Point_B>
-		<HS_Speed_Factor>1.0</HS_Speed_Factor>
-		<Political_Control_Gain>0</Political_Control_Gain>
-		<Credit_Gain_Factor>0</Credit_Gain_Factor>
-		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
-	</TradeRoute>
-	<TradeRoute Name="Kalist_Vulpter">
-		<Point_A>Kalist</Point_A>
-		<Point_B>Vulpter</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
@@ -1124,14 +1148,6 @@
   <TradeRoute Name="Bespin_Sellasas">
     <Point_A>Bespin</Point_A>
     <Point_B>Sellasas</Point_B>
-    <HS_Speed_Factor>1.0</HS_Speed_Factor>
-    <Political_Control_Gain>0</Political_Control_Gain>
-    <Credit_Gain_Factor>0</Credit_Gain_Factor>
-    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
-  </TradeRoute>
-  <TradeRoute Name="Bilbringi_Corulag">
-    <Point_A>Bilbringi</Point_A>
-    <Point_B>Corulag</Point_B>
     <HS_Speed_Factor>1.0</HS_Speed_Factor>
     <Political_Control_Gain>0</Political_Control_Gain>
     <Credit_Gain_Factor>0</Credit_Gain_Factor>

@@ -210,6 +210,15 @@
 			Zyzek,
 		</Locations>
 		<Trade_Routes>
+			<!-- New New Additions-->
+			Kalist_Prakith,
+			Anaxes_Bilbringi,
+			Columus_Khomm,
+			Brentaal_Ralltiir,
+			Kuat_Ralltiir,
+			Fenel_Thustra,
+			Christophsis_Filve,
+			Balmorra_Carida,
 			<!-- New Additions -->
 			Mustafar_Pako_Ramoon,
 			Kashyyyk_Umbara,
@@ -258,7 +267,7 @@
 			Bilbringi_Regnant,
 			Lur_Mirial,
 			Arkania_Ord_Mantell,
-			Gargon_Thustra,
+
 			Antemeridias_Arda,
 			Jabiim_Minntooine,
 			Nar_Shaddaa_Ubrikkia,
@@ -278,7 +287,7 @@
 			Kaikielius_Foerost,
 			Ando_Prime_Mon_Gazza,
 			Ando_Prime_Rintonne,
-			Kalist_Vulpter,
+			,
 			Abregado_Rae_Nzoth,
 			Jaminere_Lianna,
 			Ession_Makem_Te,
@@ -348,7 +357,7 @@
 			Bespin_Kaal,
 			Bespin_Pako_Ramoon,
 			Bespin_Sellasas,
-			Bilbringi_Corulag,
+
 			Bilbringi_Iridonia,
 			Bilbringi_Ord_Mantell,
 			Bomis_Koori_Kriselist,
@@ -377,7 +386,7 @@
 			Byss_Kalist,
 			Byss_Odik,
 			Carida_Colla,
-			Carida_Kuat,
+
 			Carida_Ralltiir,
 			Cartao_Garos,
 			Cartao_Lantillies,
@@ -393,7 +402,7 @@
 			Chardaan_Emberlene,
 			Chardaan_Foless,
 			Charubah_Colla,
-			Charubah_Hapes,
+
 			Charubah_Relephon,
 			Charubah_Terephon,
 			Christophsis_Geonosis,
@@ -738,7 +747,7 @@
 		<Starting_Forces>Zsinj_Empire, Bandomeer, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Bespin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Bespin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bilbringi, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Bomis_Koori, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Bonadan, Generate_Force</Starting_Forces>
@@ -846,7 +855,7 @@
 		<Starting_Forces>Warlords, Odik, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Biniir, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Cestus, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ord_Mantell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Radama, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Trasi, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Oslumpex, Generate_Force</Starting_Forces>
@@ -893,7 +902,7 @@
 		<Starting_Forces>Independent_Forces, Valc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Vondarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Vrosynri, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Vulpter, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Vulpter, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Walinor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wayland, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Woostri, Generate_Force</Starting_Forces>
@@ -1114,6 +1123,15 @@
 			Zyzek,
 		</Locations>
 		<Trade_Routes>
+			<!-- New New Additions-->
+			Kalist_Prakith,
+			Anaxes_Bilbringi,
+			Columus_Khomm,
+			Brentaal_Ralltiir,
+			Kuat_Ralltiir,
+			Fenel_Thustra,
+			Christophsis_Filve,
+			Balmorra_Carida,
 			<!-- New Additions -->
 			Mustafar_Pako_Ramoon,
 			Kashyyyk_Umbara,
@@ -1162,7 +1180,7 @@
 			Bilbringi_Regnant,
 			Lur_Mirial,
 			Arkania_Ord_Mantell,
-			Gargon_Thustra,
+
 			Antemeridias_Arda,
 			Jabiim_Minntooine,
 			Nar_Shaddaa_Ubrikkia,
@@ -1182,7 +1200,7 @@
 			Kaikielius_Foerost,
 			Ando_Prime_Mon_Gazza,
 			Ando_Prime_Rintonne,
-			Kalist_Vulpter,
+			,
 			Abregado_Rae_Nzoth,
 			Jaminere_Lianna,
 			Ession_Makem_Te,
@@ -1252,7 +1270,7 @@
 			Bespin_Kaal,
 			Bespin_Pako_Ramoon,
 			Bespin_Sellasas,
-			Bilbringi_Corulag,
+
 			Bilbringi_Iridonia,
 			Bilbringi_Ord_Mantell,
 			Bomis_Koori_Kriselist,
@@ -1281,7 +1299,7 @@
 			Byss_Kalist,
 			Byss_Odik,
 			Carida_Colla,
-			Carida_Kuat,
+
 			Carida_Ralltiir,
 			Cartao_Garos,
 			Cartao_Lantillies,
@@ -1297,7 +1315,7 @@
 			Chardaan_Emberlene,
 			Chardaan_Foless,
 			Charubah_Colla,
-			Charubah_Hapes,
+
 			Charubah_Relephon,
 			Charubah_Terephon,
 			Christophsis_Geonosis,
@@ -1642,7 +1660,7 @@
 		<Starting_Forces>Zsinj_Empire, Bandomeer, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Bespin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Bespin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bilbringi, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Bomis_Koori, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Bonadan, Generate_Force</Starting_Forces>
@@ -1750,7 +1768,7 @@
 		<Starting_Forces>Warlords, Odik, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Biniir, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Cestus, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ord_Mantell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Radama, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Trasi, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Oslumpex, Generate_Force</Starting_Forces>
@@ -1797,7 +1815,7 @@
 		<Starting_Forces>Independent_Forces, Valc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Vondarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Vrosynri, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Vulpter, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Vulpter, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Walinor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wayland, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Woostri, Generate_Force</Starting_Forces>
@@ -2018,6 +2036,15 @@
 			Zyzek,
 		</Locations>
 		<Trade_Routes>
+			<!-- New New Additions-->
+			Kalist_Prakith,
+			Anaxes_Bilbringi,
+			Columus_Khomm,
+			Brentaal_Ralltiir,
+			Kuat_Ralltiir,
+			Fenel_Thustra,
+			Christophsis_Filve,
+			Balmorra_Carida,
 			<!-- New Additions -->
 			Mustafar_Pako_Ramoon,
 			Kashyyyk_Umbara,
@@ -2066,7 +2093,7 @@
 			Bilbringi_Regnant,
 			Lur_Mirial,
 			Arkania_Ord_Mantell,
-			Gargon_Thustra,
+
 			Antemeridias_Arda,
 			Jabiim_Minntooine,
 			Nar_Shaddaa_Ubrikkia,
@@ -2086,7 +2113,7 @@
 			Kaikielius_Foerost,
 			Ando_Prime_Mon_Gazza,
 			Ando_Prime_Rintonne,
-			Kalist_Vulpter,
+			,
 			Abregado_Rae_Nzoth,
 			Jaminere_Lianna,
 			Ession_Makem_Te,
@@ -2156,7 +2183,7 @@
 			Bespin_Kaal,
 			Bespin_Pako_Ramoon,
 			Bespin_Sellasas,
-			Bilbringi_Corulag,
+
 			Bilbringi_Iridonia,
 			Bilbringi_Ord_Mantell,
 			Bomis_Koori_Kriselist,
@@ -2185,7 +2212,7 @@
 			Byss_Kalist,
 			Byss_Odik,
 			Carida_Colla,
-			Carida_Kuat,
+
 			Carida_Ralltiir,
 			Cartao_Garos,
 			Cartao_Lantillies,
@@ -2201,7 +2228,7 @@
 			Chardaan_Emberlene,
 			Chardaan_Foless,
 			Charubah_Colla,
-			Charubah_Hapes,
+
 			Charubah_Relephon,
 			Charubah_Terephon,
 			Christophsis_Geonosis,
@@ -2546,7 +2573,7 @@
 		<Starting_Forces>Zsinj_Empire, Bandomeer, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Bespin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Bespin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bilbringi, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Bomis_Koori, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Bonadan, Generate_Force</Starting_Forces>
@@ -2654,7 +2681,7 @@
 		<Starting_Forces>Warlords, Odik, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Biniir, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Cestus, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ord_Mantell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Radama, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Trasi, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Oslumpex, Generate_Force</Starting_Forces>
@@ -2701,7 +2728,7 @@
 		<Starting_Forces>Independent_Forces, Valc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Vondarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Vrosynri, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Vulpter, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Vulpter, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Walinor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wayland, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Woostri, Generate_Force</Starting_Forces>
@@ -2922,6 +2949,15 @@
 			Zyzek,
 		</Locations>
 		<Trade_Routes>
+			<!-- New New Additions-->
+			Kalist_Prakith,
+			Anaxes_Bilbringi,
+			Columus_Khomm,
+			Brentaal_Ralltiir,
+			Kuat_Ralltiir,
+			Fenel_Thustra,
+			Christophsis_Filve,
+			Balmorra_Carida,
 			<!-- New Additions -->
 			Mustafar_Pako_Ramoon,
 			Kashyyyk_Umbara,
@@ -2970,7 +3006,7 @@
 			Bilbringi_Regnant,
 			Lur_Mirial,
 			Arkania_Ord_Mantell,
-			Gargon_Thustra,
+
 			Antemeridias_Arda,
 			Jabiim_Minntooine,
 			Nar_Shaddaa_Ubrikkia,
@@ -2990,7 +3026,7 @@
 			Kaikielius_Foerost,
 			Ando_Prime_Mon_Gazza,
 			Ando_Prime_Rintonne,
-			Kalist_Vulpter,
+			,
 			Abregado_Rae_Nzoth,
 			Jaminere_Lianna,
 			Ession_Makem_Te,
@@ -3060,7 +3096,7 @@
 			Bespin_Kaal,
 			Bespin_Pako_Ramoon,
 			Bespin_Sellasas,
-			Bilbringi_Corulag,
+
 			Bilbringi_Iridonia,
 			Bilbringi_Ord_Mantell,
 			Bomis_Koori_Kriselist,
@@ -3089,7 +3125,7 @@
 			Byss_Kalist,
 			Byss_Odik,
 			Carida_Colla,
-			Carida_Kuat,
+
 			Carida_Ralltiir,
 			Cartao_Garos,
 			Cartao_Lantillies,
@@ -3105,7 +3141,7 @@
 			Chardaan_Emberlene,
 			Chardaan_Foless,
 			Charubah_Colla,
-			Charubah_Hapes,
+
 			Charubah_Relephon,
 			Charubah_Terephon,
 			Christophsis_Geonosis,
@@ -3450,7 +3486,7 @@
 		<Starting_Forces>Zsinj_Empire, Bandomeer, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
 		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Bespin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Bespin, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Bilbringi, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Bomis_Koori, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Bonadan, Generate_Force</Starting_Forces>
@@ -3558,7 +3594,7 @@
 		<Starting_Forces>Warlords, Odik, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Biniir, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Cestus, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ord_Mantell, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Radama, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Ord_Trasi, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Oslumpex, Generate_Force</Starting_Forces>
@@ -3605,7 +3641,7 @@
 		<Starting_Forces>Independent_Forces, Valc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Eriadu_Authority, Vondarc, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Vrosynri, Generate_Force</Starting_Forces>
-		<Starting_Forces>Independent_Forces, Vulpter, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Vulpter, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Walinor, Generate_Force</Starting_Forces>
 		<Starting_Forces>Independent_Forces, Wayland, Generate_Force</Starting_Forces>
 		<Starting_Forces>Warlords, Woostri, Generate_Force</Starting_Forces>
