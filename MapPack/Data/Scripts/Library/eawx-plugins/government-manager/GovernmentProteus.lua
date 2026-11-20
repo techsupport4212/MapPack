@@ -19,6 +19,12 @@ function GovernmentProteus:new(gc, GovEmpire, ShipMarket)
     self.production_finished_event = gc.Events.GalacticProductionFinished
     self.production_finished_event:attach_listener(self.on_production_finished, self)
 
+    self.herokilled_finished_event = gc.Events.GalacticHeroKilled
+    self.herokilled_finished_event:attach_listener(self.on_galactic_hero_killed, self)
+
+    self.galactic_ssd_killed_event = gc.Events.GalacticSSDKilled
+    self.galactic_ssd_killed_event:attach_listener(self.on_galactic_ssd_killed, self)
+
     self.gamble_table = require("GambleLibrary")
     self.market_updates = {
         ["DUMMY_RECRUIT_GROUP_DELURIN"] = "DRAGON",
@@ -42,10 +48,29 @@ function GovernmentProteus:new(gc, GovEmpire, ShipMarket)
         self.GovEmpire.hero_ssd_table[key] = value
     end
 
+    self.heroes_to_respawn = {
+        ["ROGRISS_AURORA"] = {
+            spawn_planet = "KUAT",
+            spawn_units = {"Rogriss_Agonizer"},
+            multimedia_text = "TEXT_ROGRISS_RETURN",
+            multimedia_loop = "Imperial_Naval_Officer_Loop"
+        },
+        --[[ Commented out for now
+        ["X1_EXECUTOR"] = {
+            spawn_planet = nil,
+            spawn_units = {"X1_Team"},
+            multimedia_text = "TEXT_WARLORD_RETURN_X1",
+            multimedia_loop = "X1_Loop"
+        }
+        --]]
+    }
+
     crossplot:subscribe("DASTA_FIGHTER_CHOICE_OPTION", self.dasta_fighters, self)
     crossplot:subscribe("KUAT_BC_CHOICE_OPTION", self.kuat_battlecruisers, self)
     --TechSupport: Subscribe to the new Proteus Conquer event
     crossplot:subscribe("PROTEUS_GENERIC_CONQUER", self.proteus_conquer_reward, self) 
+    crossplot:subscribe("NIVERS_SSD_CHOICE_OPTION", self.Nivers_SSD_Choice, self)
+    crossplot:subscribe("ISECTOR_SWAP_CHOICE_OPTION", self.ISector_Swap_Choice, self)--Note for Supernova
 end
 
 function GovernmentProteus:update()
@@ -81,6 +106,52 @@ function GovernmentProteus:on_production_finished(planet, object_type_name)
         GenericPopup("KUAT_BC_CHOICE", {"PRAETOR_II_BATTLECRUISER", "PRAETOR_CARRIER_BATTLECRUISER", "COMMUNICATIONS_BATTLECRUISER", "SORANNAN_STAR_DESTROYER"}, "KUAT_BC_CHOICE_OPTION")
     elseif object_type_name == "DASTA_PROCURE_FIGHTERS" then
         GenericPopup("DASTA_FIGHTER_CHOICE", {"IMPERIAL", "REBEL"}, "DASTA_FIGHTER_CHOICE_OPTION")
+	elseif object_type_name == "DUMMY_RESEARCH_ISECTOR_SWAP_1_DUMMY" then--Note for Supernova
+        GenericPopup("ISECTOR_SWAP_1_CHOICE", {"ACCLAMATOR_ASSAULT", "ACCLAMATOR_II"}, "ISECTOR_SWAP_CHOICE_OPTION")--keep last variable the same so it calls the same funciton for each research dummy, add elseifs for added choices
+     end
+end
+
+---Project Proteus specific hero respawn, just like WarlordRespawn
+---@param hero_name string Assumes all CAPS
+---@param owner string Assumes all CAPS
+---@param killer string Assumes all CAPS
+function GovernmentProteus:on_galactic_hero_killed(hero_name, owner, killer)
+    --Logger:trace("entering GovernmentProteus:on_galactic_hero_killed")
+    local hero = self.heroes_to_respawn[hero_name]
+    if hero and owner == "IMPERIAL_PROTEUS" then
+        local safe_planets = StoryUtil.GetSafePlanetTable()
+        local spawn = StoryUtil.SpawnAtSafePlanet(hero.spawn_planet, Find_Player("Imperial_Proteus"), safe_planets, hero.spawn_units, true, false)
+        if spawn then
+            StoryUtil.Multimedia(hero.multimedia_text, 10, nil, hero.multimedia_loop, 0)
+        end
+    end
+end
+
+---@param short_name string Assumes all CAPS
+---@param owner_name string Assumes all CAPS
+---@param killer_name string Assumes all CAPS
+function GovernmentProteus:on_galactic_ssd_killed(short_name, owner_name, killer_name)
+    --Logger:trace("entering GovernmentEmpire:on_galactic_ssd_killed")
+
+	if owner_name ~= "IMPERIAL_PROTEUS" and GlobalValue.Get("PROTEUS_GROUP_NAME") ~= "NIVERS" then
+		return
+	elseif short_name == "Mandator II" then
+		GenericPopup("NIVERS_MANDATOR2_CHOICE", {"BELLATOR", "MANDATOR_III"}, "NIVERS_SSD_CHOICE_OPTION")
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Mandator_II_Dreadnought"))
+	elseif short_name == "Bellator" then
+		GenericPopup("NIVERS_BELLATOR_CHOICE", {"LEGATOR", "VENGEANCE"}, "NIVERS_SSD_CHOICE_OPTION")
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Bellator_Star_Dreadnought"))
+	elseif short_name == "Mandator III" then
+		GenericPopup("NIVERS_MANDATOR3_CHOICE", {"EXECUTOR", "ASSERTOR"}, "NIVERS_SSD_CHOICE_OPTION")
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Mandator_III_Dreadnought"))
+	elseif short_name == "Legator" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Legator_Star_Dreadnought"))
+	elseif short_name == "Vengeance" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Vengeance_Star_Dreadnought"))
+	elseif short_name == "Executor" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Executor_Star_Dreadnought"))
+	elseif short_name == "Assertor" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Assertor_Star_Dreadnought"))
     end
 end
 
@@ -121,6 +192,39 @@ function GovernmentProteus:gamble_manager(unit_type)
     dummy_object.Despawn()
 end
 
+---@param choice string Assumes all CAPS
+function GovernmentProteus:ISector_Swap_Choice(choice)--Note for Supernova
+	--Logger:trace("entering GovernmentProteus:ISector_Swap_Choice")
+	if choice == "ISECTOR_SWAP_1_CHOICE_ACCLAMATOR_ASSAULT" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Acclamator_Patrol_Refit"))--lock base roster unit
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Acclamator_I_Assault"))--unlock chosen replacement
+	elseif choice == "ISECTOR_SWAP_1_CHOICE_ACCLAMATOR_II" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Acclamator_Patrol_Refit"))
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Acclamator_II"))
+	end
+end
+
+---@param choice string Assumes all CAPS
+function GovernmentProteus:Nivers_SSD_Choice(choice)
+	--Logger:trace("entering GovernmentProteus:Nivers_SSD_Choice")
+	--From Mandator-II
+	if choice == "NIVERS_MANDATOR2_CHOICE_BELLATOR" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Bellator_Star_Dreadnought"))		
+	elseif choice == "NIVERS_MANDATOR2_CHOICE_MANDATOR_III" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Mandator_III_Dreadnought"))
+	--From Bellator		
+	elseif choice == "NIVERS_BELLATOR_CHOICE_LEGATOR" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Legator_Star_Dreadnought"))		
+	elseif choice == "NIVERS_BELLATOR_CHOICE_VENGEANCE" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Vengeance_Star_Dreadnought"))	
+	--From Mandator-III
+	elseif choice == "NIVERS_MANDATOR3_CHOICE_EXECUTOR" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Executor_Star_Dreadnought"))	
+	elseif choice == "NIVERS_MANDATOR3_CHOICE_ASSERTOR" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Assertor_Star_Dreadnought"))	
+	end
+end
+
 ---@param tag string
 function GovernmentProteus:Market_Update(tag)
     --Logger:trace("entering GovernmentProteus:Market_Update")
@@ -139,13 +243,220 @@ function GovernmentProteus:Market_Update(tag)
     end
 end
 
+function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
+	--Logger:trace("entering GovernmentProteus:UpdateProteusMiscellaneousDisplay")
+	local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
+	local ProteusDisplayLibrary = require("ProteusDisplayLibrary")
+	local ownerName = "IMPERIAL_PROTEUS"
+	local TechLevel = GlobalValue.Get("CURRENT_ERA")
+	local regime = GlobalValue.Get("REGIME_INDEX")
+	local flags = {"GARRISON"}
+	local is_main_empire = false
+	if GlobalValue.Get("IMPERIAL_REGIME_HOST") == ownerName then
+		is_main_empire = true
+	end
+	local StandardList
+	StandardList = require("standard-fighters/LIGHT_FIGHTER")
+	local lightfighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+
+	StandardList = require("standard-fighters/Fighter")
+	local fighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+
+	StandardList = require("standard-fighters/HEAVY_FIGHTER")
+	local heavyfighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+
+	StandardList = require("standard-fighters/Interceptor")
+	local interceptor = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+
+	StandardList = require("standard-fighters/Bomber")
+	local bomber = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+
+	StandardList = require("standard-fighters/GUNSHIP")
+	local gunship = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/CORVETTE")
+	local corvette = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)[1]
+
+	StandardList = require("standard-fighters/HEAVY_CORVETTE")
+	local heavycorvette1 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/HEAVY_CORVETTE2")
+	local heavycorvette2 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/FRIGATE")
+	local frigate1 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/FRIGATE2")
+	local frigate2 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/HEAVY_FRIGATE")
+	local heavyfrigate1 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/HEAVY_FRIGATE2")
+	local heavyfrigate2 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/CAPITAL")
+	local capital1 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/CAPITAL2")
+	local capital2 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
+	local government_display_event = plot.Get_Event("Government_Display")
+
+	government_display_event.Set_Reward_Parameter(1, "IMPERIAL_PROTEUS")
+	
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].No_Legitimacy then
+		government_display_event.Clear_Dialog_Text()--Clears the normal empire gov display
+	end
+	government_display_event.Add_Dialog_Text("TEXT_NONE")
+----Group Info----
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].GovText then
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+	government_display_event.Add_Dialog_Text(tostring(GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME")) .. " Unique Mechanics:")
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+		local GovText = ProteusDisplayLibrary[current_proteus].GovText
+		for _, text in pairs(GovText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+		government_display_event.Add_Dialog_Text("TEXT_NONE")--Spacer
+	end
+----Garrison Info----
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+	government_display_event.Add_Dialog_Text(tostring(GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME")) .. " Shipyard Garrisons:")
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+----Pirate Base----
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].PirateBaseText then
+		local PirateBaseText = ProteusDisplayLibrary[current_proteus].PirateBaseText
+		government_display_event.Add_Dialog_Text("Pirate Base Garrisons:")
+		for _, text in pairs(PirateBaseText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+		government_display_event.Add_Dialog_Text("TEXT_NONE")
+	end
+----Level 1 Shipyard----
+	government_display_event.Add_Dialog_Text("Light Frigate Shipyard Garrisons:")
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardOneText then
+		local ShipyardOneText = ProteusDisplayLibrary[current_proteus].ShipyardOneText
+		for _, text in pairs(ShipyardOneText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	else
+		government_display_event.Add_Dialog_Text("%s: 2 / ∞", Find_Object_Type(lightfighter))
+		government_display_event.Add_Dialog_Text("%s: 1 / 2", Find_Object_Type(interceptor))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(bomber))
+		government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(gunship[1]), tostring(gunship[2]*2))
+		government_display_event.Add_Dialog_Text("%s: 2 / 2", Find_Object_Type(corvette))
+		if heavycorvette1[1] == heavycorvette2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]+heavycorvette2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette2[1]), tostring(heavycorvette2[2]))
+		end
+	end
+	government_display_event.Add_Dialog_Text("TEXT_NONE")
+----Level 2 Shipyard----
+	government_display_event.Add_Dialog_Text("Heavy Frigate Shipyard Garrisons:")
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardTwoText then
+		local ShipyardTwoText = ProteusDisplayLibrary[current_proteus].ShipyardTwoText
+		for _, text in pairs(ShipyardTwoText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	else
+		government_display_event.Add_Dialog_Text("%s: 2 / ∞", Find_Object_Type(lightfighter))
+		government_display_event.Add_Dialog_Text("%s: 2 / ∞", Find_Object_Type(interceptor))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(bomber))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(corvette))
+		if heavycorvette1[1] == heavycorvette2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring((heavycorvette1[2])+(heavycorvette2[2])))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette2[1]), tostring(heavycorvette2[2]))
+		end
+
+		if frigate1[1] == frigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]+frigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate2[1]), tostring(frigate2[2]))
+		end
+	end
+	government_display_event.Add_Dialog_Text("TEXT_NONE")
+----Level 3 Shipyard----
+	government_display_event.Add_Dialog_Text("Capital Shipyard Garrisons:")
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardThreeText then
+		local ShipyardThreeText = ProteusDisplayLibrary[current_proteus].ShipyardThreeText
+		for _, text in pairs(ShipyardThreeText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	else
+		government_display_event.Add_Dialog_Text("%s: 3 / ∞", Find_Object_Type(interceptor))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(fighter))
+		government_display_event.Add_Dialog_Text("%s: 3 / 6", Find_Object_Type(bomber))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(corvette))
+		if heavycorvette1[1] == heavycorvette2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]+heavycorvette2[2]*2))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]*2))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette2[1]), tostring(heavycorvette2[2]*2))
+		end
+
+		if frigate1[1] == frigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]+frigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate2[1]), tostring(frigate2[2]))
+		end
+
+		if heavyfrigate1[1] == heavyfrigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate1[1]), tostring(heavyfrigate1[2]+heavyfrigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate1[1]), tostring(heavyfrigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate2[1]), tostring(heavyfrigate2[2]))
+		end
+	end
+	government_display_event.Add_Dialog_Text("TEXT_NONE")
+----Level 4 Shipyard----
+	government_display_event.Add_Dialog_Text("Dreadnought Shipyard Garrisons:")
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardFourText then
+		local ShipyardFourText = ProteusDisplayLibrary[current_proteus].ShipyardFourText
+		for _, text in pairs(ShipyardFourText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	else
+		government_display_event.Add_Dialog_Text("%s: 3 / ∞", Find_Object_Type(interceptor))
+		government_display_event.Add_Dialog_Text("%s: 3 / 6", Find_Object_Type(heavyfighter))
+		government_display_event.Add_Dialog_Text("%s: 4 / 8", Find_Object_Type(bomber))
+		government_display_event.Add_Dialog_Text("%s: 3 / 6", Find_Object_Type(corvette))
+
+		if frigate1[1] == frigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]+frigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate2[1]), tostring(frigate2[2]))
+		end
+
+		if heavyfrigate1[1] == heavyfrigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate1[1]), tostring(heavyfrigate1[2]+heavyfrigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate1[1]), tostring(heavyfrigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate2[1]), tostring(heavyfrigate2[2]))
+		end
+
+		if capital1[1] == capital2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(capital1[1]), tostring(capital1[2]+capital2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(capital1[1]), tostring(capital1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(capital2[1]), tostring(capital2[2]))
+		end
+	end
+
+	government_display_event.Add_Dialog_Text("TEXT_NONE")--Spacer
+end
+
 function GovernmentProteus:UpdateProteusShipmarketDisplay()
     --Logger:trace("entering GovernmentProteus:UpdateProteusShipmarketDisplay")
     local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-
-    if not self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus] then
-        return
-    end
 
     local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
     local government_display_event = plot.Get_Event("Government_Display")

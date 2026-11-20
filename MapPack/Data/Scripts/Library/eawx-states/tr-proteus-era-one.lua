@@ -48,25 +48,36 @@ return {
             end
         end
 
-        if self.StaticFleets == true then
-            self.StaticFleets = false
-            local StaticSpawns = require("eawx-mod-icw/spawn-sets/ProteusStaticFleetSet")
-            for planet, spawnlist in pairs(StaticSpawns) do
-                if self.Active_Planets[planet] then
-                    local locale = FindPlanet(planet)
-					local owner = locale.Get_Owner()
-					if owner == Find_Player("Warlords") then
-                        player = Find_Player("Warlords")
-                        StoryUtil.SpawnAtSafePlanet(planet, player, self.Active_Planets, spawnlist, false)
-                    end
-                end
-            end
-        end
     end,
 
     on_update = function(self, state_context)
         local current = GetCurrentTime() - self.entry_time
         if current >= 8 then
+            if self.StaticFleets == true then
+                self.StaticFleets = false
+                -- This guard prevents the one-shot static-fleet setup from
+                -- repeating if Era One is re-entered while loading a save.
+                if not GlobalValue.Get("PROTEUS_STATIC_FLEETS_PROCESSED") then
+                    self.StaticSpawns = require("eawx-mod-icw/spawn-sets/ProteusStaticFleetSet")
+                    self.StaticFleetManager = require("eawx-plugins/random-spawn-manager/ProteusStaticFleetManager")
+                    for _, planet in pairs(self.StaticSpawns) do
+                        if self.Active_Planets[planet] then
+                            local locale = FindPlanet(planet)
+                            if TestValid(locale) then
+                                local owner = locale.Get_Owner()
+                                if owner == Find_Player("Warlords") or owner == Find_Player("Independent_Forces") then
+                                    self.StaticFleetManager.Repopulate(locale, owner)
+                                end
+                            end
+                        end
+                    end
+                    GlobalValue.Set("PROTEUS_STATIC_FLEETS_PROCESSED", true)
+                    self.StaticSpawns = nil
+                    self.StaticFleetManager = nil
+                end
+                self.Active_Planets = nil
+                self.Starting_Spawns = nil
+            end
 
             if self.AI_Active == false then
                 crossplot:publish("CONQUER_CENTARES_ZSINJ", "empty")

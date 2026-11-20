@@ -1230,6 +1230,8 @@ return {
 		}
 	},
 	
+	--	Project Proteus
+	
 	["GRUNGER"] = {
 		["KnownLarge"] = { 
 			["4ABY"] = true
@@ -1537,6 +1539,162 @@ return {
 		}
 		,["KnownMedium"] = {
 			["4ABY"] = true
+		}
+	},
+	
+	["NIVERS"] = {
+		["FullSmall"] = {
+			["4ABY"] = true
+		}
+		,["FullMedium"] = {
+			["4ABY"] = true
+		}
+		,["FullLarge"] = {
+			["4ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["4ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["4ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+		}
+	},
+	["MINOS"] = {
+		
+		["WesternReaches"] = {
+			["4ABY"] = true
+		}
+		,["Empires_At_War"] = {
+			["4ABY"] = true
+		}
+	},
+	["TATOOINE"] = {
+		
+		["KnownLarge"] = {
+			["4ABY"] = true
+		}
+		,["FullLarge"] = {
+			["4ABY"] = true
+		}
+	},
+	["TRAX"] = {
+		["FullSmall"] = {
+			["6ABY"] = true
+		}
+		,["FullMedium"] = {
+			["6ABY"] = true
+		}
+		,["FullLarge"] = {
+			["6ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["6ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["6ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["6ABY"] = true
+		}
+	},	
+
+	["DROMMEL"] = {
+
+		["FullSmall"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+			,["10ABY"] = true
+			,["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["FullMedium"] = {
+			["12ABY"] = true
+		}
+		,["FullLarge"] = {
+			["9ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["12ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["12ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["9ABY"] = true
+			,["12ABY"] = true
+		}
+		,["Stars_Align"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+			,["10ABY"] = true
+			,["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["Empires_At_War"] = {
+			["9ABY"] = true
+		}
+	},
+	["BATCH"] = {
+		
+		["Stars_Align"] = {
+			["4ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["4ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+		}
+
+	},
+
+	["IMPERIAL_CORELLIA"] = {
+		
+		["FullSmall"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["FullMedium"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["FullLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+		,["Empires_At_War"] = {
+			["4ABY"] = true
+		}
+
+	},
+
+	["ALLIED_TION"] = {
+		["CorporateAcquisitions"] = {
+			["4ABY"] = true
+			,["9ABY"] = true
+		}
+		,["Empires_At_War"] = {
+			["9ABY"] = true
 		}
 	},
 }
